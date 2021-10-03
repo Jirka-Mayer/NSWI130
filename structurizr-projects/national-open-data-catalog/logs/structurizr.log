@@ -1,0 +1,44 @@
+2021-09-28 16:13:50,620 INFO  [ContextLoaderListener] ***********************************************************************************
+2021-09-28 16:13:50,622 INFO  [ContextLoaderListener]    _____ _                   _              _          
+2021-09-28 16:13:50,623 INFO  [ContextLoaderListener]   / ____| |                 | |            (_)         
+2021-09-28 16:13:50,624 INFO  [ContextLoaderListener]  | (___ | |_ _ __ _   _  ___| |_ _   _ _ __ _ _____ __ 
+2021-09-28 16:13:50,625 INFO  [ContextLoaderListener]   \___ \| __| '__| | | |/ __| __| | | | '__| |_  / '__|
+2021-09-28 16:13:50,626 INFO  [ContextLoaderListener]   ____) | |_| |  | |_| | (__| |_| |_| | |  | |/ /| |   
+2021-09-28 16:13:50,627 INFO  [ContextLoaderListener]  |_____/ \__|_|   \__,_|\___|\__|\__,_|_|  |_/___|_|   
+2021-09-28 16:13:50,627 INFO  [ContextLoaderListener]                                                        
+2021-09-28 16:13:50,628 INFO  [ContextLoaderListener]  Structurizr Lite
+2021-09-28 16:13:50,631 INFO  [ContextLoaderListener]  Build: 2502
+2021-09-28 16:13:50,634 INFO  [ContextLoaderListener]  Built: 2021-09-23T12:00:29Z
+2021-09-28 16:13:50,666 INFO  [ContextLoaderListener]  Structurizr DSL: v1.14.0
+2021-09-28 16:13:50,667 INFO  [ContextLoaderListener] 
+2021-09-28 16:13:50,668 INFO  [ContextLoaderListener]  Memory: used=58MB; free=197MB; total=256MB; max=256MB
+2021-09-28 16:13:50,668 INFO  [ContextLoaderListener] ***********************************************************************************
+2021-09-28 16:14:17,289 ERROR [FileSystemWorkspaceComponent] com.structurizr.dsl.StructurizrDslParserException: The software system "storage" does not exist at line 17: systemContext storage "storageSystemContextDiagram" {
+2021-09-28 16:23:19,852 WARN  [View] There is no layout information for the element named Local Open Data Catalog on view nationalCatalogSystemContextDiagram
+2021-09-28 16:23:19,853 WARN  [View] There is no layout information for the element named European Open Data Catalog on view nationalCatalogSystemContextDiagram
+2021-09-28 16:23:19,853 WARN  [View] There is no layout information for the element named Consumer on view nationalCatalogSystemContextDiagram
+2021-09-28 16:23:19,854 WARN  [View] There is no layout information for the element named Publisher on view nationalCatalogSystemContextDiagram
+2021-09-28 16:23:20,376 WARN  [View] There is no layout information for the element named Local Open Data Catalog on view nationalCatalogSystemContextDiagram
+2021-09-28 16:23:20,377 WARN  [View] There is no layout information for the element named European Open Data Catalog on view nationalCatalogSystemContextDiagram
+2021-09-28 16:23:20,378 WARN  [View] There is no layout information for the element named Consumer on view nationalCatalogSystemContextDiagram
+2021-09-28 16:23:20,378 WARN  [View] There is no layout information for the element named Publisher on view nationalCatalogSystemContextDiagram
+2021-09-28 17:32:36,150 WARN  [ViewSet] Could not find a matching view for "Czech National Open Data Catalog (NODC) - Containers" ... diagram layout information may be lost.
+2021-09-28 17:32:36,511 WARN  [ViewSet] Could not find a matching view for "Czech National Open Data Catalog (NODC) - Containers" ... diagram layout information may be lost.
+2021-09-28 17:41:36,887 WARN  [View] There is no layout information for the element named Consumer on view nationalCatalogContainerDiagram
+2021-09-28 17:46:28,253 WARN  [View] There is no layout information for the element named Metadata Harvestor on view nationalCatalogContainerDiagram
+2021-09-28 17:46:28,255 WARN  [View] There is no layout information for the element named Local Open Data Catalog on view nationalCatalogContainerDiagram
+2021-09-28 17:46:28,624 WARN  [View] There is no layout information for the element named Metadata Harvestor on view nationalCatalogContainerDiagram
+2021-09-28 17:46:28,626 WARN  [View] There is no layout information for the element named Local Open Data Catalog on view nationalCatalogContainerDiagram
+2021-09-28 17:53:20,769 WARN  [View] There is no layout information for the element named Registry of local open data catalogs on view nationalCatalogSystemContextDiagram
+2021-09-28 17:53:21,052 WARN  [View] There is no layout information for the element named Registry of local open data catalogs on view nationalCatalogSystemContextDiagram
+2021-09-28 17:56:44,260 ERROR [FileSystemWorkspaceComponent] com.structurizr.dsl.StructurizrDslParserException: The element/relationship "*," does not exist at line 75: include *, publisher
+2021-09-28 17:59:49,908 WARN  [View] There is no layout information for the element named Registry of local open data catalogs on view nationalCatalogContainerDiagram
+2021-09-28 17:59:50,185 WARN  [View] There is no layout information for the element named Registry of local open data catalogs on view nationalCatalogContainerDiagram
+2021-09-28 18:18:50,369 WARN  [ViewSet] Could not find a matching view for "Czech National Open Data Catalog (NODC) - NODC Server - Components" ... diagram layout information may be lost.
+2021-09-28 18:18:50,724 WARN  [ViewSet] Could not find a matching view for "Czech National Open Data Catalog (NODC) - NODC Server - Components" ... diagram layout information may be lost.
+2021-09-28 18:30:15,198 WARN  [View] There is no layout information for the element named Metadata Index on view serverComponentDiagram
+2021-09-28 18:30:15,199 WARN  [View] There is no layout information for the element named Metadata Storage on view serverComponentDiagram
+2021-09-28 18:30:15,199 WARN  [View] There is no layout information for the element named NODC Web Front-end on view serverComponentDiagram
+2021-09-28 18:30:15,464 WARN  [View] There is no layout information for the element named Metadata Index on view serverComponentDiagram
+2021-09-28 18:30:15,464 WARN  [View] There is no layout information for the element named Metadata Storage on view serverComponentDiagram
+2021-09-28 18:30:15,465 WARN  [View] There is no layout information for the element named NODC Web Front-end on view serverComponentDiagram

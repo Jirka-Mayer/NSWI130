@@ -2,7 +2,7 @@ workspace "Public Data Space" "This workspace documents the architecture of the 
 
     model {
         enterprise "Public Data Space" {
-            storage = softwaresystem "Content Storage" "Stores content of data sets of one or more data providers and enables data consumers to access the content (download or query)."    {
+            storage = softwareSystem "Content Storage" "Stores content of data sets of one or more data providers and enables data consumers to access the content (download or query)."    {
                 fileStorage = container "File Storage" "Stores the content of data sets as individual data files in different formats defined by Formal Open Specifications." "Unix file system" "Storage"  {
                     
                 }
@@ -57,24 +57,24 @@ workspace "Public Data Space" "This workspace documents the architecture of the 
                 
                 queryEditor -> rdfdatabase "Uses to execute queries"
                 
+                !docs docs
+            }
+            catalog = softwareSystem "National Open Data Catalog" "Stores and presents metadata records about data sets and harvests meta data from local open data catalogs."  {
                 
             }
-            catalog = softwaresystem "National Open Data Catalog" "Stores and presents metadata records about data sets and harvests meta data from local open data catalogs."  {
+            registry = softwareSystem "Registry of Rights and Obligations" "Manages entity types and their properties registered in governmental information systems and their public availability in data sets."   {
                 
             }
-            registry = softwaresystem "Registry of Rights and Obligations" "Manages entity types and their properties registered in governmental information systems and their public availability in data sets."   {
+            fosRepository = softwareSystem "Formal Open Specifications Repository" "Stores and provides access to Formal Open Specifications (metadata, data schemas, transformation and mapping definitions)."    {
                 
             }
-            fosRepository = softwaresystem "Formal Open Specifications Repository" "Stores and provides access to Formal Open Specifications (metadata, data schemas, transformation and mapping definitions)."    {
+            consumerCatalog = softwareSystem "Data Consumer Catalog" "Stores and presents registrations of government organizations to data set consumption."   {
                 
             }
-            consumerCatalog = softwaresystem "Data Consumer Catalog" "Stores and presents registrations of government organizations to data set consumption."   {
+            routingService = softwareSystem "Routing Service" "Redirects requests on global IRIs to local IRIs."    {
                 
             }
-            routingService = softwaresystem "Routing Service" "Redirects requests on global IRIs to local IRIs."    {
-                
-            }
-            notificationHub = softwaresystem "Notification Hub" "Enables to register changes in data sets and registers data set consumers about changes"   {
+            notificationHub = softwareSystem "Notification Hub" "Enables to register changes in data sets and registers data set consumers about changes"   {
                 
             }
             
@@ -91,12 +91,14 @@ workspace "Public Data Space" "This workspace documents the architecture of the 
         consumer = person "Consumer" "An actor who searches for data sets and accesses them for various purposes." "Consumer"
         publisher = person "Publisher" "An actor who is responsible for a data publishing system and for the content of published data sets." "Publisher"
         
-        publishingSystem = softwaresystem "Data publishing system" "Information system for the management of the source data which is published to the Public Data Space." "Existing System"
-        consumptionSystem = softwaresystem "Data consumption system" "System which consumes data from the Public Data Space." "Existing System"
+        publishingSystem = softwareSystem "Data publishing system" "Information system for the management of the source data which is published to the Public Data Space." "Existing System"
+        consumptionSystem = softwareSystem "Data consumption system" "System which consumes data from the Public Data Space." "Existing System"
     
         publisher -> catalog "Registers a data publishing system in"
         publisher -> publishingSystem "Is responsible for"
         publisher -> registry "Registers data sets to data properties"
+
+        consumer -> catalog "Searches for data sets in"
         
         publishingSystem -> contentUploadController "Uses to upload stored content of data sets" "JSON/HTTPS"
         publishingSystem -> contentRemovalController "Uses to remove stored content of data sets" "JSON/HTTPS"
@@ -113,19 +115,23 @@ workspace "Public Data Space" "This workspace documents the architecture of the 
     }
     
     views {
-        systemlandscape "publishing"   {
+        systemLandscape "publishingToPublicDataSpaceSystemLandscapeDiagram" {
             include storage catalog notificationHub registry fosRepository publishingSystem publisher
         }
         
-        systemcontext storage   {
+        systemContext storage "storageSystemContextDiagram" {
+            include *
+        }
+
+        systemContext catalog "catalogSystemContextDiagram" {
             include *
         }
         
-        container storage {
+        container storage "storageContainerDiagram" {
             include *
         }
         
-        component contentManagementApp {
+        component contentManagementApp "contentManagementApplicationDiagram" {
             include *
         }
         

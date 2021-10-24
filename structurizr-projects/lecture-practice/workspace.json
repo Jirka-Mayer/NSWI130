@@ -1,0 +1,1276 @@
+{
+  "id" : 1,
+  "name" : "Czech National Open Data Catalog (NODC) workspace",
+  "description" : "This workspace documents the architecture of the National Open Data Catalog (NODC) which serves as a catalog of all open data sets published by public institutions in Czechia.",
+  "revision" : 0,
+  "lastModifiedDate" : "2021-10-24T19:26:14Z",
+  "lastModifiedAgent" : "structurizr-web/2502",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIGV4dGVuZHMgc2FtcGxld29ya3NwYWNlMDkuZHNsIHsKCn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "18",
+      "tags" : "Element,Person,Public",
+      "name" : "Consumer",
+      "description" : "A person from the public who searches for data sets and accesses them for various purposes.",
+      "relationships" : [ {
+        "id" : "23",
+        "tags" : "Relationship",
+        "sourceId" : "18",
+        "destinationId" : "2",
+        "description" : "Searches for metadata records and views their details with",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "20",
+        "tags" : "Relationship",
+        "sourceId" : "18",
+        "destinationId" : "1",
+        "description" : "Searchers for metadata records in",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "19",
+      "tags" : "Element,Person,Gov",
+      "name" : "Government",
+      "description" : "A person from a government institution who searches for data sets and accesses them for various purposes.",
+      "relationships" : [ {
+        "id" : "24",
+        "tags" : "Relationship",
+        "sourceId" : "19",
+        "destinationId" : "2",
+        "description" : "Searches for metadata records and views their details with",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "21",
+        "tags" : "Relationship",
+        "sourceId" : "19",
+        "destinationId" : "1",
+        "description" : "Searchers for metadata records in",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "16",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "Local Open Data Catalog",
+      "description" : "Stores and presents metadata records about data sets and harvests meta data from local open data catalogs.",
+      "location" : "Unspecified"
+    }, {
+      "id" : "17",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "Registry of local open data catalogs",
+      "description" : "SPARQL endpoint for reading locations of registered local open data catalogs which need to be harvested.",
+      "location" : "Unspecified"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Software System",
+      "name" : "Czech National Open Data Catalog (NODC)",
+      "description" : "Stores and presents metadata records about data sets and harvests meta data from local open data catalogs.",
+      "relationships" : [ {
+        "id" : "22",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "16",
+        "description" : "Harvests metada records from",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "32",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "17",
+        "description" : "Uses to read locations of registered local open data catalogs",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "13",
+        "tags" : "Element,Container",
+        "name" : "Metadata Index",
+        "description" : "Index for fast searching in metadata records.",
+        "technology" : "Apache SOLR configuration and schema"
+      }, {
+        "id" : "2",
+        "tags" : "Element,Container,Web Front-End",
+        "name" : "NODC Web Front-end",
+        "description" : "Provides all functionality for browsing and viewing metadata records to open data consumers.",
+        "relationships" : [ {
+          "id" : "34",
+          "tags" : "Relationship",
+          "sourceId" : "2",
+          "destinationId" : "5",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "25",
+          "tags" : "Relationship",
+          "sourceId" : "2",
+          "destinationId" : "3",
+          "description" : "Uses to deliver functionality",
+          "technology" : "HTTPS"
+        }, {
+          "id" : "33",
+          "tags" : "Relationship",
+          "sourceId" : "2",
+          "destinationId" : "4",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "technology" : "TypeScript"
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container",
+        "name" : "Metadata Harvestor",
+        "description" : "Harvests metadata records from local open data catalogs.",
+        "relationships" : [ {
+          "id" : "31",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "17",
+          "description" : "Uses to read locations of registered local open data catalogs",
+          "technology" : "HTTPS"
+        }, {
+          "id" : "30",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "14",
+          "description" : "Uses to persists harvested metadata records. All records are always replaced",
+          "technology" : "HTTPS"
+        }, {
+          "id" : "28",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "16",
+          "description" : "Harvests metadata records from",
+          "technology" : "HTTPS"
+        }, {
+          "id" : "29",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "13",
+          "description" : "Uses to reset metadata records index. The whole index is always replaced",
+          "technology" : "HTTPS"
+        } ],
+        "technology" : "LinkedPipes ETL pipeline"
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container",
+        "name" : "Metadata Storage",
+        "description" : "Storage of metadata records.",
+        "technology" : "Apache CouchDB database"
+      }, {
+        "id" : "3",
+        "tags" : "Element,Container",
+        "name" : "NODC Server",
+        "description" : "Implements all business functionality for browsing and viewing metadata records and provides it via API.",
+        "relationships" : [ {
+          "id" : "26",
+          "tags" : "Relationship",
+          "sourceId" : "3",
+          "destinationId" : "13",
+          "description" : "Uses for fast retrieval of metadata records lists",
+          "technology" : "HTTPS"
+        }, {
+          "id" : "27",
+          "tags" : "Relationship",
+          "sourceId" : "3",
+          "destinationId" : "14",
+          "description" : "Uses for fast retrieval of metadata records details",
+          "technology" : "HTTPS"
+        } ],
+        "technology" : "Node.js",
+        "components" : [ {
+          "id" : "12",
+          "tags" : "Element,Component,Model",
+          "name" : "Distribution Model",
+          "description" : "Internal domain model of distribution metadata.",
+          "group" : "Domain Model",
+          "size" : 0
+        }, {
+          "id" : "10",
+          "tags" : "Element,Component,Logic",
+          "name" : "Record Detail Controller",
+          "description" : "Implements and provides business functionality related to viewing details of metadata records.",
+          "relationships" : [ {
+            "id" : "38",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "11",
+            "description" : "Uses to access metadata about datasets"
+          }, {
+            "id" : "39",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "12",
+            "description" : "Uses to access metadata about distributions"
+          }, {
+            "id" : "41",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "7",
+            "description" : "Uses to retrieve detailed metadata"
+          }, {
+            "id" : "42",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "8",
+            "description" : "Uses to retrieve code list items labels and descriptions"
+          } ],
+          "group" : "Business Logic",
+          "size" : 0
+        }, {
+          "id" : "9",
+          "tags" : "Element,Component,Logic",
+          "name" : "Records Search Controller",
+          "description" : "Implements and provides business functionality related to searching for metadata records.",
+          "relationships" : [ {
+            "id" : "37",
+            "tags" : "Relationship",
+            "sourceId" : "9",
+            "destinationId" : "11",
+            "description" : "Uses to access metadata about datasets"
+          }, {
+            "id" : "40",
+            "tags" : "Relationship",
+            "sourceId" : "9",
+            "destinationId" : "6",
+            "description" : "Uses to retrieve list of metadata records with given values of selected properties"
+          } ],
+          "group" : "Business Logic",
+          "size" : 0
+        }, {
+          "id" : "4",
+          "tags" : "Element,Component,Infrastructure",
+          "name" : "Record List API",
+          "description" : "Provides API for getting a list of metadata records according to specified search parameters via API.",
+          "relationships" : [ {
+            "id" : "35",
+            "tags" : "Relationship",
+            "sourceId" : "4",
+            "destinationId" : "9",
+            "description" : "Uses to access search business functionality"
+          } ],
+          "group" : "Infrastructure",
+          "size" : 0
+        }, {
+          "id" : "5",
+          "tags" : "Element,Component,Infrastructure",
+          "name" : "Record Detail API",
+          "description" : "Provides API for getting a detail of a given metadata record via API.",
+          "relationships" : [ {
+            "id" : "36",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "10",
+            "description" : "Uses to access detail business functionality"
+          } ],
+          "group" : "Infrastructure",
+          "size" : 0
+        }, {
+          "id" : "6",
+          "tags" : "Element,Component,Infrastructure",
+          "name" : "Metadata Index Gateway",
+          "description" : "Provides access to a metadata records index.",
+          "group" : "Infrastructure",
+          "size" : 0
+        }, {
+          "id" : "11",
+          "tags" : "Element,Component,Model",
+          "name" : "Dataset",
+          "description" : "Internal domain model of dataset metadata.",
+          "group" : "Domain Model",
+          "size" : 0
+        }, {
+          "id" : "8",
+          "tags" : "Element,Component,Infrastructure",
+          "name" : "Code List Gateway",
+          "description" : "Provides access to code lists and their items via HTTPS dereferencing Web IRIs.",
+          "group" : "Infrastructure",
+          "size" : 0
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component,Infrastructure",
+          "name" : "Metadata Detail Gateway",
+          "description" : "Provides access to a metadata records store.",
+          "group" : "Infrastructure",
+          "size" : 0
+        } ]
+      } ]
+    } ],
+    "deploymentNodes" : [ {
+      "id" : "49",
+      "tags" : "Element,Deployment Node",
+      "name" : "NODC develop",
+      "environment" : "Server Development",
+      "technology" : "NODC development infrastructure",
+      "instances" : 1,
+      "children" : [ {
+        "id" : "50",
+        "tags" : "Element,Deployment Node",
+        "name" : "NODC-dev-data",
+        "environment" : "Server Development",
+        "technology" : "Ubuntu 18.04 LTS",
+        "instances" : 1,
+        "children" : [ {
+          "id" : "51",
+          "tags" : "Element,Deployment Node",
+          "name" : "Apache Solr",
+          "environment" : "Server Development",
+          "technology" : "Apache Solr 8.*",
+          "instances" : 1,
+          "containerInstances" : [ {
+            "id" : "52",
+            "tags" : "Container Instance",
+            "environment" : "Server Development",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "13"
+          } ]
+        }, {
+          "id" : "54",
+          "tags" : "Element,Deployment Node",
+          "name" : "Apache CouchDB",
+          "environment" : "Server Development",
+          "technology" : "Apache CouchDB 3.*",
+          "instances" : 1,
+          "containerInstances" : [ {
+            "id" : "55",
+            "tags" : "Container Instance",
+            "environment" : "Server Development",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "14"
+          } ]
+        } ]
+      } ]
+    }, {
+      "id" : "63",
+      "tags" : "Element,Deployment Node",
+      "name" : "NODC UPAAS",
+      "environment" : "Live",
+      "technology" : "NODC eGov unified runtime environment (UPAAS)",
+      "instances" : 1,
+      "children" : [ {
+        "id" : "91",
+        "tags" : "Element,Deployment Node",
+        "name" : "LODC-registry",
+        "environment" : "Live",
+        "instances" : 1,
+        "softwareSystemInstances" : [ {
+          "id" : "92",
+          "tags" : "Software System Instance",
+          "environment" : "Live",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "softwareSystemId" : "17"
+        } ]
+      }, {
+        "id" : "71",
+        "tags" : "Element,Deployment Node",
+        "name" : "NODC-upaas-app-public",
+        "environment" : "Live",
+        "technology" : "Ubuntu 18.04 LTS",
+        "instances" : 1,
+        "children" : [ {
+          "id" : "72",
+          "tags" : "Element,Deployment Node",
+          "name" : "Node.js",
+          "environment" : "Live",
+          "technology" : "Node.js 14.*",
+          "instances" : 1,
+          "containerInstances" : [ {
+            "id" : "73",
+            "tags" : "Container Instance",
+            "relationships" : [ {
+              "id" : "80",
+              "sourceId" : "73",
+              "destinationId" : "78",
+              "description" : "Uses for fast retrieval of metadata records lists",
+              "technology" : "HTTPS",
+              "linkedRelationshipId" : "26"
+            }, {
+              "id" : "85",
+              "sourceId" : "73",
+              "destinationId" : "83",
+              "description" : "Uses for fast retrieval of metadata records details",
+              "technology" : "HTTPS",
+              "linkedRelationshipId" : "27"
+            } ],
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "3"
+          } ]
+        } ]
+      }, {
+        "id" : "86",
+        "tags" : "Element,Deployment Node",
+        "name" : "LODC-upaas-etl",
+        "environment" : "Live",
+        "technology" : "Ubuntu 18.04 LTS",
+        "instances" : 4,
+        "children" : [ {
+          "id" : "87",
+          "tags" : "Element,Deployment Node",
+          "name" : "LinkedPipes ETL",
+          "environment" : "Live",
+          "instances" : 1,
+          "containerInstances" : [ {
+            "id" : "88",
+            "tags" : "Container Instance",
+            "relationships" : [ {
+              "id" : "89",
+              "sourceId" : "88",
+              "destinationId" : "78",
+              "description" : "Uses to reset metadata records index. The whole index is always replaced",
+              "technology" : "HTTPS",
+              "linkedRelationshipId" : "29"
+            }, {
+              "id" : "90",
+              "sourceId" : "88",
+              "destinationId" : "83",
+              "description" : "Uses to persists harvested metadata records. All records are always replaced",
+              "technology" : "HTTPS",
+              "linkedRelationshipId" : "30"
+            }, {
+              "id" : "93",
+              "sourceId" : "88",
+              "destinationId" : "92",
+              "description" : "Uses to read locations of registered local open data catalogs",
+              "technology" : "HTTPS",
+              "linkedRelationshipId" : "31"
+            }, {
+              "id" : "96",
+              "sourceId" : "88",
+              "destinationId" : "95",
+              "description" : "Harvests metadata records from",
+              "technology" : "HTTPS",
+              "linkedRelationshipId" : "28"
+            } ],
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "15"
+          } ]
+        } ]
+      }, {
+        "id" : "66",
+        "tags" : "Element,Deployment Node",
+        "name" : "NODC-upaas-app-gov",
+        "environment" : "Live",
+        "technology" : "Ubuntu 18.04 LTS",
+        "instances" : 3,
+        "children" : [ {
+          "id" : "67",
+          "tags" : "Element,Deployment Node",
+          "name" : "Node.js",
+          "environment" : "Live",
+          "technology" : "Node.js 14.*",
+          "instances" : 1,
+          "containerInstances" : [ {
+            "id" : "68",
+            "tags" : "Container Instance",
+            "relationships" : [ {
+              "id" : "79",
+              "sourceId" : "68",
+              "destinationId" : "78",
+              "description" : "Uses for fast retrieval of metadata records lists",
+              "technology" : "HTTPS",
+              "linkedRelationshipId" : "26"
+            }, {
+              "id" : "84",
+              "sourceId" : "68",
+              "destinationId" : "83",
+              "description" : "Uses for fast retrieval of metadata records details",
+              "technology" : "HTTPS",
+              "linkedRelationshipId" : "27"
+            } ],
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "3"
+          } ]
+        } ]
+      }, {
+        "id" : "64",
+        "tags" : "Element,Deployment Node",
+        "name" : "NODC-upaas-balancer",
+        "environment" : "Live",
+        "technology" : "Ubuntu 18.04 LTS",
+        "instances" : 1,
+        "infrastructureNodes" : [ {
+          "id" : "65",
+          "tags" : "Element,Infrastructure Node,Infrastructure",
+          "name" : "Load balancer",
+          "relationships" : [ {
+            "id" : "97",
+            "tags" : "Relationship",
+            "sourceId" : "65",
+            "destinationId" : "68",
+            "description" : "Forwards requests to",
+            "technology" : "HTTPS"
+          } ],
+          "environment" : "Live",
+          "technology" : "NGINX"
+        } ]
+      }, {
+        "id" : "76",
+        "tags" : "Element,Deployment Node",
+        "name" : "NODC-upaas-index",
+        "environment" : "Live",
+        "technology" : "Ubuntu 18.04 LTS",
+        "instances" : 1,
+        "children" : [ {
+          "id" : "77",
+          "tags" : "Element,Deployment Node",
+          "name" : "Apache Solr",
+          "environment" : "Live",
+          "technology" : "Apache Solr 8.*",
+          "instances" : 1,
+          "containerInstances" : [ {
+            "id" : "78",
+            "tags" : "Container Instance",
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "13"
+          } ]
+        } ]
+      }, {
+        "id" : "81",
+        "tags" : "Element,Deployment Node",
+        "name" : "NODC-upaas-storage",
+        "environment" : "Live",
+        "technology" : "Ubuntu 18.04 LTS",
+        "instances" : 1,
+        "children" : [ {
+          "id" : "82",
+          "tags" : "Element,Deployment Node",
+          "name" : "Apache CouchDB",
+          "environment" : "Live",
+          "technology" : "Apache CouchDB 3.*",
+          "instances" : 1,
+          "containerInstances" : [ {
+            "id" : "83",
+            "tags" : "Container Instance",
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "14"
+          } ]
+        } ]
+      } ]
+    }, {
+      "id" : "94",
+      "tags" : "Element,Deployment Node",
+      "name" : "External open data provider",
+      "environment" : "Live",
+      "instances" : 1,
+      "softwareSystemInstances" : [ {
+        "id" : "95",
+        "tags" : "Software System Instance",
+        "environment" : "Live",
+        "deploymentGroups" : [ "Default" ],
+        "instanceId" : 1,
+        "softwareSystemId" : "16"
+      } ]
+    }, {
+      "id" : "43",
+      "tags" : "Element,Deployment Node",
+      "name" : "Developer Laptop",
+      "environment" : "Server Development",
+      "technology" : "Microsoft Windows 11",
+      "instances" : 1,
+      "children" : [ {
+        "id" : "46",
+        "tags" : "Element,Deployment Node",
+        "name" : "Node.js",
+        "environment" : "Server Development",
+        "technology" : "Node.js 14.*",
+        "instances" : 1,
+        "containerInstances" : [ {
+          "id" : "47",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "56",
+            "sourceId" : "47",
+            "destinationId" : "55",
+            "description" : "Uses for fast retrieval of metadata records details",
+            "technology" : "HTTPS",
+            "linkedRelationshipId" : "27"
+          }, {
+            "id" : "53",
+            "sourceId" : "47",
+            "destinationId" : "52",
+            "description" : "Uses for fast retrieval of metadata records lists",
+            "technology" : "HTTPS",
+            "linkedRelationshipId" : "26"
+          } ],
+          "environment" : "Server Development",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "3"
+        } ]
+      }, {
+        "id" : "44",
+        "tags" : "Element,Deployment Node",
+        "name" : "Web Browser",
+        "environment" : "Server Development",
+        "technology" : "Chrome, Firefox or Edge",
+        "instances" : 1,
+        "containerInstances" : [ {
+          "id" : "45",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "48",
+            "sourceId" : "45",
+            "destinationId" : "47",
+            "description" : "Uses to deliver functionality",
+            "technology" : "HTTPS",
+            "linkedRelationshipId" : "25"
+          } ],
+          "environment" : "Server Development",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "2"
+        } ]
+      } ]
+    }, {
+      "id" : "60",
+      "tags" : "Element,Deployment Node",
+      "name" : "Public User's device",
+      "environment" : "Live",
+      "technology" : "Microsoft Windows or Android",
+      "instances" : 1,
+      "children" : [ {
+        "id" : "61",
+        "tags" : "Element,Deployment Node",
+        "name" : "Web Browser",
+        "environment" : "Live",
+        "technology" : "Chrome, Firefox or Edge",
+        "instances" : 1,
+        "containerInstances" : [ {
+          "id" : "62",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "70",
+            "sourceId" : "62",
+            "destinationId" : "68",
+            "description" : "Uses to deliver functionality",
+            "technology" : "HTTPS",
+            "linkedRelationshipId" : "25"
+          }, {
+            "id" : "75",
+            "sourceId" : "62",
+            "destinationId" : "73",
+            "description" : "Uses to deliver functionality",
+            "technology" : "HTTPS",
+            "linkedRelationshipId" : "25"
+          } ],
+          "environment" : "Live",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "2"
+        } ]
+      } ]
+    }, {
+      "id" : "57",
+      "tags" : "Element,Deployment Node",
+      "name" : "Gov User's device",
+      "environment" : "Live",
+      "technology" : "Microsoft Windows or Android",
+      "instances" : 1,
+      "children" : [ {
+        "id" : "58",
+        "tags" : "Element,Deployment Node",
+        "name" : "Web Browser",
+        "environment" : "Live",
+        "technology" : "Chrome, Firefox or Edge",
+        "instances" : 1,
+        "containerInstances" : [ {
+          "id" : "59",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "69",
+            "sourceId" : "59",
+            "destinationId" : "68",
+            "description" : "Uses to deliver functionality",
+            "technology" : "HTTPS",
+            "linkedRelationshipId" : "25"
+          }, {
+            "id" : "98",
+            "tags" : "Relationship",
+            "sourceId" : "59",
+            "destinationId" : "65",
+            "description" : "Requests NODC functionality from",
+            "technology" : "HTTPS"
+          }, {
+            "id" : "74",
+            "sourceId" : "59",
+            "destinationId" : "73",
+            "description" : "Uses to deliver functionality",
+            "technology" : "HTTPS",
+            "linkedRelationshipId" : "25"
+          } ],
+          "environment" : "Live",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "2"
+        } ]
+      } ]
+    } ]
+  },
+  "documentation" : {
+    "sections" : [ {
+      "elementId" : "1",
+      "title" : "Views",
+      "order" : 3,
+      "format" : "Markdown",
+      "content" : "## Views\r\n\r\n### How are the views documented?\r\n\r\nThe software architecture of NODC is further documented according to the [C4 model](https://c4model.com/) using its 2 levels - [container](https://c4model.com/#ContainerDiagram) level and [component](https://c4model.com/#ComponentDiagram) level.\r\nThe documentation also uses supplementary diagrams - [deployment diagrams](https://c4model.com/#DeploymentDiagram) and [dynamic diagrams](https://c4model.com/#DynamicDiagram).\r\n\r\n### NODC Decomposition View\r\n\r\nNODC business functionality is implemented by the NODC Server container.\r\nHuman users interact with a web application provided by NODC Web Front-end container.\r\nThe server container uses two supplemental containers Metadata Index and Metadata Storage for fast search and retrieval of catalog records, respectivelly.\r\nThe index and storage are filled by another supplemental container Metadata Harvestor responsible for harvesting local open data catalogs.\r\n\r\n![](embed:NODC_Container_View)\r\n\r\n### NODC Server Decomposition View\r\n\r\nNODC Server implements the business functionality of NODC.\r\nIts internal architecture comprises 3 layers:\r\n* Domain Model represents the business domain of NODC which is data sets and their distributions. Its components represent the domain as a basic object model with simple get/set operations.\r\n* Business Logic implements all the business logic on top of the domain model.\r\n* Infrastructure implements the interaction with the other containers through APIs and gateways.\r\n\r\n![](embed:Server_Component_View)\r\n\r\n### Harvesting LODC by NODC Dynamic View\r\n\r\nTo harvest local open data catalogs, NODC first requests the registry to get the list of registered local open data catalogs.\r\nIt then accessed the individual local open data catalogs and reads their content.\r\n\r\n![](embed:Harvesting_System_Dynamic_View)\r\n\r\nIn a more detail, the communication with the registry and local open data catalogs is done by the Metadata Harvestor.\r\nFirst, the harvestor clears the metadata index and storage.\r\nIt then reads the list of registered local open data catalog from the registry.\r\nFor each local open data catalog, it reads its content and stores it to the storage.\r\nFinally, it reindexes the stored metadata records from the local open data catalogs.\r\n\r\n![](embed:Harvesting_Container_Dynamic_View)\r\n\r\n### NODC Deployments\r\n\r\nThere exist various NODC deployment environments.\r\n\r\n#### NODC Server Development Deployment\r\n\r\nThis deployment is mandatory for all NODC Server developers and their unit tests.\r\n\r\n![](embed:Server_Development_Deployment)\r\n\r\n#### NODC Live Deployment\r\n\r\nThis deployment is the current production environment of NODC.\r\n\r\n![](embed:Live_Deployment)\r\n"
+    }, {
+      "elementId" : "1",
+      "title" : "Context",
+      "order" : 2,
+      "format" : "Markdown",
+      "content" : "## Context\r\n\r\nNODC stores metadata records about all open data sets published by individual open data publishers in Czechia and enables open data consumers to search for metadata records and view their details.\r\nOpen data publishers do not register metadata records about their data sets directly to NODC.\r\nThey operate their own local open data catalogs where they manage their records.\r\nNODC harvests the records from the local catalogs registered in the registry of local open data catalogs on a regular basis (daily).\r\nEuropean Open Data Catalog uses NODC as a single source of truth about open data sets in Czechia.\r\n\r\nThe described NODC context is displayed on the following [C4 model](https://c4model.com) [software system](https://c4model.com/#SystemContextDiagram) diagram.\r\n\r\n\r\n![](embed:NODC_SystemContext_View)"
+    }, {
+      "elementId" : "1",
+      "title" : "Roadmap",
+      "order" : 1,
+      "format" : "Markdown",
+      "content" : "## Roadmap\r\n\r\nThis document describes the architecture of the National Open Data Catalog (NODC).\r\nIt is intended primarily for the NODC development team.\r\nIt can be also useful for open data publishers who operate their own local open data catalogs harvested by NODC."
+    } ]
+  },
+  "views" : {
+    "systemContextViews" : [ {
+      "softwareSystemId" : "1",
+      "key" : "NODC_SystemContext_View",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1000,
+        "y" : 330
+      }, {
+        "id" : "16",
+        "x" : 645,
+        "y" : 1075
+      }, {
+        "id" : "17",
+        "x" : 1385,
+        "y" : 1105
+      }, {
+        "id" : "18",
+        "x" : 1965,
+        "y" : 230
+      }, {
+        "id" : "19",
+        "x" : 150,
+        "y" : 170
+      } ],
+      "relationships" : [ {
+        "id" : "22"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "20"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "1",
+      "key" : "NODC_Container_View",
+      "dimensions" : {
+        "width" : 4114,
+        "height" : 2182
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "13",
+        "x" : 1810,
+        "y" : 975
+      }, {
+        "id" : "2",
+        "x" : 989,
+        "y" : 549
+      }, {
+        "id" : "14",
+        "x" : 1820,
+        "y" : 1590
+      }, {
+        "id" : "3",
+        "x" : 995,
+        "y" : 1260
+      }, {
+        "id" : "15",
+        "x" : 2605,
+        "y" : 1250
+      }, {
+        "id" : "16",
+        "x" : 3465,
+        "y" : 955
+      }, {
+        "id" : "17",
+        "x" : 3460,
+        "y" : 1645
+      }, {
+        "id" : "18",
+        "x" : 200,
+        "y" : 200
+      }, {
+        "id" : "19",
+        "x" : 210,
+        "y" : 765
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "28"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "30"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Server_Component_View",
+      "dimensions" : {
+        "width" : 3175,
+        "height" : 3032
+      },
+      "containerId" : "3",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 914,
+        "y" : 2364
+      }, {
+        "id" : "12",
+        "x" : 1649,
+        "y" : 2354
+      }, {
+        "id" : "2",
+        "x" : 494,
+        "y" : 199
+      }, {
+        "id" : "4",
+        "x" : 239,
+        "y" : 794
+      }, {
+        "id" : "5",
+        "x" : 759,
+        "y" : 794
+      }, {
+        "id" : "6",
+        "x" : 1454,
+        "y" : 794
+      }, {
+        "id" : "7",
+        "x" : 2484,
+        "y" : 794
+      }, {
+        "id" : "8",
+        "x" : 1974,
+        "y" : 789
+      }, {
+        "id" : "9",
+        "x" : 319,
+        "y" : 1614
+      }, {
+        "id" : "10",
+        "x" : 2139,
+        "y" : 1659
+      } ],
+      "relationships" : [ {
+        "id" : "37"
+      }, {
+        "id" : "40"
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "42"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "38"
+      }, {
+        "id" : "39"
+      } ]
+    } ],
+    "dynamicViews" : [ {
+      "description" : "Local Open Data Catalog Harvesting Scenario - Container Dynamics",
+      "key" : "Harvesting_Container_Dynamic_View",
+      "dimensions" : {
+        "width" : 2944,
+        "height" : 1442
+      },
+      "elementId" : "1",
+      "externalBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "29",
+        "description" : "Clears index",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "30",
+        "description" : "Clears storage",
+        "order" : "2",
+        "response" : false
+      }, {
+        "id" : "31",
+        "order" : "3",
+        "response" : false
+      }, {
+        "id" : "28",
+        "order" : "4",
+        "response" : false
+      }, {
+        "id" : "30",
+        "description" : "Stores metadata records from LODC",
+        "order" : "5",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 910,
+          "y" : 983
+        } ]
+      }, {
+        "id" : "29",
+        "description" : "Indexes metadata records from LODC",
+        "order" : "6",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 773,
+          "y" : 593
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "13",
+        "x" : 219,
+        "y" : 219
+      }, {
+        "id" : "14",
+        "x" : 224,
+        "y" : 849
+      }, {
+        "id" : "15",
+        "x" : 1359,
+        "y" : 546
+      }, {
+        "id" : "16",
+        "x" : 2294,
+        "y" : 834
+      }, {
+        "id" : "17",
+        "x" : 2284,
+        "y" : 364
+      } ]
+    }, {
+      "description" : "Local Open Data Catalog Harvesting Scenario - Software System Dynamics",
+      "key" : "Harvesting_System_Dynamic_View",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "externalBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "32",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "22",
+        "order" : "2",
+        "response" : false
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 280,
+        "y" : 605
+      }, {
+        "id" : "16",
+        "x" : 1700,
+        "y" : 975
+      }, {
+        "id" : "17",
+        "x" : 1685,
+        "y" : 305
+      } ]
+    } ],
+    "deploymentViews" : [ {
+      "softwareSystemId" : "1",
+      "key" : "Live_Deployment",
+      "dimensions" : {
+        "width" : 5244,
+        "height" : 2743
+      },
+      "environment" : "Live",
+      "elements" : [ {
+        "id" : "66",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "88",
+        "x" : 3093,
+        "y" : 835
+      }, {
+        "id" : "67",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "68",
+        "x" : 1619,
+        "y" : 1300
+      }, {
+        "id" : "91",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "92",
+        "x" : 3854,
+        "y" : 1869
+      }, {
+        "id" : "71",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "72",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "94",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "73",
+        "x" : 2049,
+        "y" : 1964
+      }, {
+        "id" : "95",
+        "x" : 4544,
+        "y" : 814
+      }, {
+        "id" : "76",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "77",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "78",
+        "x" : 3078,
+        "y" : 1845
+      }, {
+        "id" : "57",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "58",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "59",
+        "x" : 299,
+        "y" : 1050
+      }, {
+        "id" : "81",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "60",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "82",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "61",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "83",
+        "x" : 2082,
+        "y" : 349
+      }, {
+        "id" : "62",
+        "x" : 299,
+        "y" : 1720
+      }, {
+        "id" : "63",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "64",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "86",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "65",
+        "x" : 1389,
+        "y" : 604
+      }, {
+        "id" : "87",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "93"
+      }, {
+        "id" : "80"
+      }, {
+        "id" : "97"
+      }, {
+        "id" : "98"
+      }, {
+        "id" : "84"
+      }, {
+        "id" : "85"
+      }, {
+        "id" : "75"
+      }, {
+        "id" : "96"
+      }, {
+        "id" : "79"
+      }, {
+        "id" : "89"
+      }, {
+        "id" : "90"
+      } ]
+    }, {
+      "softwareSystemId" : "1",
+      "key" : "Server_Development_Deployment",
+      "dimensions" : {
+        "width" : 2490,
+        "height" : 1803
+      },
+      "environment" : "Server Development",
+      "elements" : [ {
+        "id" : "44",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "55",
+        "x" : 1552,
+        "y" : 349
+      }, {
+        "id" : "45",
+        "x" : 427,
+        "y" : 324
+      }, {
+        "id" : "46",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "47",
+        "x" : 427,
+        "y" : 1034
+      }, {
+        "id" : "49",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "50",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "51",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "52",
+        "x" : 1562,
+        "y" : 1024
+      }, {
+        "id" : "43",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "54",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "53"
+      }, {
+        "id" : "56"
+      }, {
+        "id" : "48"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Software System",
+          "background" : "#32cd32",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Container",
+          "background" : "#63cd32",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Component",
+          "background" : "#92cd32",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Existing System",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Web Front-End",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Infrastructure",
+          "shape" : "Pipe"
+        }, {
+          "tag" : "Logic",
+          "shape" : "Component"
+        }, {
+          "tag" : "Model",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Person",
+          "shape" : "Person"
+        }, {
+          "tag" : "Public",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Gov",
+          "background" : "#006400",
+          "color" : "#ffffff"
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "Live_Deployment"
+    }
+  }
+}

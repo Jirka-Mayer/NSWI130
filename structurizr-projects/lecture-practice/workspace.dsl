@@ -1,3 +1,3 @@
-workspace extends sampleworkspace06.dsl {
+workspace extends sampleworkspace09.dsl {
 
 }

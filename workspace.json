@@ -3,37 +3,30 @@
   "name" : "Name",
   "description" : "Description",
   "revision" : 0,
-  "lastModifiedDate" : "2021-11-03T22:27:28Z",
+  "lastModifiedDate" : "2021-11-03T22:48:55Z",
   "lastModifiedAgent" : "structurizr-web/2544/diagram",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgc3VwcGxpZXIgPSBzb2Z0d2FyZVN5c3RlbSAiU3VwcGxpZXIiICJFeHRlcm5hbCBzeXN0ZW0gdXNlZCBmb3Igb3JkZXJpbmcgZHJ1Z3MiICJFeGlzdGluZyBTeXN0ZW0iCgogICAgICAgIHN0b3Jla2VlcGVyID0gcGVyc29uICJTdG9yZWtlZXBlciIgIk1ha2VzIHN1cmUgdGhlIHdhcmVob3VzZSBoYXMgZHJ1Z3Mgb24gc3RvY2siCiAgICAgICAgd2FyZWhvdXNlV29ya2VyID0gcGVyc29uICJXYXJlaG91c2UgV29ya2VyIiAiU3RvY2tzIGFuZCB1bnN0b2NrcyBwYWNrZ2FnZXMiCiAgICAgICAgd2FyZFdvcmtlciA9IHBlcnNvbiAiV2FyZCBXb3JrZXIiICJSZXF1ZXN0cyBkcnVncywgcmVjb3JkcyB0aGVpciBhcnJpdmFsIGFuZCBkZXBsZXRpb24iCiAgICAgICAgZW1wbG95ZWUgPSBwZXJzb24gIkhvc3BpdGFsIEVtcGxveWVlIiAiQW55IGVtcGxveWVlLCBjYW4gdmlldyBwYWNrYWdlIGxpZmVjeWNsZSIKICAgICAgICAKICAgICAgICBkcnVnTW9uaXRvcmluZyA9IHNvZnR3YXJlU3lzdGVtICJEcnVnIE1vbml0b3JpbmciICIiICIiIHsKICAgICAgICAgICAgCiAgICAgICAgICAgIGRhdGFiYXNlID0gY29udGFpbmVyICJEYXRhYmFzZSIgIlN0b3JlcyBzdGF0ZSBmb3IgdGhlIGVudGlyZSBzeXN0ZW0iICJSZWxhdGlvbmFsIGRhdGFic2UiICJEYXRhYmFzZSIKCiAgICAgICAgfQoKICAgICAgICBkcnVnTW9uaXRvcmluZyAtPiBzdXBwbGllciAiT3JkZXJzIGRydWdzIgogICAgICAgIHN0b3Jla2VlcGVyIC0+IGRydWdNb25pdG9yaW5nICJPcmRlcnMgZHJ1Z3MiCiAgICAgICAgd2FyZWhvdXNlV29ya2VyIC0+IGRydWdNb25pdG9yaW5nICJTdG9ja3MgYW5kIHVuc3RvY2tzIHBhY2thZ2VzIgogICAgICAgIHdhcmRXb3JrZXIgLT4gZHJ1Z01vbml0b3JpbmcgIlJlcXVlc3RzIGRydWdzLCByZWNvcmRzIGFycml2YWwgYW5kIGRlcGxldGlvbiIKICAgICAgICBlbXBsb3llZSAtPiBkcnVnTW9uaXRvcmluZyAiVmlld3MgZHJ1ZyBwYWNrYWdlIGxpZmVjeWNsZSIKICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtQ29udGV4dCBkcnVnTW9uaXRvcmluZyAiZHJ1Z01vbml0b3JpbmdDb250ZXh0RGlhZ3JhbSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBkcnVnTW9uaXRvcmluZyAiZHJ1Z01vbml0b3JpbmdDb250YWluZXJEaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgdGhlbWUgZGVmYXVsdAoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJFeGlzdGluZyBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzk5OTk5OQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJHYXRld2F5IiB7CiAgICAgICAgICAgICAgICBzaGFwZSBQaXBlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJXZWJzaXRlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cgp9Cg=="
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgc3VwcGxpZXIgPSBzb2Z0d2FyZVN5c3RlbSAiU3VwcGxpZXIiICJFeHRlcm5hbCBzeXN0ZW0gdXNlZCBmb3Igb3JkZXJpbmcgZHJ1Z3MiICJFeGlzdGluZyBTeXN0ZW0iCgogICAgICAgIHN0b3Jla2VlcGVyID0gcGVyc29uICJTdG9yZWtlZXBlciIgIk1ha2VzIHN1cmUgdGhlIHdhcmVob3VzZSBoYXMgZHJ1Z3Mgb24gc3RvY2siCiAgICAgICAgd2FyZWhvdXNlV29ya2VyID0gcGVyc29uICJXYXJlaG91c2UgV29ya2VyIiAiU3RvY2tzIGFuZCB1bnN0b2NrcyBwYWNrZ2FnZXMiCiAgICAgICAgd2FyZFdvcmtlciA9IHBlcnNvbiAiV2FyZCBXb3JrZXIiICJSZXF1ZXN0cyBkcnVncywgcmVjb3JkcyB0aGVpciBhcnJpdmFsIGFuZCBkZXBsZXRpb24iCiAgICAgICAgZW1wbG95ZWUgPSBwZXJzb24gIkhvc3BpdGFsIEVtcGxveWVlIiAiQW55IGVtcGxveWVlLCBjYW4gdmlldyBwYWNrYWdlIGxpZmVjeWNsZSIKICAgICAgICAKICAgICAgICBkcnVnTW9uaXRvcmluZyA9IHNvZnR3YXJlU3lzdGVtICJEcnVnIE1vbml0b3JpbmciICIiICIiIHsKCiAgICAgICAgICAgIHdhcmVob3VzZU1hbmFnZW1lbnQgPSBjb250YWluZXIgIldhcmVob3VzZSBNYW5hZ2VtZW50IiAiUHJvdmlkZXMgd2FyZWhvdXNlIG92ZXJ2aWV3IGFuZCBhbGxvd3MgZHJ1ZyBvcmRlcmluZyIgIldlYiBhcHBsaWNhdGlvbiIgIldlYnNpdGUiCgogICAgICAgICAgICBzdG9ja2luZ0NvdW50ZXIgPSBjb250YWluZXIgIlN0b2NraW5nIENvdW50ZXIiICJSZWNvcmRzIG5ldyBwYWNrYWdlcyBhcyBiZWluZyBzdG9ja2VkIiAiTmF0aXZlIGFwcGxpY2F0aW9uIiAiIgogICAgICAgICAgICB1bnN0b2NraW5nQ291bnRlciA9IGNvbnRhaW5lciAiVW5zdG9ja2luZyBDb3VudGVyIiAiUmVjb3JkcyBwYWNrYWdlcyBhcyBsZWF2aW5nIHRoZSB3YXJlaG91c2UiICJOYXRpdmUgYXBwbGljYXRpb24iICIiCgogICAgICAgICAgICB3YXJkQWNjZXNzID0gY29udGFpbmVyICJXYXJkIEFjY2VzcyIgIkFsbG93cyBkcnVnIHJlcXVlc3RzIGFuZCBhcnJpdmFsIGFuZCBkZXBsZXRpb24gcmVjb3JkaW5nIiAiTW9iaWxlIGFwcGxpY2F0aW9uIiAiTW9iaWxlIgoKICAgICAgICAgICAgc29tZXRoaW5nU29tZXRoaW5nID0gY29udGFpbmVyICJMaWZldGltZSBNb25pdG9yaW5nIEFwcCIgIkRpc3BsYXlzIHBhY2thZ2UgbGlmZWN5Y2xlIiAiTW9iaWxlIGFwcGxpY2F0aW9uIiAiTW9iaWxlIgogICAgICAgICAgICAKICAgICAgICAgICAgZGF0YWJhc2UgPSBjb250YWluZXIgIkRhdGFiYXNlIiAiU3RvcmVzIHN0YXRlIGZvciB0aGUgZW50aXJlIHN5c3RlbSIgIlJlbGF0aW9uYWwgZGF0YWJzZSIgIkRhdGFiYXNlIgoKICAgICAgICB9CgogICAgICAgIC8vIHNvZnR3YXJlIHN5c3RlbSByZWxhdGlvbnNoaXBzCiAgICAgICAgZHJ1Z01vbml0b3JpbmcgLT4gc3VwcGxpZXIgIk9yZGVycyBkcnVncyIKICAgICAgICBzdG9yZWtlZXBlciAtPiBkcnVnTW9uaXRvcmluZyAiT3JkZXJzIGRydWdzIgogICAgICAgIHdhcmVob3VzZVdvcmtlciAtPiBkcnVnTW9uaXRvcmluZyAiU3RvY2tzIGFuZCB1bnN0b2NrcyBwYWNrYWdlcyIKICAgICAgICB3YXJkV29ya2VyIC0+IGRydWdNb25pdG9yaW5nICJSZXF1ZXN0cyBkcnVncywgcmVjb3JkcyBhcnJpdmFsIGFuZCBkZXBsZXRpb24iCiAgICAgICAgZW1wbG95ZWUgLT4gZHJ1Z01vbml0b3JpbmcgIlZpZXdzIGRydWcgcGFja2FnZSBsaWZlY3ljbGUiCgogICAgICAgIC8vIGV4dGVybmFsIHRvIGNvbnRhaW5lciByZWxhdGlvbnNoaXBzCiAgICAgICAgc3RvcmVrZWVwZXIgLT4gd2FyZWhvdXNlTWFuYWdlbWVudCAiT3ZlcnNlZXMgd2FyZWhvdXNlIGFuZCBvcmRlcnMgZHJ1Z3MiCiAgICAgICAgd2FyZWhvdXNlV29ya2VyIC0+IHN0b2NraW5nQ291bnRlciAiU3RvY2tzIG5ldyBwYWNrYWdlcyIKICAgICAgICB3YXJlaG91c2VXb3JrZXIgLT4gdW5zdG9ja2luZ0NvdW50ZXIgIlVuc3RvY2tzIHBhY2thZ2VzIHRvIGJlIHNlbnQgdG8gd2FyZHMiCiAgICAgICAgd2FyZFdvcmtlciAtPiB3YXJkQWNjZXNzICJSZXF1ZXN0cyBwYWNrYWdlcywgcmVjb3JkcyB0aGVpciBhcnJpdmFsIGFuZCBkZXBsZXRpb24iCiAgICAgICAgZW1wbG95ZWUgLT4gc29tZXRoaW5nU29tZXRoaW5nICJWaWV3cyBsaWZldGltZSBvZiBhIHBhY2thZ2UiCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgZHJ1Z01vbml0b3JpbmcgImRydWdNb25pdG9yaW5nQ29udGV4dERpYWdyYW0iIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgZHJ1Z01vbml0b3JpbmcgImRydWdNb25pdG9yaW5nQ29udGFpbmVyRGlhZ3JhbSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIHRoZW1lIGRlZmF1bHQKCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiRXhpc3RpbmcgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiR2F0ZXdheSIgewogICAgICAgICAgICAgICAgc2hhcGUgUGlwZQogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiV2Vic2l0ZSIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJNb2JpbGUiIHsKICAgICAgICAgICAgICAgIHNoYXBlIE1vYmlsZURldmljZVBvcnRyYWl0CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cgp9Cg=="
   },
   "configuration" : { },
   "model" : {
     "people" : [ {
-      "id" : "5",
+      "id" : "2",
       "tags" : "Element,Person",
-      "name" : "Hospital Employee",
-      "description" : "Any employee, can view package lifecycle",
+      "name" : "Storekeeper",
+      "description" : "Makes sure the warehouse has drugs on stock",
       "relationships" : [ {
-        "id" : "12",
+        "id" : "14",
         "tags" : "Relationship",
-        "sourceId" : "5",
+        "sourceId" : "2",
         "destinationId" : "6",
-        "description" : "Views drug package lifecycle"
-      } ],
-      "location" : "Unspecified"
-    }, {
-      "id" : "3",
-      "tags" : "Element,Person",
-      "name" : "Warehouse Worker",
-      "description" : "Stocks and unstocks packgages",
-      "relationships" : [ {
-        "id" : "10",
+        "description" : "Orders drugs"
+      }, {
+        "id" : "18",
         "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "6",
-        "description" : "Stocks and unstocks packages"
+        "sourceId" : "2",
+        "destinationId" : "7",
+        "description" : "Oversees warehouse and orders drugs"
       } ],
       "location" : "Unspecified"
     }, {
@@ -42,7 +35,13 @@
       "name" : "Ward Worker",
       "description" : "Requests drugs, records their arrival and depletion",
       "relationships" : [ {
-        "id" : "11",
+        "id" : "21",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "10",
+        "description" : "Requests packages, records their arrival and depletion"
+      }, {
+        "id" : "16",
         "tags" : "Relationship",
         "sourceId" : "4",
         "destinationId" : "6",
@@ -50,16 +49,47 @@
       } ],
       "location" : "Unspecified"
     }, {
-      "id" : "2",
+      "id" : "5",
       "tags" : "Element,Person",
-      "name" : "Storekeeper",
-      "description" : "Makes sure the warehouse has drugs on stock",
+      "name" : "Hospital Employee",
+      "description" : "Any employee, can view package lifecycle",
       "relationships" : [ {
-        "id" : "9",
+        "id" : "17",
         "tags" : "Relationship",
-        "sourceId" : "2",
+        "sourceId" : "5",
         "destinationId" : "6",
-        "description" : "Orders drugs"
+        "description" : "Views drug package lifecycle"
+      }, {
+        "id" : "22",
+        "tags" : "Relationship",
+        "sourceId" : "5",
+        "destinationId" : "11",
+        "description" : "Views lifetime of a package"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "3",
+      "tags" : "Element,Person",
+      "name" : "Warehouse Worker",
+      "description" : "Stocks and unstocks packgages",
+      "relationships" : [ {
+        "id" : "15",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "6",
+        "description" : "Stocks and unstocks packages"
+      }, {
+        "id" : "20",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "9",
+        "description" : "Unstocks packages to be sent to wards"
+      }, {
+        "id" : "19",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "8",
+        "description" : "Stocks new packages"
       } ],
       "location" : "Unspecified"
     } ],
@@ -74,7 +104,7 @@
       "tags" : "Element,Software System",
       "name" : "Drug Monitoring",
       "relationships" : [ {
-        "id" : "8",
+        "id" : "13",
         "tags" : "Relationship",
         "sourceId" : "6",
         "destinationId" : "1",
@@ -82,11 +112,41 @@
       } ],
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "7",
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "Unstocking Counter",
+        "description" : "Records packages as leaving the warehouse",
+        "technology" : "Native application"
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container,Mobile",
+        "name" : "Ward Access",
+        "description" : "Allows drug requests and arrival and depletion recording",
+        "technology" : "Mobile application"
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container",
+        "name" : "Stocking Counter",
+        "description" : "Records new packages as being stocked",
+        "technology" : "Native application"
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container,Mobile",
+        "name" : "Lifetime Monitoring App",
+        "description" : "Displays package lifecycle",
+        "technology" : "Mobile application"
+      }, {
+        "id" : "12",
         "tags" : "Element,Container,Database",
         "name" : "Database",
         "description" : "Stores state for the entire system",
         "technology" : "Relational databse"
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container,Website",
+        "name" : "Warehouse Management",
+        "description" : "Provides warehouse overview and allows drug ordering",
+        "technology" : "Web application"
       } ]
     } ]
   },
@@ -127,30 +187,77 @@
         "y" : 695
       } ],
       "relationships" : [ {
-        "id" : "11"
+        "id" : "17"
       }, {
-        "id" : "12"
+        "id" : "16"
       }, {
-        "id" : "8"
+        "id" : "15"
       }, {
-        "id" : "9"
+        "id" : "14"
       }, {
-        "id" : "10"
+        "id" : "13"
       } ]
     } ],
     "containerViews" : [ {
       "softwareSystemId" : "6",
       "key" : "drugMonitoringContainerDiagram",
-      "paperSize" : "A5_Landscape",
+      "paperSize" : "A4_Landscape",
       "dimensions" : {
-        "width" : 2480,
-        "height" : 1748
+        "width" : 3508,
+        "height" : 2480
       },
       "externalSoftwareSystemBoundariesVisible" : true,
       "elements" : [ {
+        "id" : "11",
+        "x" : 2235,
+        "y" : 1235
+      }, {
+        "id" : "12",
+        "x" : 2130,
+        "y" : 520
+      }, {
+        "id" : "2",
+        "x" : 125,
+        "y" : 105
+      }, {
+        "id" : "3",
+        "x" : 70,
+        "y" : 1135
+      }, {
+        "id" : "4",
+        "x" : 2925,
+        "y" : 1970
+      }, {
+        "id" : "5",
+        "x" : 2210,
+        "y" : 1955
+      }, {
         "id" : "7",
-        "x" : 998,
-        "y" : 1085
+        "x" : 1095,
+        "y" : 175
+      }, {
+        "id" : "8",
+        "x" : 805,
+        "y" : 645
+      }, {
+        "id" : "9",
+        "x" : 820,
+        "y" : 1335
+      }, {
+        "id" : "10",
+        "x" : 2965,
+        "y" : 1255
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "19"
       } ]
     } ],
     "configuration" : {
@@ -169,11 +276,14 @@
         }, {
           "tag" : "Website",
           "shape" : "WebBrowser"
+        }, {
+          "tag" : "Mobile",
+          "shape" : "MobileDevicePortrait"
         } ]
       },
       "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
       "terminology" : { },
-      "lastSavedView" : "drugMonitoringContextDiagram"
+      "lastSavedView" : "drugMonitoringContainerDiagram"
     }
   }
 }

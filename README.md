@@ -21,7 +21,7 @@ And you can access it via web browser at [http://localhost:8080/](http://localho
 > To be filled out by the first windows user to need this.
 
 
-## Domain Language
+## Domain language
 
 The lists of all domain language terms in both czech and english. The list is alphabetically sorted by english. Do not use czech terms in this repository, only for communication with the outside world.
 
@@ -32,12 +32,19 @@ The lists of all domain language terms in both czech and english. The list is al
 - `(Package) Arrival | Přijetí balení na oddělení` The moment when a drug package arrives at the target ward and the arrival is recorded into the system.
 - `Depletion | Spotřebování` When a drug package becomes empty.
 - `Order | Objednávka` An order placed to the supplier.
+- `Stocking Counter | Naskladňovací stanoviště` The place where the barcode is scanned during stocking.
 - `Storekeeper | Skladník` The person responsible for ordering drugs from suppliers.
 - `Supplier | Dodavatel` An external business that sells drugs to us. We order drugs via their API.
 - `To Stock | Naskladnit` To put new items into the warehouse.
 - `To Unstock | Vyskladnit` To remove items from the warehouse.
+- `Unstocking Counter | Vyskladňovací stanoviště` The place where the barcode is scanned during unstocking.
 - `Ward Worker | Pracovník nemocničního oddělení` Can request drug packages, record their arrival and their depletion.
 - `Warehouse | Sklad` The place where drug packages are kept before being distributed to individual hospital wards.
 - `Warehouse Worker | Pracovník Skladu` Stocks and unstocks drug packages.
 - ~~`Stocking Operator | Naskladňovatel` The person responsible for stocking new packages.~~
 - ~~`Unstocking Operator | Vyskladňovatel` The person responsible for unstocking packages.~~
+
+
+## Useful links
+
+- C4 DSL language reference: https://github.com/structurizr/dsl/blob/master/docs/language-reference.md

@@ -18,8 +18,11 @@ And you can access it via web browser at [http://localhost:8080/](http://localho
 
 ### Windows with Docker
 
-> To be filled out by the first windows user to need this.
+Run this command in the directory with the workspace:
 
+	docker run -it --rm -p 8080:8080 -v "%cd%:/usr/local/structurizr" structurizr/lite
+
+And you can access it via web browser at [http://localhost:8080/](http://localhost:8080/).	
 
 ## Domain language
 

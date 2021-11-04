@@ -3,7 +3,7 @@
   "name" : "Name",
   "description" : "Description",
   "revision" : 0,
-  "lastModifiedDate" : "2021-11-03T22:48:55Z",
+  "lastModifiedDate" : "2021-11-04T12:38:12Z",
   "lastModifiedAgent" : "structurizr-web/2544/diagram",
   "properties" : {
     "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgc3VwcGxpZXIgPSBzb2Z0d2FyZVN5c3RlbSAiU3VwcGxpZXIiICJFeHRlcm5hbCBzeXN0ZW0gdXNlZCBmb3Igb3JkZXJpbmcgZHJ1Z3MiICJFeGlzdGluZyBTeXN0ZW0iCgogICAgICAgIHN0b3Jla2VlcGVyID0gcGVyc29uICJTdG9yZWtlZXBlciIgIk1ha2VzIHN1cmUgdGhlIHdhcmVob3VzZSBoYXMgZHJ1Z3Mgb24gc3RvY2siCiAgICAgICAgd2FyZWhvdXNlV29ya2VyID0gcGVyc29uICJXYXJlaG91c2UgV29ya2VyIiAiU3RvY2tzIGFuZCB1bnN0b2NrcyBwYWNrZ2FnZXMiCiAgICAgICAgd2FyZFdvcmtlciA9IHBlcnNvbiAiV2FyZCBXb3JrZXIiICJSZXF1ZXN0cyBkcnVncywgcmVjb3JkcyB0aGVpciBhcnJpdmFsIGFuZCBkZXBsZXRpb24iCiAgICAgICAgZW1wbG95ZWUgPSBwZXJzb24gIkhvc3BpdGFsIEVtcGxveWVlIiAiQW55IGVtcGxveWVlLCBjYW4gdmlldyBwYWNrYWdlIGxpZmVjeWNsZSIKICAgICAgICAKICAgICAgICBkcnVnTW9uaXRvcmluZyA9IHNvZnR3YXJlU3lzdGVtICJEcnVnIE1vbml0b3JpbmciICIiICIiIHsKCiAgICAgICAgICAgIHdhcmVob3VzZU1hbmFnZW1lbnQgPSBjb250YWluZXIgIldhcmVob3VzZSBNYW5hZ2VtZW50IiAiUHJvdmlkZXMgd2FyZWhvdXNlIG92ZXJ2aWV3IGFuZCBhbGxvd3MgZHJ1ZyBvcmRlcmluZyIgIldlYiBhcHBsaWNhdGlvbiIgIldlYnNpdGUiCgogICAgICAgICAgICBzdG9ja2luZ0NvdW50ZXIgPSBjb250YWluZXIgIlN0b2NraW5nIENvdW50ZXIiICJSZWNvcmRzIG5ldyBwYWNrYWdlcyBhcyBiZWluZyBzdG9ja2VkIiAiTmF0aXZlIGFwcGxpY2F0aW9uIiAiIgogICAgICAgICAgICB1bnN0b2NraW5nQ291bnRlciA9IGNvbnRhaW5lciAiVW5zdG9ja2luZyBDb3VudGVyIiAiUmVjb3JkcyBwYWNrYWdlcyBhcyBsZWF2aW5nIHRoZSB3YXJlaG91c2UiICJOYXRpdmUgYXBwbGljYXRpb24iICIiCgogICAgICAgICAgICB3YXJkQWNjZXNzID0gY29udGFpbmVyICJXYXJkIEFjY2VzcyIgIkFsbG93cyBkcnVnIHJlcXVlc3RzIGFuZCBhcnJpdmFsIGFuZCBkZXBsZXRpb24gcmVjb3JkaW5nIiAiTW9iaWxlIGFwcGxpY2F0aW9uIiAiTW9iaWxlIgoKICAgICAgICAgICAgc29tZXRoaW5nU29tZXRoaW5nID0gY29udGFpbmVyICJMaWZldGltZSBNb25pdG9yaW5nIEFwcCIgIkRpc3BsYXlzIHBhY2thZ2UgbGlmZWN5Y2xlIiAiTW9iaWxlIGFwcGxpY2F0aW9uIiAiTW9iaWxlIgogICAgICAgICAgICAKICAgICAgICAgICAgZGF0YWJhc2UgPSBjb250YWluZXIgIkRhdGFiYXNlIiAiU3RvcmVzIHN0YXRlIGZvciB0aGUgZW50aXJlIHN5c3RlbSIgIlJlbGF0aW9uYWwgZGF0YWJzZSIgIkRhdGFiYXNlIgoKICAgICAgICB9CgogICAgICAgIC8vIHNvZnR3YXJlIHN5c3RlbSByZWxhdGlvbnNoaXBzCiAgICAgICAgZHJ1Z01vbml0b3JpbmcgLT4gc3VwcGxpZXIgIk9yZGVycyBkcnVncyIKICAgICAgICBzdG9yZWtlZXBlciAtPiBkcnVnTW9uaXRvcmluZyAiT3JkZXJzIGRydWdzIgogICAgICAgIHdhcmVob3VzZVdvcmtlciAtPiBkcnVnTW9uaXRvcmluZyAiU3RvY2tzIGFuZCB1bnN0b2NrcyBwYWNrYWdlcyIKICAgICAgICB3YXJkV29ya2VyIC0+IGRydWdNb25pdG9yaW5nICJSZXF1ZXN0cyBkcnVncywgcmVjb3JkcyBhcnJpdmFsIGFuZCBkZXBsZXRpb24iCiAgICAgICAgZW1wbG95ZWUgLT4gZHJ1Z01vbml0b3JpbmcgIlZpZXdzIGRydWcgcGFja2FnZSBsaWZlY3ljbGUiCgogICAgICAgIC8vIGV4dGVybmFsIHRvIGNvbnRhaW5lciByZWxhdGlvbnNoaXBzCiAgICAgICAgc3RvcmVrZWVwZXIgLT4gd2FyZWhvdXNlTWFuYWdlbWVudCAiT3ZlcnNlZXMgd2FyZWhvdXNlIGFuZCBvcmRlcnMgZHJ1Z3MiCiAgICAgICAgd2FyZWhvdXNlV29ya2VyIC0+IHN0b2NraW5nQ291bnRlciAiU3RvY2tzIG5ldyBwYWNrYWdlcyIKICAgICAgICB3YXJlaG91c2VXb3JrZXIgLT4gdW5zdG9ja2luZ0NvdW50ZXIgIlVuc3RvY2tzIHBhY2thZ2VzIHRvIGJlIHNlbnQgdG8gd2FyZHMiCiAgICAgICAgd2FyZFdvcmtlciAtPiB3YXJkQWNjZXNzICJSZXF1ZXN0cyBwYWNrYWdlcywgcmVjb3JkcyB0aGVpciBhcnJpdmFsIGFuZCBkZXBsZXRpb24iCiAgICAgICAgZW1wbG95ZWUgLT4gc29tZXRoaW5nU29tZXRoaW5nICJWaWV3cyBsaWZldGltZSBvZiBhIHBhY2thZ2UiCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgZHJ1Z01vbml0b3JpbmcgImRydWdNb25pdG9yaW5nQ29udGV4dERpYWdyYW0iIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgZHJ1Z01vbml0b3JpbmcgImRydWdNb25pdG9yaW5nQ29udGFpbmVyRGlhZ3JhbSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIHRoZW1lIGRlZmF1bHQKCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiRXhpc3RpbmcgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiR2F0ZXdheSIgewogICAgICAgICAgICAgICAgc2hhcGUgUGlwZQogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiV2Vic2l0ZSIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJNb2JpbGUiIHsKICAgICAgICAgICAgICAgIHNoYXBlIE1vYmlsZURldmljZVBvcnRyYWl0CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cgp9Cg=="
@@ -35,17 +35,17 @@
       "name" : "Ward Worker",
       "description" : "Requests drugs, records their arrival and depletion",
       "relationships" : [ {
-        "id" : "21",
-        "tags" : "Relationship",
-        "sourceId" : "4",
-        "destinationId" : "10",
-        "description" : "Requests packages, records their arrival and depletion"
-      }, {
         "id" : "16",
         "tags" : "Relationship",
         "sourceId" : "4",
         "destinationId" : "6",
         "description" : "Requests drugs, records arrival and depletion"
+      }, {
+        "id" : "21",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "10",
+        "description" : "Requests packages, records their arrival and depletion"
       } ],
       "location" : "Unspecified"
     }, {
@@ -73,6 +73,12 @@
       "name" : "Warehouse Worker",
       "description" : "Stocks and unstocks packgages",
       "relationships" : [ {
+        "id" : "19",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "8",
+        "description" : "Stocks new packages"
+      }, {
         "id" : "15",
         "tags" : "Relationship",
         "sourceId" : "3",
@@ -84,22 +90,10 @@
         "sourceId" : "3",
         "destinationId" : "9",
         "description" : "Unstocks packages to be sent to wards"
-      }, {
-        "id" : "19",
-        "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "8",
-        "description" : "Stocks new packages"
       } ],
       "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
-      "id" : "1",
-      "tags" : "Element,Software System,Existing System",
-      "name" : "Supplier",
-      "description" : "External system used for ordering drugs",
-      "location" : "Unspecified"
-    }, {
       "id" : "6",
       "tags" : "Element,Software System",
       "name" : "Drug Monitoring",
@@ -112,28 +106,10 @@
       } ],
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "9",
-        "tags" : "Element,Container",
-        "name" : "Unstocking Counter",
-        "description" : "Records packages as leaving the warehouse",
-        "technology" : "Native application"
-      }, {
         "id" : "10",
         "tags" : "Element,Container,Mobile",
         "name" : "Ward Access",
         "description" : "Allows drug requests and arrival and depletion recording",
-        "technology" : "Mobile application"
-      }, {
-        "id" : "8",
-        "tags" : "Element,Container",
-        "name" : "Stocking Counter",
-        "description" : "Records new packages as being stocked",
-        "technology" : "Native application"
-      }, {
-        "id" : "11",
-        "tags" : "Element,Container,Mobile",
-        "name" : "Lifetime Monitoring App",
-        "description" : "Displays package lifecycle",
         "technology" : "Mobile application"
       }, {
         "id" : "12",
@@ -142,12 +118,36 @@
         "description" : "Stores state for the entire system",
         "technology" : "Relational databse"
       }, {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "Unstocking Counter",
+        "description" : "Records packages as leaving the warehouse",
+        "technology" : "Native application"
+      }, {
         "id" : "7",
         "tags" : "Element,Container,Website",
         "name" : "Warehouse Management",
         "description" : "Provides warehouse overview and allows drug ordering",
         "technology" : "Web application"
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container,Mobile",
+        "name" : "Lifetime Monitoring App",
+        "description" : "Displays package lifecycle",
+        "technology" : "Mobile application"
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container",
+        "name" : "Stocking Counter",
+        "description" : "Records new packages as being stocked",
+        "technology" : "Native application"
       } ]
+    }, {
+      "id" : "1",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "Supplier",
+      "description" : "External system used for ordering drugs",
+      "location" : "Unspecified"
     } ]
   },
   "documentation" : { },

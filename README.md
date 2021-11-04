@@ -34,6 +34,7 @@ The lists of all domain language terms in both czech and english. The list is al
 - `(Hospital) Ward | Oddělení` One department of the hospital. It requests drug packages.
 - `(Package) Arrival | Přijetí balení na oddělení` The moment when a drug package arrives at the target ward and the arrival is recorded into the system.
 - `Depletion | Spotřebování` When a drug package becomes empty.
+- `Head Nurse | Vrchní sestra` Sends drug requests to the warehouse.
 - `Order | Objednávka` An order placed to the supplier.
 - `Stocking Counter | Naskladňovací stanoviště` The place where the barcode is scanned during stocking.
 - `Storekeeper | Skladník` The person responsible for ordering drugs from suppliers.

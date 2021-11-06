@@ -115,10 +115,57 @@ workspace {
             include *
         }
 
-        // ADD: Ordering in warehouse = vse co tece z warehouse app, 
-        // Stocking, unstocking view
-        // Lifecycle = vse co je spojeno s package lifecycle component
-        // Ward view = zbytek / vse co se deje na oddeleni
+        component backendServer "WarehouseOrderingComponentDiagram" {
+            include warehouseManagementApp
+            include orderingController
+            include orderingComponent
+            include warehouseManagementController
+            include warehouseManagementComponent
+            include database
+            include supplier
+        }
+
+        component backendServer "WarehouseStockingComponentDiagram" {
+            include stockingCounter
+            include unstockingCounter
+            include stockingController
+            include stockingComponent
+            include packageLifecycleComponent
+            include database
+        }
+
+        component backendServer "PackageLifecycleComponentDiagram" {
+            include stockingCounter
+            include unstockingCounter
+            include stockingController
+            include stockingComponent
+
+            include lifecycleMonitoringApp
+            include lifecycleController
+
+            include wardCounter
+            include arrivalController
+            include arrivalComponent
+            include depletionController
+
+            include packageLifecycleComponent
+            include database
+        }
+
+        component backendServer "WardComponentDiagram" {
+            include requestManagementApp
+            include drugRequestController
+            include drugRequestComponent
+
+            include wardCounter
+            include arrivalController
+            include arrivalComponent
+            include depletionController
+
+            include packageLifecycleComponent
+            include database
+
+        }
 
         theme default
 

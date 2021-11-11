@@ -3,25 +3,38 @@
   "name" : "Name",
   "description" : "Description",
   "revision" : 0,
-  "lastModifiedDate" : "2021-11-06T10:00:05Z",
+  "lastModifiedDate" : "2021-11-11T13:58:46Z",
   "lastModifiedAgent" : "structurizr-web/2544/diagram",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgc3VwcGxpZXIgPSBzb2Z0d2FyZVN5c3RlbSAiU3VwcGxpZXIiICJFeHRlcm5hbCBzeXN0ZW0gdXNlZCBmb3Igb3JkZXJpbmcgZHJ1Z3MiICJFeGlzdGluZyBTeXN0ZW0iCgogICAgICAgIHN0b3Jla2VlcGVyID0gcGVyc29uICJTdG9yZWtlZXBlciIgIk1ha2VzIHN1cmUgdGhlIHdhcmVob3VzZSBoYXMgZHJ1Z3Mgb24gc3RvY2siCiAgICAgICAgd2FyZWhvdXNlV29ya2VyID0gcGVyc29uICJXYXJlaG91c2UgV29ya2VyIiAiU3RvY2tzIGFuZCB1bnN0b2NrcyBwYWNrZ2FnZXMiCiAgICAgICAgd2FyZFdvcmtlciA9IHBlcnNvbiAiV2FyZCBXb3JrZXIiICJSZXF1ZXN0cyBkcnVncywgcmVjb3JkcyB0aGVpciBhcnJpdmFsIGFuZCBkZXBsZXRpb24iCiAgICAgICAgZW1wbG95ZWUgPSBwZXJzb24gIkhvc3BpdGFsIEVtcGxveWVlIiAiQW55IGVtcGxveWVlLCBjYW4gdmlldyBwYWNrYWdlIGxpZmVjeWNsZSIKICAgICAgICBoZWFkTnVyc2UgPSBwZXJzb24gIkhlYWQgTnVyc2UiICJIZWFkIG51cnNlIG1ha2VzIGRydWcgcmVxdWVzdHMgdG8gdGhlIHdhcmVob3VzZSIKICAgICAgICAKICAgICAgICBkcnVnTW9uaXRvcmluZyA9IHNvZnR3YXJlU3lzdGVtICJEcnVnIE1vbml0b3JpbmciICIiICIiIHsKCiAgICAgICAgICAgIHdhcmVob3VzZU1hbmFnZW1lbnRBcHAgPSBjb250YWluZXIgIldhcmVob3VzZSBNYW5hZ2VtZW50IEFwcCIgIlByb3ZpZGVzIHdhcmVob3VzZSBvdmVydmlldyBhbmQgYWxsb3dzIGRydWcgb3JkZXJpbmciICJXZWIgYXBwbGljYXRpb24iICJXZWJzaXRlIgoKICAgICAgICAgICAgc3RvY2tpbmdDb3VudGVyID0gY29udGFpbmVyICJTdG9ja2luZyBDb3VudGVyIiAiUmVjb3JkcyBuZXcgcGFja2FnZXMgYXMgYmVpbmcgc3RvY2tlZCIgIk5hdGl2ZSBhcHBsaWNhdGlvbiIgIiIKICAgICAgICAgICAgdW5zdG9ja2luZ0NvdW50ZXIgPSBjb250YWluZXIgIlVuc3RvY2tpbmcgQ291bnRlciIgIlJlY29yZHMgcGFja2FnZXMgYXMgbGVhdmluZyB0aGUgd2FyZWhvdXNlIiAiTmF0aXZlIGFwcGxpY2F0aW9uIiAiIgoKICAgICAgICAgICAgd2FyZENvdW50ZXIgPSBjb250YWluZXIgIldhcmQgQ291bnRlciIgIkFsbG93cyBkcnVnIHJlcXVlc3RzIGFuZCBhcnJpdmFsIGFuZCBkZXBsZXRpb24gcmVjb3JkaW5nIiAiTmF0aXZlIGFwcGxpY2F0aW9uIiAiIgoKICAgICAgICAgICAgbGlmZWN5Y2xlTW9uaXRvcmluZ0FwcCA9IGNvbnRhaW5lciAiTGlmZWN5Y2xlIE1vbml0b3JpbmcgQXBwIiAiRGlzcGxheXMgcGFja2FnZSBsaWZlY3ljbGUiICJNb2JpbGUgYXBwbGljYXRpb24iICJNb2JpbGUiCiAgICAgICAgICAgIAogICAgICAgICAgICBkYXRhYmFzZSA9IGNvbnRhaW5lciAiRGF0YWJhc2UiICJTdG9yZXMgc3RhdGUgZm9yIHRoZSBlbnRpcmUgc3lzdGVtIiAiUmVsYXRpb25hbCBkYXRhYnNlIiAiRGF0YWJhc2UiCgogICAgICAgICAgICByZXF1ZXN0TWFuYWdlbWVudEFwcCA9IGNvbnRhaW5lciAiUmVxdWVzdCBNYW5hZ2VtZW50IEFwcCIgIkFsbG93cyBkcnVnIHJlcXVlc3RzIiAiV2ViIGFwcGxpY2F0aW9uIiAiV2Vic2l0ZSIKCiAgICAgICAgICAgIGJhY2tlbmRTZXJ2ZXIgPSBjb250YWluZXIgIkJhY2tlbmQgU2VydmVyIiAiSGFuZGxlcyBidXNpbmVzcyBsb2dpYyIgIlBIUCIgIiIgewogICAgICAgICAgICAgICAgb3JkZXJpbmdDb250cm9sbGVyID0gY29tcG9uZW50ICJPcmRlcmluZyBDb250cm9sbGVyIiAiQWxsb3dzIHVzZXJzIHRvIHBsYWNlIGRydWcgb3JkZXJzIiAiTGFyYXZlbCBSRVNUIENvbnRyb2xsZXIiICJDb250cm9sbGVyIgogICAgICAgICAgICAgICAgb3JkZXJpbmdDb21wb25lbnQgPSBjb21wb25lbnQgIk9yZGVyaW5nIENvbXBvbmVudCIgIkhhbmRsZXMgZHJ1ZyBvcmRlcnMiICJMYXJhdmVsIFJFU1QgQ29udHJvbGxlciIgCiAgICAgICAgICAgICAgICBzdG9ja2luZ0NvbnRyb2xsZXIgPSBjb21wb25lbnQgIlN0b2NraW5nIENvbnRyb2xsZXIiICJIYW5kbGVzIHN0b2NraW5nL3Vuc3RvY2tpbmcgcmVxdWVzdHMiICJMYXJhdmVsIFJFU1QgQ29udHJvbGxlciIgIkNvbnRyb2xsZXIiCiAgICAgICAgICAgICAgICBzdG9ja2luZ0NvbXBvbmVudCA9IGNvbXBvbmVudCAiU3RvY2tpbmcgQ29tcG9uZW50IiAiTW9kaWZpZXMgc3RvY2tpbmcgc3RhdHVzIgogICAgICAgICAgICAgICAgbGlmZWN5Y2xlQ29udHJvbGxlciA9IGNvbXBvbmVudCAiTGlmZWN5Y2xlIENvbnRyb2xsZXIiICJQcm92aWRlcyBpbmZvcm1hdGlvbiBhYm91dCBwYWNrYWdlIGxpZmVjeWNsZSIgIkxhcmF2ZWwgUkVTVCBDb250cm9sbGVyIiAiQ29udHJvbGxlciIKICAgICAgICAgICAgICAgIGRydWdSZXF1ZXN0Q29udHJvbGxlciA9IGNvbXBvbmVudCAiRHJ1ZyBSZXF1ZXN0IENvbnRyb2xsZXIiICJIYW5kbGVzIGRydWcgcmVxdWVzdHMiICJMYXJhdmVsIFJFU1QgQ29udHJvbGxlciIgIkNvbnRyb2xsZXIiCiAgICAgICAgICAgICAgICBkcnVnUmVxdWVzdENvbXBvbmVudCA9IGNvbXBvbmVudCAiRHJ1ZyBSZXF1ZXN0IENvbXBvbmVudCIgIkluc2VydHMgcmVxdWVzdCIgCiAgICAgICAgICAgICAgICBhcnJpdmFsQ29udHJvbGxlciA9IGNvbXBvbmVudCAiQXJyaXZhbCBDb250cm9sbGVyIiAiUmVjb3JkcyBwYWNrYWdlIGFycml2YWxzIiAiTGFyYXZlbCBSRVNUIENvbnRyb2xsZXIiICJDb250cm9sbGVyIgogICAgICAgICAgICAgICAgYXJyaXZhbENvbXBvbmVudCA9IGNvbXBvbmVudCAiQXJyaXZhbCBDb21wb25lbnQiICJIYW5kbGVzIGFycml2YWwgZXZlbnRzIgogICAgICAgICAgICAgICAgZGVwbGV0aW9uQ29udHJvbGxlciA9IGNvbXBvbmVudCAiRGVwbGV0aW9uIENvbnRyb2xsZXIiICJSZWNvcmRzIHBhY2thZ2UgZGVwbGV0aW9uIiAiTGFyYXZlbCBSRVNUIENvbnRyb2xsZXIiICJDb250cm9sbGVyIgogICAgICAgICAgICAgICAgcGFja2FnZUxpZmVjeWNsZUNvbXBvbmVudCA9IGNvbXBvbmVudCAiUGFja2FnZSBMaWZlY3ljbGUgQ29tcG9uZW50IiAiVXBkYXRlcyBwYWNrYWdlIGxpZmVjeWNsZSBzdGF0dXMiIAogICAgICAgICAgICAgICAgd2FyZWhvdXNlTWFuYWdlbWVudENvbnRyb2xsZXIgPSBjb21wb25lbnQgIldhcmVob3VzZSBNYW5hZ2VtZW50IENvbnRyb2xsZXIiICJQcm92aWRlcyB3YXJlaG91c2Ugb3ZlcnZpZXciICJMYXJhdmVsIFJFU1QgQ29udHJvbGxlciIgIkNvbnRyb2xsZXIiCiAgICAgICAgICAgICAgICB3YXJlaG91c2VNYW5hZ2VtZW50Q29tcG9uZW50ID0gY29tcG9uZW50ICJXYXJlaG91c2UgTWFuYWdlbWVudCBDb21wb25lbnQiICJBZ2dyZWdhdGVzIHdhcmVob3VzZSBzdG9jayBvZiBwYWNrYWdlcyIKCgogICAgICAgICAgICB9CgoKICAgICAgICB9CgogICAgICAgIC8vIHNvZnR3YXJlIHN5c3RlbSByZWxhdGlvbnNoaXBzCiAgICAgICAgZHJ1Z01vbml0b3JpbmcgLT4gc3VwcGxpZXIgIk9yZGVycyBkcnVncyIKICAgICAgICBzdG9yZWtlZXBlciAtPiBkcnVnTW9uaXRvcmluZyAiT3JkZXJzIGRydWdzIgogICAgICAgIHdhcmVob3VzZVdvcmtlciAtPiBkcnVnTW9uaXRvcmluZyAiU3RvY2tzIGFuZCB1bnN0b2NrcyBwYWNrYWdlcyIKICAgICAgICB3YXJkV29ya2VyIC0+IGRydWdNb25pdG9yaW5nICJSZWNvcmRzIGFycml2YWwgYW5kIGRlcGxldGlvbiBvZiBwYWNrYWdlcyIKICAgICAgICBoZWFkTnVyc2UgLT4gZHJ1Z01vbml0b3JpbmcgIlJlcXVlc3RzIGRydWcgcGFja2FnZXMiCiAgICAgICAgZW1wbG95ZWUgLT4gZHJ1Z01vbml0b3JpbmcgIlZpZXdzIGRydWcgcGFja2FnZSBsaWZlY3ljbGUiCgogICAgICAgIC8vIGV4dGVybmFsIHRvIGNvbnRhaW5lciByZWxhdGlvbnNoaXBzCiAgICAgICAgc3RvcmVrZWVwZXIgLT4gd2FyZWhvdXNlTWFuYWdlbWVudEFwcCAiT3ZlcnNlZXMgd2FyZWhvdXNlIGFuZCBvcmRlcnMgZHJ1Z3MiCiAgICAgICAgd2FyZWhvdXNlV29ya2VyIC0+IHN0b2NraW5nQ291bnRlciAiU3RvY2tzIG5ldyBwYWNrYWdlcyIKICAgICAgICB3YXJlaG91c2VXb3JrZXIgLT4gdW5zdG9ja2luZ0NvdW50ZXIgIlVuc3RvY2tzIHBhY2thZ2VzIHRvIGJlIHNlbnQgdG8gd2FyZHMiCiAgICAgICAgd2FyZFdvcmtlciAtPiB3YXJkQ291bnRlciAiUmVxdWVzdHMgcGFja2FnZXMsIHJlY29yZHMgdGhlaXIgYXJyaXZhbCBhbmQgZGVwbGV0aW9uIgogICAgICAgIGVtcGxveWVlIC0+IGxpZmVjeWNsZU1vbml0b3JpbmdBcHAgIlZpZXdzIGxpZmV0aW1lIG9mIGEgcGFja2FnZSIKICAgICAgICBoZWFkTnVyc2UgLT4gcmVxdWVzdE1hbmFnZW1lbnRBcHAgIlJlcXVlc3RzIGRydWcgcGFja2FnZXMiCiAgICAgICAgYmFja2VuZFNlcnZlciAtPiBzdXBwbGllciAiTWFrZXMgZHJ1ZyBvcmRlcnMiCgoKICAgICAgICAvLyBjb250YWluZXIgdG8gY29udGFpbmVyIHJlbGF0aW9uc2hpcHMKICAgICAgICBiYWNrZW5kU2VydmVyIC0+IHdhcmVob3VzZU1hbmFnZW1lbnRBcHAgIlNlcnZlcyIKICAgICAgICBiYWNrZW5kU2VydmVyIC0+IGRhdGFiYXNlICJVc2VzIgogICAgICAgIHN0b2NraW5nQ291bnRlciAtPiBiYWNrZW5kU2VydmVyICJTZW5kcyBzdG9ja2luZyByZXF1ZXN0IgogICAgICAgIHVuc3RvY2tpbmdDb3VudGVyIC0+IGJhY2tlbmRTZXJ2ZXIgIlNlbmRzIHVuc3RvY2tpbmcgcmVxdWVzdCIKICAgICAgICBsaWZlY3ljbGVNb25pdG9yaW5nQXBwIC0+IGJhY2tlbmRTZXJ2ZXIgIlJlcXVlc3RzIHBhY2thZ2UgbGlmZWN5Y2xlIgogICAgICAgIHdhcmRDb3VudGVyIC0+IGJhY2tlbmRTZXJ2ZXIgIlJlY29yZHMgZHJ1ZyBhcnJpdmFsIGFuZCBkZXBsZXRpb24iCiAgICAgICAgcmVxdWVzdE1hbmFnZW1lbnRBcHAgLT4gYmFja2VuZFNlcnZlciAiUmVjb3JkcyBkcnVnIHJlcXVlc3RzIgoKICAgICAgICAvLyBiYWNrZW5kIENvbXBvbmVudCByZWxhdGlvbnNoaXBzCiAgICAgICAgd2FyZWhvdXNlTWFuYWdlbWVudEFwcCAtPiBvcmRlcmluZ0NvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgb3JkZXJpbmdDb250cm9sbGVyIC0+IG9yZGVyaW5nQ29tcG9uZW50ICJVc2VzIiAKICAgICAgICBvcmRlcmluZ0NvbXBvbmVudCAtPiBzdXBwbGllciAiU2VuZHMgb3JkZXJzIiAiU09BUCIKICAgICAgICBvcmRlcmluZ0NvbXBvbmVudCAtPiBkYXRhYmFzZSAiVXNlcyIKICAgICAgICB3YXJlaG91c2VNYW5hZ2VtZW50QXBwIC0+IHdhcmVob3VzZU1hbmFnZW1lbnRDb250cm9sbGVyICJNYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgIHdhcmVob3VzZU1hbmFnZW1lbnRDb250cm9sbGVyIC0+IHdhcmVob3VzZU1hbmFnZW1lbnRDb21wb25lbnQgIlVzZXMiCiAgICAgICAgd2FyZWhvdXNlTWFuYWdlbWVudENvbXBvbmVudCAtPiBkYXRhYmFzZSAiUmVhZHMvV3JpdGVzIiAiU1FMIgogICAgICAgIHN0b2NraW5nQ291bnRlciAtPiBzdG9ja2luZ0NvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgc3RvY2tpbmdDb250cm9sbGVyIC0+IHN0b2NraW5nQ29tcG9uZW50ICJVc2VzIgogICAgICAgIHN0b2NraW5nQ29tcG9uZW50IC0+IHBhY2thZ2VMaWZlY3ljbGVDb21wb25lbnQgIlVzZXMiCiAgICAgICAgc3RvY2tpbmdDb21wb25lbnQgLT4gZGF0YWJhc2UgIlJlYWRzL1dyaXRlcyIgIlNRTCIKICAgICAgICB1bnN0b2NraW5nQ291bnRlciAtPiBzdG9ja2luZ0NvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgbGlmZWN5Y2xlTW9uaXRvcmluZ0FwcCAtPiBsaWZlY3ljbGVDb250cm9sbGVyICJNYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgIGxpZmVjeWNsZUNvbnRyb2xsZXIgLT4gcGFja2FnZUxpZmVjeWNsZUNvbXBvbmVudCAiVXNlcyIKICAgICAgICByZXF1ZXN0TWFuYWdlbWVudEFwcCAtPiBkcnVnUmVxdWVzdENvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgZHJ1Z1JlcXVlc3RDb250cm9sbGVyIC0+IGRydWdSZXF1ZXN0Q29tcG9uZW50ICJVc2VzIgogICAgICAgIGRydWdSZXF1ZXN0Q29tcG9uZW50IC0+IGRhdGFiYXNlICJXcml0ZXMiICJTUUwiCiAgICAgICAgcGFja2FnZUxpZmVjeWNsZUNvbXBvbmVudCAtPiBkYXRhYmFzZSAiUmVhZHMvV3JpdGVzIiAiU1FMIgogICAgICAgIHdhcmRDb3VudGVyIC0+IGFycml2YWxDb250cm9sbGVyICJNYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgIHdhcmRDb3VudGVyIC0+IGRlcGxldGlvbkNvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgZGVwbGV0aW9uQ29udHJvbGxlciAtPiBwYWNrYWdlTGlmZWN5Y2xlQ29tcG9uZW50ICJVc2VzIgogICAgICAgIGFycml2YWxDb250cm9sbGVyIC0+IGFycml2YWxDb21wb25lbnQgIlVzZXMiCiAgICAgICAgYXJyaXZhbENvbXBvbmVudCAtPiBwYWNrYWdlTGlmZWN5Y2xlQ29tcG9uZW50ICJVc2VzIgogICAgICAgIGFycml2YWxDb21wb25lbnQgLT4gZGF0YWJhc2UgIlJlYWRzL1dyaXRlcyIgIlNRTCIKCgoKICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtQ29udGV4dCBkcnVnTW9uaXRvcmluZyAiZHJ1Z01vbml0b3JpbmdDb250ZXh0RGlhZ3JhbSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBkcnVnTW9uaXRvcmluZyAiZHJ1Z01vbml0b3JpbmdDb250YWluZXJEaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGJhY2tlbmRTZXJ2ZXIgImJhY2tlbmRTZXJ2ZXJDb21wb25lbnREaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGJhY2tlbmRTZXJ2ZXIgIldhcmVob3VzZU9yZGVyaW5nQ29tcG9uZW50RGlhZ3JhbSIgewogICAgICAgICAgICBpbmNsdWRlIHdhcmVob3VzZU1hbmFnZW1lbnRBcHAKICAgICAgICAgICAgaW5jbHVkZSBvcmRlcmluZ0NvbnRyb2xsZXIKICAgICAgICAgICAgaW5jbHVkZSBvcmRlcmluZ0NvbXBvbmVudAogICAgICAgICAgICBpbmNsdWRlIHdhcmVob3VzZU1hbmFnZW1lbnRDb250cm9sbGVyCiAgICAgICAgICAgIGluY2x1ZGUgd2FyZWhvdXNlTWFuYWdlbWVudENvbXBvbmVudAogICAgICAgICAgICBpbmNsdWRlIGRhdGFiYXNlCiAgICAgICAgICAgIGluY2x1ZGUgc3VwcGxpZXIKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBiYWNrZW5kU2VydmVyICJXYXJlaG91c2VTdG9ja2luZ0NvbXBvbmVudERpYWdyYW0iIHsKICAgICAgICAgICAgaW5jbHVkZSBzdG9ja2luZ0NvdW50ZXIKICAgICAgICAgICAgaW5jbHVkZSB1bnN0b2NraW5nQ291bnRlcgogICAgICAgICAgICBpbmNsdWRlIHN0b2NraW5nQ29udHJvbGxlcgogICAgICAgICAgICBpbmNsdWRlIHN0b2NraW5nQ29tcG9uZW50CiAgICAgICAgICAgIGluY2x1ZGUgcGFja2FnZUxpZmVjeWNsZUNvbXBvbmVudAogICAgICAgICAgICBpbmNsdWRlIGRhdGFiYXNlCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgYmFja2VuZFNlcnZlciAiUGFja2FnZUxpZmVjeWNsZUNvbXBvbmVudERpYWdyYW0iIHsKICAgICAgICAgICAgaW5jbHVkZSBzdG9ja2luZ0NvdW50ZXIKICAgICAgICAgICAgaW5jbHVkZSB1bnN0b2NraW5nQ291bnRlcgogICAgICAgICAgICBpbmNsdWRlIHN0b2NraW5nQ29udHJvbGxlcgogICAgICAgICAgICBpbmNsdWRlIHN0b2NraW5nQ29tcG9uZW50CgogICAgICAgICAgICBpbmNsdWRlIGxpZmVjeWNsZU1vbml0b3JpbmdBcHAKICAgICAgICAgICAgaW5jbHVkZSBsaWZlY3ljbGVDb250cm9sbGVyCgogICAgICAgICAgICBpbmNsdWRlIHdhcmRDb3VudGVyCiAgICAgICAgICAgIGluY2x1ZGUgYXJyaXZhbENvbnRyb2xsZXIKICAgICAgICAgICAgaW5jbHVkZSBhcnJpdmFsQ29tcG9uZW50CiAgICAgICAgICAgIGluY2x1ZGUgZGVwbGV0aW9uQ29udHJvbGxlcgoKICAgICAgICAgICAgaW5jbHVkZSBwYWNrYWdlTGlmZWN5Y2xlQ29tcG9uZW50CiAgICAgICAgICAgIGluY2x1ZGUgZGF0YWJhc2UKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBiYWNrZW5kU2VydmVyICJXYXJkQ29tcG9uZW50RGlhZ3JhbSIgewogICAgICAgICAgICBpbmNsdWRlIHJlcXVlc3RNYW5hZ2VtZW50QXBwCiAgICAgICAgICAgIGluY2x1ZGUgZHJ1Z1JlcXVlc3RDb250cm9sbGVyCiAgICAgICAgICAgIGluY2x1ZGUgZHJ1Z1JlcXVlc3RDb21wb25lbnQKCiAgICAgICAgICAgIGluY2x1ZGUgd2FyZENvdW50ZXIKICAgICAgICAgICAgaW5jbHVkZSBhcnJpdmFsQ29udHJvbGxlcgogICAgICAgICAgICBpbmNsdWRlIGFycml2YWxDb21wb25lbnQKICAgICAgICAgICAgaW5jbHVkZSBkZXBsZXRpb25Db250cm9sbGVyCgogICAgICAgICAgICBpbmNsdWRlIHBhY2thZ2VMaWZlY3ljbGVDb21wb25lbnQKICAgICAgICAgICAgaW5jbHVkZSBkYXRhYmFzZQoKICAgICAgICB9CiAgICAgICAgLy8gQUREOiBPcmRlcmluZyBpbiB3YXJlaG91c2UgPSB2c2UgY28gdGVjZSB6IHdhcmVob3VzZSBhcHAsIAogICAgICAgIC8vIFN0b2NraW5nLCB1bnN0b2NraW5nIHZpZXcKICAgICAgICAvLyBMaWZlY3ljbGUgPSB2c2UgY28gamUgc3BvamVubyBzIHBhY2thZ2UgbGlmZWN5Y2xlIGNvbXBvbmVudAogICAgICAgIC8vIFdhcmQgdmlldyA9IHpieXRlayAvIHZzZSBjbyBzZSBkZWplIG5hIG9kZGVsZW5pCgogICAgICAgIHRoZW1lIGRlZmF1bHQKCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiRXhpc3RpbmcgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiR2F0ZXdheSIgewogICAgICAgICAgICAgICAgc2hhcGUgUGlwZQogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiV2Vic2l0ZSIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJNb2JpbGUiIHsKICAgICAgICAgICAgICAgIHNoYXBlIE1vYmlsZURldmljZVBvcnRyYWl0CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIkNvbnRyb2xsZXIiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFBpcGUKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCn0K"
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgc3VwcGxpZXIgPSBzb2Z0d2FyZVN5c3RlbSAiU3VwcGxpZXIiICJFeHRlcm5hbCBzeXN0ZW0gdXNlZCBmb3Igb3JkZXJpbmcgZHJ1Z3MiICJFeGlzdGluZyBTeXN0ZW0iCgogICAgICAgIHN0b3Jla2VlcGVyID0gcGVyc29uICJTdG9yZWtlZXBlciIgIk1ha2VzIHN1cmUgdGhlIHdhcmVob3VzZSBoYXMgZHJ1Z3Mgb24gc3RvY2siCiAgICAgICAgd2FyZWhvdXNlV29ya2VyID0gcGVyc29uICJXYXJlaG91c2UgV29ya2VyIiAiU3RvY2tzIGFuZCB1bnN0b2NrcyBwYWNrZ2FnZXMiCiAgICAgICAgd2FyZFdvcmtlciA9IHBlcnNvbiAiV2FyZCBXb3JrZXIiICJSZXF1ZXN0cyBkcnVncywgcmVjb3JkcyB0aGVpciBhcnJpdmFsIGFuZCBkZXBsZXRpb24iCiAgICAgICAgZW1wbG95ZWUgPSBwZXJzb24gIkhvc3BpdGFsIEVtcGxveWVlIiAiQW55IGVtcGxveWVlLCBjYW4gdmlldyBwYWNrYWdlIGxpZmVjeWNsZSIKICAgICAgICBoZWFkTnVyc2UgPSBwZXJzb24gIkhlYWQgTnVyc2UiICJIZWFkIG51cnNlIG1ha2VzIGRydWcgcmVxdWVzdHMgdG8gdGhlIHdhcmVob3VzZSIKICAgICAgICAKICAgICAgICBkcnVnTW9uaXRvcmluZyA9IHNvZnR3YXJlU3lzdGVtICJEcnVnIE1vbml0b3JpbmciICIiICIiIHsKCiAgICAgICAgICAgIGdyb3VwICJXYXJlaG91c2UiIHsKICAgICAgICAgICAgICAgIHdhcmVob3VzZU1hbmFnZW1lbnRBcHAgPSBjb250YWluZXIgIldhcmVob3VzZSBNYW5hZ2VtZW50IEFwcCIgIlByb3ZpZGVzIHdhcmVob3VzZSBvdmVydmlldyBhbmQgYWxsb3dzIGRydWcgb3JkZXJpbmciICJXZWIgYXBwbGljYXRpb24iICJXZWJzaXRlIgoKICAgICAgICAgICAgICAgIHN0b2NraW5nQ291bnRlciA9IGNvbnRhaW5lciAiU3RvY2tpbmcgQ291bnRlciIgIlJlY29yZHMgbmV3IHBhY2thZ2VzIGFzIGJlaW5nIHN0b2NrZWQiICJOYXRpdmUgYXBwbGljYXRpb24iICIiCiAgICAgICAgICAgICAgICB1bnN0b2NraW5nQ291bnRlciA9IGNvbnRhaW5lciAiVW5zdG9ja2luZyBDb3VudGVyIiAiUmVjb3JkcyBwYWNrYWdlcyBhcyBsZWF2aW5nIHRoZSB3YXJlaG91c2UiICJOYXRpdmUgYXBwbGljYXRpb24iICIiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGxpZmVjeWNsZU1vbml0b3JpbmdBcHAgPSBjb250YWluZXIgIkxpZmVjeWNsZSBNb25pdG9yaW5nIEFwcCIgIkRpc3BsYXlzIHBhY2thZ2UgbGlmZWN5Y2xlIiAiTW9iaWxlIGFwcGxpY2F0aW9uIiAiTW9iaWxlIgoKICAgICAgICAgICAgZ3JvdXAgIkhvc3BpdGFsIFdhcmQiIHsKICAgICAgICAgICAgICAgIHdhcmRDb3VudGVyID0gY29udGFpbmVyICJXYXJkIENvdW50ZXIiICJBbGxvd3MgZHJ1ZyByZXF1ZXN0cyBhbmQgYXJyaXZhbCBhbmQgZGVwbGV0aW9uIHJlY29yZGluZyIgIk5hdGl2ZSBhcHBsaWNhdGlvbiIgIiIKICAgICAgICAgICAgICAgIHJlcXVlc3RNYW5hZ2VtZW50QXBwID0gY29udGFpbmVyICJSZXF1ZXN0IE1hbmFnZW1lbnQgQXBwIiAiQWxsb3dzIGRydWcgcmVxdWVzdHMiICJXZWIgYXBwbGljYXRpb24iICJXZWJzaXRlIgogICAgICAgICAgICB9CgogICAgICAgICAgICBkYXRhYmFzZSA9IGNvbnRhaW5lciAiRGF0YWJhc2UiICJTdG9yZXMgc3RhdGUgZm9yIHRoZSBlbnRpcmUgc3lzdGVtIiAiUmVsYXRpb25hbCBkYXRhYnNlIiAiRGF0YWJhc2UiCgogICAgICAgICAgICBiYWNrZW5kU2VydmVyID0gY29udGFpbmVyICJCYWNrZW5kIFNlcnZlciIgIkhhbmRsZXMgYnVzaW5lc3MgbG9naWMiICJQSFAiICIiIHsKICAgICAgICAgICAgICAgIG9yZGVyaW5nQ29udHJvbGxlciA9IGNvbXBvbmVudCAiT3JkZXJpbmcgQ29udHJvbGxlciIgIkFsbG93cyB1c2VycyB0byBwbGFjZSBkcnVnIG9yZGVycyIgIkxhcmF2ZWwgUkVTVCBDb250cm9sbGVyIiAiQ29udHJvbGxlciIKICAgICAgICAgICAgICAgIG9yZGVyaW5nQ29tcG9uZW50ID0gY29tcG9uZW50ICJPcmRlcmluZyBDb21wb25lbnQiICJIYW5kbGVzIGRydWcgb3JkZXJzIiAiTGFyYXZlbCBSRVNUIENvbnRyb2xsZXIiIAogICAgICAgICAgICAgICAgc3RvY2tpbmdDb250cm9sbGVyID0gY29tcG9uZW50ICJTdG9ja2luZyBDb250cm9sbGVyIiAiSGFuZGxlcyBzdG9ja2luZy91bnN0b2NraW5nIHJlcXVlc3RzIiAiTGFyYXZlbCBSRVNUIENvbnRyb2xsZXIiICJDb250cm9sbGVyIgogICAgICAgICAgICAgICAgc3RvY2tpbmdDb21wb25lbnQgPSBjb21wb25lbnQgIlN0b2NraW5nIENvbXBvbmVudCIgIk1vZGlmaWVzIHN0b2NraW5nIHN0YXR1cyIKICAgICAgICAgICAgICAgIGxpZmVjeWNsZUNvbnRyb2xsZXIgPSBjb21wb25lbnQgIkxpZmVjeWNsZSBDb250cm9sbGVyIiAiUHJvdmlkZXMgaW5mb3JtYXRpb24gYWJvdXQgcGFja2FnZSBsaWZlY3ljbGUiICJMYXJhdmVsIFJFU1QgQ29udHJvbGxlciIgIkNvbnRyb2xsZXIiCiAgICAgICAgICAgICAgICBkcnVnUmVxdWVzdENvbnRyb2xsZXIgPSBjb21wb25lbnQgIkRydWcgUmVxdWVzdCBDb250cm9sbGVyIiAiSGFuZGxlcyBkcnVnIHJlcXVlc3RzIiAiTGFyYXZlbCBSRVNUIENvbnRyb2xsZXIiICJDb250cm9sbGVyIgogICAgICAgICAgICAgICAgZHJ1Z1JlcXVlc3RDb21wb25lbnQgPSBjb21wb25lbnQgIkRydWcgUmVxdWVzdCBDb21wb25lbnQiICJJbnNlcnRzIHJlcXVlc3QiIAogICAgICAgICAgICAgICAgYXJyaXZhbENvbnRyb2xsZXIgPSBjb21wb25lbnQgIkFycml2YWwgQ29udHJvbGxlciIgIlJlY29yZHMgcGFja2FnZSBhcnJpdmFscyIgIkxhcmF2ZWwgUkVTVCBDb250cm9sbGVyIiAiQ29udHJvbGxlciIKICAgICAgICAgICAgICAgIGFycml2YWxDb21wb25lbnQgPSBjb21wb25lbnQgIkFycml2YWwgQ29tcG9uZW50IiAiSGFuZGxlcyBhcnJpdmFsIGV2ZW50cyIKICAgICAgICAgICAgICAgIGRlcGxldGlvbkNvbnRyb2xsZXIgPSBjb21wb25lbnQgIkRlcGxldGlvbiBDb250cm9sbGVyIiAiUmVjb3JkcyBwYWNrYWdlIGRlcGxldGlvbiIgIkxhcmF2ZWwgUkVTVCBDb250cm9sbGVyIiAiQ29udHJvbGxlciIKICAgICAgICAgICAgICAgIHBhY2thZ2VMaWZlY3ljbGVDb21wb25lbnQgPSBjb21wb25lbnQgIlBhY2thZ2UgTGlmZWN5Y2xlIENvbXBvbmVudCIgIlVwZGF0ZXMgcGFja2FnZSBsaWZlY3ljbGUgc3RhdHVzIiAKICAgICAgICAgICAgICAgIHdhcmVob3VzZU1hbmFnZW1lbnRDb250cm9sbGVyID0gY29tcG9uZW50ICJXYXJlaG91c2UgTWFuYWdlbWVudCBDb250cm9sbGVyIiAiUmV0dXJucyB3YXJlaG91c2Ugc3RhdGUgYW5kIGRydWcgcmVxdWVzdHMiICJMYXJhdmVsIFJFU1QgQ29udHJvbGxlciIgIkNvbnRyb2xsZXIiCiAgICAgICAgICAgICAgICB3YXJlaG91c2VNYW5hZ2VtZW50Q29tcG9uZW50ID0gY29tcG9uZW50ICJXYXJlaG91c2UgTWFuYWdlbWVudCBDb21wb25lbnQiICJTdW1tYXJpemVzIHdhcmVob3VzZSBzdGF0ZSBhbmQgbGlzdHMgZHJ1ZyByZXF1ZXN0cyIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8gc29mdHdhcmUgc3lzdGVtIHJlbGF0aW9uc2hpcHMKICAgICAgICBkcnVnTW9uaXRvcmluZyAtPiBzdXBwbGllciAiT3JkZXJzIGRydWdzIgogICAgICAgIHN0b3Jla2VlcGVyIC0+IGRydWdNb25pdG9yaW5nICJPcmRlcnMgZHJ1Z3MiCiAgICAgICAgd2FyZWhvdXNlV29ya2VyIC0+IGRydWdNb25pdG9yaW5nICJTdG9ja3MgYW5kIHVuc3RvY2tzIHBhY2thZ2VzIgogICAgICAgIHdhcmRXb3JrZXIgLT4gZHJ1Z01vbml0b3JpbmcgIlJlY29yZHMgYXJyaXZhbCBhbmQgZGVwbGV0aW9uIG9mIHBhY2thZ2VzIgogICAgICAgIGhlYWROdXJzZSAtPiBkcnVnTW9uaXRvcmluZyAiUmVxdWVzdHMgZHJ1ZyBwYWNrYWdlcyIKICAgICAgICBlbXBsb3llZSAtPiBkcnVnTW9uaXRvcmluZyAiVmlld3MgZHJ1ZyBwYWNrYWdlIGxpZmVjeWNsZSIKCiAgICAgICAgLy8gZXh0ZXJuYWwgdG8gY29udGFpbmVyIHJlbGF0aW9uc2hpcHMKICAgICAgICBzdG9yZWtlZXBlciAtPiB3YXJlaG91c2VNYW5hZ2VtZW50QXBwICJPdmVyc2VlcyB3YXJlaG91c2UgYW5kIG9yZGVycyBkcnVncyIKICAgICAgICB3YXJlaG91c2VXb3JrZXIgLT4gc3RvY2tpbmdDb3VudGVyICJTdG9ja3MgbmV3IHBhY2thZ2VzIgogICAgICAgIHdhcmVob3VzZVdvcmtlciAtPiB1bnN0b2NraW5nQ291bnRlciAiVW5zdG9ja3MgcGFja2FnZXMgdG8gYmUgc2VudCB0byB3YXJkcyIKICAgICAgICB3YXJkV29ya2VyIC0+IHdhcmRDb3VudGVyICJSZXF1ZXN0cyBwYWNrYWdlcywgcmVjb3JkcyB0aGVpciBhcnJpdmFsIGFuZCBkZXBsZXRpb24iCiAgICAgICAgZW1wbG95ZWUgLT4gbGlmZWN5Y2xlTW9uaXRvcmluZ0FwcCAiVmlld3MgbGlmZXRpbWUgb2YgYSBwYWNrYWdlIgogICAgICAgIGhlYWROdXJzZSAtPiByZXF1ZXN0TWFuYWdlbWVudEFwcCAiUmVxdWVzdHMgZHJ1ZyBwYWNrYWdlcyIKICAgICAgICBiYWNrZW5kU2VydmVyIC0+IHN1cHBsaWVyICJNYWtlcyBkcnVnIG9yZGVycyIKCiAgICAgICAgLy8gY29udGFpbmVyIHRvIGNvbnRhaW5lciByZWxhdGlvbnNoaXBzCiAgICAgICAgd2FyZWhvdXNlTWFuYWdlbWVudEFwcCAtPiBiYWNrZW5kU2VydmVyICJTZW5kcyBvcmRlcmluZyByZXF1ZXN0cyIKICAgICAgICBiYWNrZW5kU2VydmVyIC0+IGRhdGFiYXNlICJVc2VzIgogICAgICAgIHN0b2NraW5nQ291bnRlciAtPiBiYWNrZW5kU2VydmVyICJTZW5kcyBzdG9ja2luZyByZXF1ZXN0IgogICAgICAgIHVuc3RvY2tpbmdDb3VudGVyIC0+IGJhY2tlbmRTZXJ2ZXIgIlNlbmRzIHVuc3RvY2tpbmcgcmVxdWVzdCIKICAgICAgICBsaWZlY3ljbGVNb25pdG9yaW5nQXBwIC0+IGJhY2tlbmRTZXJ2ZXIgIlJlcXVlc3RzIHBhY2thZ2UgbGlmZWN5Y2xlIgogICAgICAgIHdhcmRDb3VudGVyIC0+IGJhY2tlbmRTZXJ2ZXIgIlJlY29yZHMgZHJ1ZyBhcnJpdmFsIGFuZCBkZXBsZXRpb24iCiAgICAgICAgcmVxdWVzdE1hbmFnZW1lbnRBcHAgLT4gYmFja2VuZFNlcnZlciAiUmVjb3JkcyBkcnVnIHJlcXVlc3RzIgoKICAgICAgICAvLyBiYWNrZW5kIENvbXBvbmVudCByZWxhdGlvbnNoaXBzCiAgICAgICAgd2FyZWhvdXNlTWFuYWdlbWVudEFwcCAtPiBvcmRlcmluZ0NvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgb3JkZXJpbmdDb250cm9sbGVyIC0+IG9yZGVyaW5nQ29tcG9uZW50ICJVc2VzIiAKICAgICAgICBvcmRlcmluZ0NvbXBvbmVudCAtPiBzdXBwbGllciAiU2VuZHMgb3JkZXJzIiAiU09BUCIKICAgICAgICBvcmRlcmluZ0NvbXBvbmVudCAtPiBkYXRhYmFzZSAiUmVjb3JkcyBvcmRlcnMiCiAgICAgICAgd2FyZWhvdXNlTWFuYWdlbWVudEFwcCAtPiB3YXJlaG91c2VNYW5hZ2VtZW50Q29udHJvbGxlciAiTWFrZXMgQVBJIGNhbGxzIHRvIiAiSlNPTi9IVFRQUyIKICAgICAgICB3YXJlaG91c2VNYW5hZ2VtZW50Q29udHJvbGxlciAtPiB3YXJlaG91c2VNYW5hZ2VtZW50Q29tcG9uZW50ICJVc2VzIgogICAgICAgIHdhcmVob3VzZU1hbmFnZW1lbnRDb21wb25lbnQgLT4gZGF0YWJhc2UgIlJlYWRzIHdhcmVob3VzZSBzdGF0ZSBhbmQgZHJ1ZyByZXF1ZXN0cyIgIlNRTCIKICAgICAgICBzdG9ja2luZ0NvdW50ZXIgLT4gc3RvY2tpbmdDb250cm9sbGVyICJNYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgIHN0b2NraW5nQ29udHJvbGxlciAtPiBzdG9ja2luZ0NvbXBvbmVudCAiVXNlcyIKICAgICAgICBzdG9ja2luZ0NvbXBvbmVudCAtPiBwYWNrYWdlTGlmZWN5Y2xlQ29tcG9uZW50ICJSZXBvcnRzIGNoYW5nZXMgdG8iCiAgICAgICAgc3RvY2tpbmdDb21wb25lbnQgLT4gZGF0YWJhc2UgIk1vZGlmaWVzIHdhcmVob3VzZSBzdGF0ZSIgIlNRTCIKICAgICAgICB1bnN0b2NraW5nQ291bnRlciAtPiBzdG9ja2luZ0NvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgbGlmZWN5Y2xlTW9uaXRvcmluZ0FwcCAtPiBsaWZlY3ljbGVDb250cm9sbGVyICJNYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgIGxpZmVjeWNsZUNvbnRyb2xsZXIgLT4gcGFja2FnZUxpZmVjeWNsZUNvbXBvbmVudCAiUmVhZHMgZnJvbSIKICAgICAgICByZXF1ZXN0TWFuYWdlbWVudEFwcCAtPiBkcnVnUmVxdWVzdENvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgZHJ1Z1JlcXVlc3RDb250cm9sbGVyIC0+IGRydWdSZXF1ZXN0Q29tcG9uZW50ICJVc2VzIgogICAgICAgIGRydWdSZXF1ZXN0Q29tcG9uZW50IC0+IGRhdGFiYXNlICJXcml0ZXMiICJTUUwiCiAgICAgICAgcGFja2FnZUxpZmVjeWNsZUNvbXBvbmVudCAtPiBkYXRhYmFzZSAiUmVhZHMvbW9kaWZpZXMgcGFja2FnZSBsaWZlY3ljbGUgc3RhdGUiICJTUUwiCiAgICAgICAgd2FyZENvdW50ZXIgLT4gYXJyaXZhbENvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgd2FyZENvdW50ZXIgLT4gZGVwbGV0aW9uQ29udHJvbGxlciAiTWFrZXMgQVBJIGNhbGxzIHRvIiAiSlNPTi9IVFRQUyIKICAgICAgICBkZXBsZXRpb25Db250cm9sbGVyIC0+IHBhY2thZ2VMaWZlY3ljbGVDb21wb25lbnQgIlJlcG9ydHMgZGVwbGV0aW9ucyB0byIKICAgICAgICBhcnJpdmFsQ29udHJvbGxlciAtPiBhcnJpdmFsQ29tcG9uZW50ICJVc2VzIgogICAgICAgIGFycml2YWxDb21wb25lbnQgLT4gcGFja2FnZUxpZmVjeWNsZUNvbXBvbmVudCAiUmVwb3J0cyBhcnJpdmFscyB0byIKICAgICAgICBhcnJpdmFsQ29tcG9uZW50IC0+IGRhdGFiYXNlICJBY2tub3dsZWRnZXMgcGFja2FnZSBhcnJpdmFscyIgIlNRTCIKCiAgICAgICAgZGVwbG95bWVudEVudmlyb25tZW50ICJQcm9kdWN0aW9uIiB7CiAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJIb3NwaXRhbCBzZXJ2ZXIiICIiICIiIHsKCiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiTmdpbngiICJOZ2lueCAxLjE4LioiICIiIHsKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiUEhQIiAiUEhQIEZQTSA3LjQuKiIgIiIgewogICAgICAgICAgICAgICAgICAgICAgICBjb250YWluZXJJbnN0YW5jZSBiYWNrZW5kU2VydmVyCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJNeVNRTCIgIk15U1FMIENvbW11bml0eSBTZXJ2ZXIgOC4wLioiICIiIHsKICAgICAgICAgICAgICAgICAgICBjb250YWluZXJJbnN0YW5jZSBkYXRhYmFzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiU3RvcmVrZWVwZXIncyBjb21wdXRlciIgIiIgIiIgewogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIldlYiBicm93c2VyIiAiIiAiIiB7CiAgICAgICAgICAgICAgICAgICAgY29udGFpbmVySW5zdGFuY2Ugd2FyZWhvdXNlTWFuYWdlbWVudEFwcAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiU3RvY2tpbmcgY291bnRlciBtYWNoaW5lIiAiIiAiIiB7CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiLk5FVCIgIi5ORVQgQ29yZSA1LjAuKiIgIiIgewogICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIHN0b2NraW5nQ291bnRlcgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiVW5zdG9ja2luZyBjb3VudGVyIG1hY2hpbmUiICIiICIiIHsKICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICIuTkVUIiAiLk5FVCBDb3JlIDUuMC4qIiAiIiB7CiAgICAgICAgICAgICAgICAgICAgY29udGFpbmVySW5zdGFuY2UgdW5zdG9ja2luZ0NvdW50ZXIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkhvc3BpdGFsIGVtcGxveWVlJ3Mgd29yayBwaG9uZSIgIiIgIiIgIiIgMjUwIHsKICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBbmRyb2lkL2lPUyIgIkFuZHJvaWQgPj03LiogLyBpT1MgPj0xMi4qIiAiIiB7CiAgICAgICAgICAgICAgICAgICAgY29udGFpbmVySW5zdGFuY2UgbGlmZWN5Y2xlTW9uaXRvcmluZ0FwcAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiSGVhZCBudXJzZSdzIGNvbXB1dGVyIiAiIiAiIiAiIiAyMCB7CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiV2ViIGJyb3dzZXIiICIiICIiIHsKICAgICAgICAgICAgICAgICAgICBjb250YWluZXJJbnN0YW5jZSByZXF1ZXN0TWFuYWdlbWVudEFwcAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiV2FyZCBjb3VudGVyIG1hY2hpbmUiICIiICIiICIiIDIwIHsKICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICIuTkVUIiAiLk5FVCBDb3JlIDUuMC4qIiAiIiB7CiAgICAgICAgICAgICAgICAgICAgY29udGFpbmVySW5zdGFuY2Ugd2FyZENvdW50ZXIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtQ29udGV4dCBkcnVnTW9uaXRvcmluZyAiZHJ1Z01vbml0b3JpbmdDb250ZXh0RGlhZ3JhbSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBkcnVnTW9uaXRvcmluZyAiZHJ1Z01vbml0b3JpbmdDb250YWluZXJEaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGJhY2tlbmRTZXJ2ZXIgImJhY2tlbmRTZXJ2ZXJDb21wb25lbnREaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGJhY2tlbmRTZXJ2ZXIgIldhcmVob3VzZU9yZGVyaW5nQ29tcG9uZW50RGlhZ3JhbSIgewogICAgICAgICAgICB0aXRsZSAiV2FyZWhvdXNlIE9yZGVyaW5nL01hbmFnZW1lbnQgQ29tcG9uZW50IERpYWdyYW0iCgogICAgICAgICAgICBpbmNsdWRlIHdhcmVob3VzZU1hbmFnZW1lbnRBcHAKICAgICAgICAgICAgaW5jbHVkZSBvcmRlcmluZ0NvbnRyb2xsZXIKICAgICAgICAgICAgaW5jbHVkZSBvcmRlcmluZ0NvbXBvbmVudAogICAgICAgICAgICBpbmNsdWRlIHdhcmVob3VzZU1hbmFnZW1lbnRDb250cm9sbGVyCiAgICAgICAgICAgIGluY2x1ZGUgd2FyZWhvdXNlTWFuYWdlbWVudENvbXBvbmVudAogICAgICAgICAgICBpbmNsdWRlIGRhdGFiYXNlCiAgICAgICAgICAgIGluY2x1ZGUgc3VwcGxpZXIKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBiYWNrZW5kU2VydmVyICJXYXJlaG91c2VTdG9ja2luZ0NvbXBvbmVudERpYWdyYW0iIHsKICAgICAgICAgICAgdGl0bGUgIldhcmVob3VzZSBTdG9ja2luZyBDb21wb25lbnQgRGlhZ3JhbSIKCiAgICAgICAgICAgIGluY2x1ZGUgc3RvY2tpbmdDb3VudGVyCiAgICAgICAgICAgIGluY2x1ZGUgdW5zdG9ja2luZ0NvdW50ZXIKICAgICAgICAgICAgaW5jbHVkZSBzdG9ja2luZ0NvbnRyb2xsZXIKICAgICAgICAgICAgaW5jbHVkZSBzdG9ja2luZ0NvbXBvbmVudAogICAgICAgICAgICBpbmNsdWRlIHBhY2thZ2VMaWZlY3ljbGVDb21wb25lbnQKICAgICAgICAgICAgaW5jbHVkZSBkYXRhYmFzZQogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGJhY2tlbmRTZXJ2ZXIgIlBhY2thZ2VMaWZlY3ljbGVDb21wb25lbnREaWFncmFtIiB7CiAgICAgICAgICAgIHRpdGxlICJQYWNrYWdlIExpZmVjeWNsZSBDb21wb25lbnQgRGlhZ3JhbSIKCiAgICAgICAgICAgIGluY2x1ZGUgc3RvY2tpbmdDb3VudGVyCiAgICAgICAgICAgIGluY2x1ZGUgdW5zdG9ja2luZ0NvdW50ZXIKICAgICAgICAgICAgaW5jbHVkZSBzdG9ja2luZ0NvbnRyb2xsZXIKICAgICAgICAgICAgaW5jbHVkZSBzdG9ja2luZ0NvbXBvbmVudAoKICAgICAgICAgICAgaW5jbHVkZSBsaWZlY3ljbGVNb25pdG9yaW5nQXBwCiAgICAgICAgICAgIGluY2x1ZGUgbGlmZWN5Y2xlQ29udHJvbGxlcgoKICAgICAgICAgICAgaW5jbHVkZSB3YXJkQ291bnRlcgogICAgICAgICAgICBpbmNsdWRlIGFycml2YWxDb250cm9sbGVyCiAgICAgICAgICAgIGluY2x1ZGUgYXJyaXZhbENvbXBvbmVudAogICAgICAgICAgICBpbmNsdWRlIGRlcGxldGlvbkNvbnRyb2xsZXIKCiAgICAgICAgICAgIGluY2x1ZGUgcGFja2FnZUxpZmVjeWNsZUNvbXBvbmVudAogICAgICAgICAgICBpbmNsdWRlIGRhdGFiYXNlCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgYmFja2VuZFNlcnZlciAiV2FyZENvbXBvbmVudERpYWdyYW0iIHsKICAgICAgICAgICAgdGl0bGUgIldhcmQgQ29tcG9uZW50IERpYWdyYW0iCgogICAgICAgICAgICBpbmNsdWRlIHJlcXVlc3RNYW5hZ2VtZW50QXBwCiAgICAgICAgICAgIGluY2x1ZGUgZHJ1Z1JlcXVlc3RDb250cm9sbGVyCiAgICAgICAgICAgIGluY2x1ZGUgZHJ1Z1JlcXVlc3RDb21wb25lbnQKCiAgICAgICAgICAgIGluY2x1ZGUgd2FyZENvdW50ZXIKICAgICAgICAgICAgaW5jbHVkZSBhcnJpdmFsQ29udHJvbGxlcgogICAgICAgICAgICBpbmNsdWRlIGFycml2YWxDb21wb25lbnQKICAgICAgICAgICAgaW5jbHVkZSBkZXBsZXRpb25Db250cm9sbGVyCgogICAgICAgICAgICBpbmNsdWRlIHBhY2thZ2VMaWZlY3ljbGVDb21wb25lbnQKICAgICAgICAgICAgaW5jbHVkZSBkYXRhYmFzZQoKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgZGVwbG95bWVudCBkcnVnTW9uaXRvcmluZyAiUHJvZHVjdGlvbiIgInByb2R1Y3Rpb25EZXBsb3ltZW50RGlhZ3JhbSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIHRoZW1lIGRlZmF1bHQKCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiRXhpc3RpbmcgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiR2F0ZXdheSIgewogICAgICAgICAgICAgICAgc2hhcGUgUGlwZQogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiV2Vic2l0ZSIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJNb2JpbGUiIHsKICAgICAgICAgICAgICAgIHNoYXBlIE1vYmlsZURldmljZVBvcnRyYWl0CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIkNvbnRyb2xsZXIiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFBpcGUKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCn0K"
   },
   "configuration" : { },
   "model" : {
     "people" : [ {
+      "id" : "6",
+      "tags" : "Element,Person",
+      "name" : "Head Nurse",
+      "description" : "Head nurse makes drug requests to the warehouse",
+      "relationships" : [ {
+        "id" : "40",
+        "tags" : "Relationship",
+        "sourceId" : "6",
+        "destinationId" : "13",
+        "description" : "Requests drug packages"
+      }, {
+        "id" : "33",
+        "tags" : "Relationship",
+        "sourceId" : "6",
+        "destinationId" : "7",
+        "description" : "Requests drug packages"
+      } ],
+      "location" : "Unspecified"
+    }, {
       "id" : "3",
       "tags" : "Element,Person",
       "name" : "Warehouse Worker",
       "description" : "Stocks and unstocks packgages",
       "relationships" : [ {
-        "id" : "37",
-        "tags" : "Relationship",
-        "sourceId" : "3",
-        "destinationId" : "10",
-        "description" : "Unstocks packages to be sent to wards"
-      }, {
         "id" : "31",
         "tags" : "Relationship",
         "sourceId" : "3",
@@ -33,25 +46,12 @@
         "sourceId" : "3",
         "destinationId" : "9",
         "description" : "Stocks new packages"
-      } ],
-      "location" : "Unspecified"
-    }, {
-      "id" : "5",
-      "tags" : "Element,Person",
-      "name" : "Hospital Employee",
-      "description" : "Any employee, can view package lifecycle",
-      "relationships" : [ {
-        "id" : "34",
-        "tags" : "Relationship",
-        "sourceId" : "5",
-        "destinationId" : "7",
-        "description" : "Views drug package lifecycle"
       }, {
-        "id" : "39",
+        "id" : "37",
         "tags" : "Relationship",
-        "sourceId" : "5",
-        "destinationId" : "12",
-        "description" : "Views lifetime of a package"
+        "sourceId" : "3",
+        "destinationId" : "10",
+        "description" : "Unstocks packages to be sent to wards"
       } ],
       "location" : "Unspecified"
     }, {
@@ -60,36 +60,17 @@
       "name" : "Ward Worker",
       "description" : "Requests drugs, records their arrival and depletion",
       "relationships" : [ {
-        "id" : "38",
-        "tags" : "Relationship",
-        "sourceId" : "4",
-        "destinationId" : "11",
-        "description" : "Requests packages, records their arrival and depletion"
-      }, {
         "id" : "32",
         "tags" : "Relationship",
         "sourceId" : "4",
         "destinationId" : "7",
         "description" : "Records arrival and depletion of packages"
-      } ],
-      "location" : "Unspecified"
-    }, {
-      "id" : "6",
-      "tags" : "Element,Person",
-      "name" : "Head Nurse",
-      "description" : "Head nurse makes drug requests to the warehouse",
-      "relationships" : [ {
-        "id" : "33",
-        "tags" : "Relationship",
-        "sourceId" : "6",
-        "destinationId" : "7",
-        "description" : "Requests drug packages"
       }, {
-        "id" : "40",
+        "id" : "38",
         "tags" : "Relationship",
-        "sourceId" : "6",
-        "destinationId" : "14",
-        "description" : "Requests drug packages"
+        "sourceId" : "4",
+        "destinationId" : "12",
+        "description" : "Requests packages, records their arrival and depletion"
       } ],
       "location" : "Unspecified"
     }, {
@@ -111,8 +92,33 @@
         "description" : "Orders drugs"
       } ],
       "location" : "Unspecified"
+    }, {
+      "id" : "5",
+      "tags" : "Element,Person",
+      "name" : "Hospital Employee",
+      "description" : "Any employee, can view package lifecycle",
+      "relationships" : [ {
+        "id" : "34",
+        "tags" : "Relationship",
+        "sourceId" : "5",
+        "destinationId" : "7",
+        "description" : "Views drug package lifecycle"
+      }, {
+        "id" : "39",
+        "tags" : "Relationship",
+        "sourceId" : "5",
+        "destinationId" : "11",
+        "description" : "Views lifetime of a package"
+      } ],
+      "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
+      "id" : "1",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "Supplier",
+      "description" : "External system used for ordering drugs",
+      "location" : "Unspecified"
+    }, {
       "id" : "7",
       "tags" : "Element,Software System",
       "name" : "Drug Monitoring",
@@ -130,12 +136,6 @@
         "name" : "Backend Server",
         "description" : "Handles business logic",
         "relationships" : [ {
-          "id" : "42",
-          "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "8",
-          "description" : "Serves"
-        }, {
           "id" : "41",
           "tags" : "Relationship",
           "sourceId" : "15",
@@ -145,41 +145,34 @@
           "id" : "43",
           "tags" : "Relationship",
           "sourceId" : "15",
-          "destinationId" : "13",
+          "destinationId" : "14",
           "description" : "Uses"
         } ],
         "technology" : "PHP",
         "components" : [ {
-          "id" : "17",
+          "id" : "22",
           "tags" : "Element,Component",
-          "name" : "Ordering Component",
-          "description" : "Handles drug orders",
+          "name" : "Drug Request Component",
+          "description" : "Inserts request",
           "relationships" : [ {
-            "id" : "52",
+            "id" : "65",
             "tags" : "Relationship",
-            "sourceId" : "17",
-            "destinationId" : "1",
-            "description" : "Sends orders",
-            "technology" : "SOAP"
-          }, {
-            "id" : "53",
-            "tags" : "Relationship",
-            "sourceId" : "17",
-            "destinationId" : "13",
-            "description" : "Uses"
+            "sourceId" : "22",
+            "destinationId" : "14",
+            "description" : "Writes",
+            "technology" : "SQL"
           } ],
-          "technology" : "Laravel REST Controller",
           "size" : 0
         }, {
-          "id" : "25",
+          "id" : "18",
           "tags" : "Element,Component,Controller",
-          "name" : "Depletion Controller",
-          "description" : "Records package depletion",
+          "name" : "Stocking Controller",
+          "description" : "Handles stocking/unstocking requests",
           "relationships" : [ {
-            "id" : "70",
+            "id" : "57",
             "tags" : "Relationship",
-            "sourceId" : "25",
-            "destinationId" : "26",
+            "sourceId" : "18",
+            "destinationId" : "19",
             "description" : "Uses"
           } ],
           "technology" : "Laravel REST Controller",
@@ -190,24 +183,38 @@
           "name" : "Package Lifecycle Component",
           "description" : "Updates package lifecycle status",
           "relationships" : [ {
-            "id" : "67",
+            "id" : "66",
             "tags" : "Relationship",
             "sourceId" : "26",
-            "destinationId" : "13",
-            "description" : "Reads/Writes",
+            "destinationId" : "14",
+            "description" : "Reads/modifies package lifecycle state",
             "technology" : "SQL"
           } ],
           "size" : 0
         }, {
-          "id" : "21",
+          "id" : "23",
           "tags" : "Element,Component,Controller",
-          "name" : "Drug Request Controller",
-          "description" : "Handles drug requests",
+          "name" : "Arrival Controller",
+          "description" : "Records package arrivals",
           "relationships" : [ {
-            "id" : "65",
+            "id" : "70",
             "tags" : "Relationship",
-            "sourceId" : "21",
-            "destinationId" : "22",
+            "sourceId" : "23",
+            "destinationId" : "24",
+            "description" : "Uses"
+          } ],
+          "technology" : "Laravel REST Controller",
+          "size" : 0
+        }, {
+          "id" : "27",
+          "tags" : "Element,Component,Controller",
+          "name" : "Warehouse Management Controller",
+          "description" : "Returns warehouse state and drug requests",
+          "relationships" : [ {
+            "id" : "54",
+            "tags" : "Relationship",
+            "sourceId" : "27",
+            "destinationId" : "28",
             "description" : "Uses"
           } ],
           "technology" : "Laravel REST Controller",
@@ -221,16 +228,44 @@
             "id" : "59",
             "tags" : "Relationship",
             "sourceId" : "19",
-            "destinationId" : "26",
-            "description" : "Uses"
+            "destinationId" : "14",
+            "description" : "Modifies warehouse state",
+            "technology" : "SQL"
           }, {
-            "id" : "60",
+            "id" : "58",
             "tags" : "Relationship",
             "sourceId" : "19",
-            "destinationId" : "13",
-            "description" : "Reads/Writes",
+            "destinationId" : "26",
+            "description" : "Reports changes to"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "28",
+          "tags" : "Element,Component",
+          "name" : "Warehouse Management Component",
+          "description" : "Summarizes warehouse state and lists drug requests",
+          "relationships" : [ {
+            "id" : "55",
+            "tags" : "Relationship",
+            "sourceId" : "28",
+            "destinationId" : "14",
+            "description" : "Reads warehouse state and drug requests",
             "technology" : "SQL"
           } ],
+          "size" : 0
+        }, {
+          "id" : "20",
+          "tags" : "Element,Component,Controller",
+          "name" : "Lifecycle Controller",
+          "description" : "Provides information about package lifecycle",
+          "relationships" : [ {
+            "id" : "62",
+            "tags" : "Relationship",
+            "sourceId" : "20",
+            "destinationId" : "26",
+            "description" : "Reads from"
+          } ],
+          "technology" : "Laravel REST Controller",
           "size" : 0
         }, {
           "id" : "16",
@@ -238,7 +273,7 @@
           "name" : "Ordering Controller",
           "description" : "Allows users to place drug orders",
           "relationships" : [ {
-            "id" : "51",
+            "id" : "50",
             "tags" : "Relationship",
             "sourceId" : "16",
             "destinationId" : "17",
@@ -247,60 +282,39 @@
           "technology" : "Laravel REST Controller",
           "size" : 0
         }, {
-          "id" : "20",
+          "id" : "25",
           "tags" : "Element,Component,Controller",
-          "name" : "Lifecycle Controller",
-          "description" : "Provides information about package lifecycle",
+          "name" : "Depletion Controller",
+          "description" : "Records package depletion",
           "relationships" : [ {
-            "id" : "63",
+            "id" : "69",
             "tags" : "Relationship",
-            "sourceId" : "20",
+            "sourceId" : "25",
             "destinationId" : "26",
-            "description" : "Uses"
+            "description" : "Reports depletions to"
           } ],
           "technology" : "Laravel REST Controller",
           "size" : 0
         }, {
-          "id" : "22",
+          "id" : "17",
           "tags" : "Element,Component",
-          "name" : "Drug Request Component",
-          "description" : "Inserts request",
+          "name" : "Ordering Component",
+          "description" : "Handles drug orders",
           "relationships" : [ {
-            "id" : "66",
+            "id" : "51",
             "tags" : "Relationship",
-            "sourceId" : "22",
-            "destinationId" : "13",
-            "description" : "Writes",
-            "technology" : "SQL"
-          } ],
-          "size" : 0
-        }, {
-          "id" : "18",
-          "tags" : "Element,Component,Controller",
-          "name" : "Stocking Controller",
-          "description" : "Handles stocking/unstocking requests",
-          "relationships" : [ {
-            "id" : "58",
+            "sourceId" : "17",
+            "destinationId" : "1",
+            "description" : "Sends orders",
+            "technology" : "SOAP"
+          }, {
+            "id" : "52",
             "tags" : "Relationship",
-            "sourceId" : "18",
-            "destinationId" : "19",
-            "description" : "Uses"
+            "sourceId" : "17",
+            "destinationId" : "14",
+            "description" : "Records orders"
           } ],
           "technology" : "Laravel REST Controller",
-          "size" : 0
-        }, {
-          "id" : "28",
-          "tags" : "Element,Component",
-          "name" : "Warehouse Management Component",
-          "description" : "Aggregates warehouse stock of packages",
-          "relationships" : [ {
-            "id" : "56",
-            "tags" : "Relationship",
-            "sourceId" : "28",
-            "destinationId" : "13",
-            "description" : "Reads/Writes",
-            "technology" : "SQL"
-          } ],
           "size" : 0
         }, {
           "id" : "24",
@@ -308,177 +322,48 @@
           "name" : "Arrival Component",
           "description" : "Handles arrival events",
           "relationships" : [ {
-            "id" : "73",
-            "tags" : "Relationship",
-            "sourceId" : "24",
-            "destinationId" : "13",
-            "description" : "Reads/Writes",
-            "technology" : "SQL"
-          }, {
             "id" : "72",
             "tags" : "Relationship",
             "sourceId" : "24",
-            "destinationId" : "26",
-            "description" : "Uses"
-          } ],
-          "size" : 0
-        }, {
-          "id" : "23",
-          "tags" : "Element,Component,Controller",
-          "name" : "Arrival Controller",
-          "description" : "Records package arrivals",
-          "relationships" : [ {
+            "destinationId" : "14",
+            "description" : "Acknowledges package arrivals",
+            "technology" : "SQL"
+          }, {
             "id" : "71",
             "tags" : "Relationship",
-            "sourceId" : "23",
-            "destinationId" : "24",
-            "description" : "Uses"
+            "sourceId" : "24",
+            "destinationId" : "26",
+            "description" : "Reports arrivals to"
           } ],
-          "technology" : "Laravel REST Controller",
           "size" : 0
         }, {
-          "id" : "27",
+          "id" : "21",
           "tags" : "Element,Component,Controller",
-          "name" : "Warehouse Management Controller",
-          "description" : "Provides warehouse overview",
+          "name" : "Drug Request Controller",
+          "description" : "Handles drug requests",
           "relationships" : [ {
-            "id" : "55",
+            "id" : "64",
             "tags" : "Relationship",
-            "sourceId" : "27",
-            "destinationId" : "28",
+            "sourceId" : "21",
+            "destinationId" : "22",
             "description" : "Uses"
           } ],
           "technology" : "Laravel REST Controller",
           "size" : 0
         } ]
       }, {
-        "id" : "10",
-        "tags" : "Element,Container",
-        "name" : "Unstocking Counter",
-        "description" : "Records packages as leaving the warehouse",
-        "relationships" : [ {
-          "id" : "61",
-          "tags" : "Relationship",
-          "sourceId" : "10",
-          "destinationId" : "18",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
-        }, {
-          "id" : "45",
-          "tags" : "Relationship",
-          "sourceId" : "10",
-          "destinationId" : "15",
-          "description" : "Sends unstocking request"
-        } ],
-        "technology" : "Native application"
-      }, {
-        "id" : "8",
-        "tags" : "Element,Container,Website",
-        "name" : "Warehouse Management App",
-        "description" : "Provides warehouse overview and allows drug ordering",
-        "relationships" : [ {
-          "id" : "50",
-          "tags" : "Relationship",
-          "sourceId" : "8",
-          "destinationId" : "15",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
-        }, {
-          "id" : "49",
-          "tags" : "Relationship",
-          "sourceId" : "8",
-          "destinationId" : "16",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
-        }, {
-          "id" : "54",
-          "tags" : "Relationship",
-          "sourceId" : "8",
-          "destinationId" : "27",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
-        } ],
-        "technology" : "Web application"
-      }, {
         "id" : "14",
-        "tags" : "Element,Container,Website",
-        "name" : "Request Management App",
-        "description" : "Allows drug requests",
-        "relationships" : [ {
-          "id" : "48",
-          "tags" : "Relationship",
-          "sourceId" : "14",
-          "destinationId" : "15",
-          "description" : "Records drug requests"
-        }, {
-          "id" : "64",
-          "tags" : "Relationship",
-          "sourceId" : "14",
-          "destinationId" : "21",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
-        } ],
-        "technology" : "Web application"
-      }, {
-        "id" : "13",
         "tags" : "Element,Container,Database",
         "name" : "Database",
         "description" : "Stores state for the entire system",
         "technology" : "Relational databse"
-      }, {
-        "id" : "11",
-        "tags" : "Element,Container",
-        "name" : "Ward Counter",
-        "description" : "Allows drug requests and arrival and depletion recording",
-        "relationships" : [ {
-          "id" : "68",
-          "tags" : "Relationship",
-          "sourceId" : "11",
-          "destinationId" : "23",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
-        }, {
-          "id" : "69",
-          "tags" : "Relationship",
-          "sourceId" : "11",
-          "destinationId" : "25",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
-        }, {
-          "id" : "47",
-          "tags" : "Relationship",
-          "sourceId" : "11",
-          "destinationId" : "15",
-          "description" : "Records drug arrival and depletion"
-        } ],
-        "technology" : "Native application"
-      }, {
-        "id" : "12",
-        "tags" : "Element,Container,Mobile",
-        "name" : "Lifecycle Monitoring App",
-        "description" : "Displays package lifecycle",
-        "relationships" : [ {
-          "id" : "46",
-          "tags" : "Relationship",
-          "sourceId" : "12",
-          "destinationId" : "15",
-          "description" : "Requests package lifecycle"
-        }, {
-          "id" : "62",
-          "tags" : "Relationship",
-          "sourceId" : "12",
-          "destinationId" : "20",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
-        } ],
-        "technology" : "Mobile application"
       }, {
         "id" : "9",
         "tags" : "Element,Container",
         "name" : "Stocking Counter",
         "description" : "Records new packages as being stocked",
         "relationships" : [ {
-          "id" : "57",
+          "id" : "56",
           "tags" : "Relationship",
           "sourceId" : "9",
           "destinationId" : "18",
@@ -491,14 +376,352 @@
           "destinationId" : "15",
           "description" : "Sends stocking request"
         } ],
+        "group" : "Warehouse",
+        "technology" : "Native application"
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,Website",
+        "name" : "Warehouse Management App",
+        "description" : "Provides warehouse overview and allows drug ordering",
+        "relationships" : [ {
+          "id" : "49",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "16",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "53",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "27",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "42",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "15",
+          "description" : "Sends ordering requests"
+        } ],
+        "group" : "Warehouse",
+        "technology" : "Web application"
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container,Mobile",
+        "name" : "Lifecycle Monitoring App",
+        "description" : "Displays package lifecycle",
+        "relationships" : [ {
+          "id" : "61",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "20",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "46",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "15",
+          "description" : "Requests package lifecycle"
+        } ],
+        "technology" : "Mobile application"
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container,Website",
+        "name" : "Request Management App",
+        "description" : "Allows drug requests",
+        "relationships" : [ {
+          "id" : "48",
+          "tags" : "Relationship",
+          "sourceId" : "13",
+          "destinationId" : "15",
+          "description" : "Records drug requests"
+        }, {
+          "id" : "63",
+          "tags" : "Relationship",
+          "sourceId" : "13",
+          "destinationId" : "21",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "group" : "Hospital Ward",
+        "technology" : "Web application"
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container",
+        "name" : "Unstocking Counter",
+        "description" : "Records packages as leaving the warehouse",
+        "relationships" : [ {
+          "id" : "60",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "18",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "45",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "15",
+          "description" : "Sends unstocking request"
+        } ],
+        "group" : "Warehouse",
+        "technology" : "Native application"
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container",
+        "name" : "Ward Counter",
+        "description" : "Allows drug requests and arrival and depletion recording",
+        "relationships" : [ {
+          "id" : "67",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "23",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "68",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "25",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "47",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "15",
+          "description" : "Records drug arrival and depletion"
+        } ],
+        "group" : "Hospital Ward",
         "technology" : "Native application"
       } ]
+    } ],
+    "deploymentNodes" : [ {
+      "id" : "73",
+      "tags" : "Element,Deployment Node",
+      "name" : "Hospital server",
+      "environment" : "Production",
+      "instances" : 1,
+      "children" : [ {
+        "id" : "74",
+        "tags" : "Element,Deployment Node",
+        "name" : "Nginx",
+        "description" : "Nginx 1.18.*",
+        "environment" : "Production",
+        "instances" : 1,
+        "children" : [ {
+          "id" : "75",
+          "tags" : "Element,Deployment Node",
+          "name" : "PHP",
+          "description" : "PHP FPM 7.4.*",
+          "environment" : "Production",
+          "instances" : 1,
+          "containerInstances" : [ {
+            "id" : "76",
+            "tags" : "Container Instance",
+            "relationships" : [ {
+              "id" : "79",
+              "sourceId" : "76",
+              "destinationId" : "78",
+              "description" : "Uses",
+              "linkedRelationshipId" : "43"
+            } ],
+            "environment" : "Production",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "15"
+          } ]
+        } ]
+      }, {
+        "id" : "77",
+        "tags" : "Element,Deployment Node",
+        "name" : "MySQL",
+        "description" : "MySQL Community Server 8.0.*",
+        "environment" : "Production",
+        "instances" : 1,
+        "containerInstances" : [ {
+          "id" : "78",
+          "tags" : "Container Instance",
+          "environment" : "Production",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "14"
+        } ]
+      } ]
     }, {
-      "id" : "1",
-      "tags" : "Element,Software System,Existing System",
-      "name" : "Supplier",
-      "description" : "External system used for ordering drugs",
-      "location" : "Unspecified"
+      "id" : "88",
+      "tags" : "Element,Deployment Node",
+      "name" : "Unstocking counter machine",
+      "environment" : "Production",
+      "instances" : 1,
+      "children" : [ {
+        "id" : "89",
+        "tags" : "Element,Deployment Node",
+        "name" : ".NET",
+        "description" : ".NET Core 5.0.*",
+        "environment" : "Production",
+        "instances" : 1,
+        "containerInstances" : [ {
+          "id" : "90",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "91",
+            "sourceId" : "90",
+            "destinationId" : "76",
+            "description" : "Sends unstocking request",
+            "linkedRelationshipId" : "45"
+          } ],
+          "environment" : "Production",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "10"
+        } ]
+      } ]
+    }, {
+      "id" : "84",
+      "tags" : "Element,Deployment Node",
+      "name" : "Stocking counter machine",
+      "environment" : "Production",
+      "instances" : 1,
+      "children" : [ {
+        "id" : "85",
+        "tags" : "Element,Deployment Node",
+        "name" : ".NET",
+        "description" : ".NET Core 5.0.*",
+        "environment" : "Production",
+        "instances" : 1,
+        "containerInstances" : [ {
+          "id" : "86",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "87",
+            "sourceId" : "86",
+            "destinationId" : "76",
+            "description" : "Sends stocking request",
+            "linkedRelationshipId" : "44"
+          } ],
+          "environment" : "Production",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "9"
+        } ]
+      } ]
+    }, {
+      "id" : "80",
+      "tags" : "Element,Deployment Node",
+      "name" : "Storekeeper's computer",
+      "environment" : "Production",
+      "instances" : 1,
+      "children" : [ {
+        "id" : "81",
+        "tags" : "Element,Deployment Node",
+        "name" : "Web browser",
+        "environment" : "Production",
+        "instances" : 1,
+        "containerInstances" : [ {
+          "id" : "82",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "83",
+            "sourceId" : "82",
+            "destinationId" : "76",
+            "description" : "Sends ordering requests",
+            "linkedRelationshipId" : "42"
+          } ],
+          "environment" : "Production",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "8"
+        } ]
+      } ]
+    }, {
+      "id" : "96",
+      "tags" : "Element,Deployment Node",
+      "name" : "Head nurse's computer",
+      "environment" : "Production",
+      "instances" : 20,
+      "children" : [ {
+        "id" : "97",
+        "tags" : "Element,Deployment Node",
+        "name" : "Web browser",
+        "environment" : "Production",
+        "instances" : 1,
+        "containerInstances" : [ {
+          "id" : "98",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "99",
+            "sourceId" : "98",
+            "destinationId" : "76",
+            "description" : "Records drug requests",
+            "linkedRelationshipId" : "48"
+          } ],
+          "environment" : "Production",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "13"
+        } ]
+      } ]
+    }, {
+      "id" : "92",
+      "tags" : "Element,Deployment Node",
+      "name" : "Hospital employee's work phone",
+      "environment" : "Production",
+      "instances" : 250,
+      "children" : [ {
+        "id" : "93",
+        "tags" : "Element,Deployment Node",
+        "name" : "Android/iOS",
+        "description" : "Android >=7.* / iOS >=12.*",
+        "environment" : "Production",
+        "instances" : 1,
+        "containerInstances" : [ {
+          "id" : "94",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "95",
+            "sourceId" : "94",
+            "destinationId" : "76",
+            "description" : "Requests package lifecycle",
+            "linkedRelationshipId" : "46"
+          } ],
+          "environment" : "Production",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "11"
+        } ]
+      } ]
+    }, {
+      "id" : "100",
+      "tags" : "Element,Deployment Node",
+      "name" : "Ward counter machine",
+      "environment" : "Production",
+      "instances" : 20,
+      "children" : [ {
+        "id" : "101",
+        "tags" : "Element,Deployment Node",
+        "name" : ".NET",
+        "description" : ".NET Core 5.0.*",
+        "environment" : "Production",
+        "instances" : 1,
+        "containerInstances" : [ {
+          "id" : "102",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "103",
+            "sourceId" : "102",
+            "destinationId" : "76",
+            "description" : "Records drug arrival and depletion",
+            "linkedRelationshipId" : "47"
+          } ],
+          "environment" : "Production",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "12"
+        } ]
+      } ]
     } ]
   },
   "documentation" : { },
@@ -566,20 +789,20 @@
       "externalSoftwareSystemBoundariesVisible" : true,
       "elements" : [ {
         "id" : "11",
-        "x" : 2885,
-        "y" : 1295
-      }, {
-        "id" : "12",
         "x" : 1620,
         "y" : 1240
       }, {
+        "id" : "12",
+        "x" : 2885,
+        "y" : 1315
+      }, {
         "id" : "13",
-        "x" : 2860,
-        "y" : 425
+        "x" : 2177,
+        "y" : 1315
       }, {
         "id" : "14",
-        "x" : 2135,
-        "y" : 1310
+        "x" : 2820,
+        "y" : 510
       }, {
         "id" : "15",
         "x" : 1925,
@@ -610,29 +833,23 @@
         "y" : 1975
       }, {
         "id" : "8",
-        "x" : 865,
-        "y" : 415
+        "x" : 875,
+        "y" : 395
       }, {
         "id" : "9",
-        "x" : 845,
-        "y" : 815
+        "x" : 875,
+        "y" : 870
       }, {
         "id" : "10",
-        "x" : 820,
-        "y" : 1335
+        "x" : 875,
+        "y" : 1345
       } ],
       "relationships" : [ {
-        "id" : "50"
-      }, {
         "id" : "40"
       }, {
         "id" : "41"
       }, {
-        "id" : "42",
-        "vertices" : [ {
-          "x" : 1636,
-          "y" : 473
-        } ]
+        "id" : "42"
       }, {
         "id" : "43"
       }, {
@@ -658,21 +875,343 @@
       } ]
     } ],
     "componentViews" : [ {
-      "key" : "PackageLifecycleComponentDiagram",
+      "key" : "WarehouseOrderingComponentDiagram",
+      "paperSize" : "A5_Landscape",
       "dimensions" : {
-        "width" : 3208,
-        "height" : 2180
+        "width" : 2480,
+        "height" : 1748
+      },
+      "title" : "Warehouse Ordering/Management Component Diagram",
+      "containerId" : "15",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 640,
+        "y" : 1320
+      }, {
+        "id" : "14",
+        "x" : 1385,
+        "y" : 1320
+      }, {
+        "id" : "16",
+        "x" : 405,
+        "y" : 455
+      }, {
+        "id" : "27",
+        "x" : 1630,
+        "y" : 455
+      }, {
+        "id" : "17",
+        "x" : 405,
+        "y" : 845
+      }, {
+        "id" : "28",
+        "x" : 1630,
+        "y" : 845
+      }, {
+        "id" : "8",
+        "x" : 1030,
+        "y" : 30
+      } ],
+      "relationships" : [ {
+        "id" : "50"
+      }, {
+        "id" : "51"
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "53"
+      }, {
+        "id" : "54"
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "49"
+      } ]
+    }, {
+      "key" : "WardComponentDiagram",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "title" : "Ward Component Diagram",
+      "containerId" : "15",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "22",
+        "x" : 1685,
+        "y" : 905
+      }, {
+        "id" : "12",
+        "x" : 480,
+        "y" : 30
+      }, {
+        "id" : "23",
+        "x" : 950,
+        "y" : 455
+      }, {
+        "id" : "13",
+        "x" : 1680,
+        "y" : 30
+      }, {
+        "id" : "24",
+        "x" : 950,
+        "y" : 905
+      }, {
+        "id" : "25",
+        "x" : 215,
+        "y" : 455
+      }, {
+        "id" : "14",
+        "x" : 955,
+        "y" : 1395
+      }, {
+        "id" : "26",
+        "x" : 215,
+        "y" : 905
+      }, {
+        "id" : "21",
+        "x" : 1685,
+        "y" : 455
+      } ],
+      "relationships" : [ {
+        "id" : "70"
+      }, {
+        "id" : "72"
+      }, {
+        "id" : "71"
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "65"
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "67"
+      }, {
+        "id" : "66"
+      }, {
+        "id" : "69"
+      }, {
+        "id" : "68"
+      } ]
+    }, {
+      "key" : "backendServerComponentDiagram",
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 3508,
+        "height" : 2480
       },
       "containerId" : "15",
       "externalContainerBoundariesVisible" : true,
       "elements" : [ {
         "id" : "11",
-        "x" : 2155,
-        "y" : 100
+        "x" : 1663,
+        "y" : 45
+      }, {
+        "id" : "22",
+        "x" : 2030,
+        "y" : 1110
       }, {
         "id" : "12",
+        "x" : 2800,
+        "y" : 120
+      }, {
+        "id" : "23",
+        "x" : 2515,
+        "y" : 635
+      }, {
+        "id" : "13",
+        "x" : 2035,
+        "y" : 120
+      }, {
+        "id" : "24",
+        "x" : 2530,
+        "y" : 1110
+      }, {
+        "id" : "25",
+        "x" : 3000,
+        "y" : 635
+      }, {
+        "id" : "14",
+        "x" : 745,
+        "y" : 2030
+      }, {
+        "id" : "26",
+        "x" : 2195,
+        "y" : 1590
+      }, {
+        "id" : "16",
+        "x" : 115,
+        "y" : 635
+      }, {
+        "id" : "27",
+        "x" : 595,
+        "y" : 635
+      }, {
+        "id" : "28",
+        "x" : 587,
+        "y" : 1110
+      }, {
+        "id" : "17",
+        "x" : 110,
+        "y" : 1110
+      }, {
+        "id" : "18",
+        "x" : 1075,
+        "y" : 635
+      }, {
+        "id" : "19",
+        "x" : 1065,
+        "y" : 1110
+      }, {
+        "id" : "1",
+        "x" : 175,
+        "y" : 2035
+      }, {
+        "id" : "8",
+        "x" : 100,
+        "y" : 120
+      }, {
+        "id" : "9",
+        "x" : 621,
+        "y" : 120
+      }, {
+        "id" : "20",
+        "x" : 1555,
+        "y" : 635
+      }, {
+        "id" : "10",
+        "x" : 1142,
+        "y" : 120
+      }, {
+        "id" : "21",
+        "x" : 2035,
+        "y" : 635
+      } ],
+      "relationships" : [ {
+        "id" : "70"
+      }, {
+        "id" : "72"
+      }, {
+        "id" : "50"
+      }, {
+        "id" : "71"
+      }, {
+        "id" : "51"
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "53"
+      }, {
+        "id" : "54"
+      }, {
+        "id" : "67"
+      }, {
+        "id" : "66"
+      }, {
+        "id" : "69",
+        "vertices" : [ {
+          "x" : 3235,
+          "y" : 1520
+        } ]
+      }, {
+        "id" : "68"
+      }, {
+        "id" : "49"
+      }, {
+        "id" : "61"
+      }, {
+        "id" : "60"
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "62",
+        "vertices" : [ {
+          "x" : 1780,
+          "y" : 1265
+        } ]
+      }, {
+        "id" : "65"
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "56"
+      }, {
+        "id" : "57"
+      }, {
+        "id" : "58"
+      }, {
+        "id" : "59"
+      } ]
+    }, {
+      "key" : "WarehouseStockingComponentDiagram",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "title" : "Warehouse Stocking Component Diagram",
+      "containerId" : "15",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "14",
+        "x" : 1015,
+        "y" : 1350
+      }, {
+        "id" : "26",
+        "x" : 1320,
+        "y" : 885
+      }, {
+        "id" : "18",
+        "x" : 590,
+        "y" : 485
+      }, {
+        "id" : "19",
+        "x" : 600,
+        "y" : 885
+      }, {
+        "id" : "9",
+        "x" : 185,
+        "y" : 20
+      }, {
+        "id" : "10",
+        "x" : 985,
+        "y" : 20
+      } ],
+      "relationships" : [ {
+        "id" : "60"
+      }, {
+        "id" : "56"
+      }, {
+        "id" : "66"
+      }, {
+        "id" : "57"
+      }, {
+        "id" : "58"
+      }, {
+        "id" : "59"
+      } ]
+    }, {
+      "key" : "PackageLifecycleComponentDiagram",
+      "dimensions" : {
+        "width" : 3208,
+        "height" : 2180
+      },
+      "title" : "Package Lifecycle Component Diagram",
+      "containerId" : "15",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
         "x" : 1385,
         "y" : 20
+      }, {
+        "id" : "12",
+        "x" : 2155,
+        "y" : 100
       }, {
         "id" : "23",
         "x" : 2400,
@@ -682,13 +1221,13 @@
         "x" : 2395,
         "y" : 1130
       }, {
-        "id" : "13",
-        "x" : 1595,
-        "y" : 1715
-      }, {
         "id" : "25",
         "x" : 1900,
         "y" : 600
+      }, {
+        "id" : "14",
+        "x" : 1595,
+        "y" : 1715
       }, {
         "id" : "26",
         "x" : 1600,
@@ -721,345 +1260,149 @@
       }, {
         "id" : "72"
       }, {
-        "id" : "71"
-      }, {
         "id" : "60"
       }, {
-        "id" : "63"
+        "id" : "71"
       }, {
         "id" : "62"
       }, {
-        "id" : "73"
-      }, {
         "id" : "67"
-      }, {
-        "id" : "57"
-      }, {
-        "id" : "69"
-      }, {
-        "id" : "58"
-      }, {
-        "id" : "68"
-      }, {
-        "id" : "59"
-      } ]
-    }, {
-      "key" : "WarehouseOrderingComponentDiagram",
-      "paperSize" : "A5_Landscape",
-      "dimensions" : {
-        "width" : 2480,
-        "height" : 1748
-      },
-      "containerId" : "15",
-      "externalContainerBoundariesVisible" : true,
-      "elements" : [ {
-        "id" : "1",
-        "x" : 580,
-        "y" : 1310
-      }, {
-        "id" : "13",
-        "x" : 1090,
-        "y" : 1325
-      }, {
-        "id" : "16",
-        "x" : 575,
-        "y" : 455
-      }, {
-        "id" : "27",
-        "x" : 1275,
-        "y" : 455
-      }, {
-        "id" : "17",
-        "x" : 575,
-        "y" : 845
-      }, {
-        "id" : "28",
-        "x" : 1275,
-        "y" : 860
-      }, {
-        "id" : "8",
-        "x" : 915,
-        "y" : 15
-      } ],
-      "relationships" : [ {
-        "id" : "51"
-      }, {
-        "id" : "52"
-      }, {
-        "id" : "53"
-      }, {
-        "id" : "54"
-      }, {
-        "id" : "55"
       }, {
         "id" : "56"
       }, {
-        "id" : "49"
-      } ]
-    }, {
-      "key" : "WarehouseStockingComponentDiagram",
-      "paperSize" : "A5_Landscape",
-      "dimensions" : {
-        "width" : 2480,
-        "height" : 1748
-      },
-      "containerId" : "15",
-      "externalContainerBoundariesVisible" : true,
-      "elements" : [ {
-        "id" : "13",
-        "x" : 1015,
-        "y" : 1350
-      }, {
-        "id" : "26",
-        "x" : 1320,
-        "y" : 885
-      }, {
-        "id" : "18",
-        "x" : 590,
-        "y" : 485
-      }, {
-        "id" : "19",
-        "x" : 600,
-        "y" : 885
-      }, {
-        "id" : "9",
-        "x" : 185,
-        "y" : 20
-      }, {
-        "id" : "10",
-        "x" : 985,
-        "y" : 20
-      } ],
-      "relationships" : [ {
-        "id" : "61"
-      }, {
-        "id" : "60"
-      }, {
-        "id" : "67"
+        "id" : "66"
       }, {
         "id" : "57"
+      }, {
+        "id" : "69"
+      }, {
+        "id" : "68"
       }, {
         "id" : "58"
       }, {
         "id" : "59"
       } ]
-    }, {
-      "key" : "WardComponentDiagram",
-      "paperSize" : "A5_Landscape",
-      "dimensions" : {
-        "width" : 2480,
-        "height" : 1748
-      },
-      "containerId" : "15",
-      "externalContainerBoundariesVisible" : true,
-      "elements" : [ {
-        "id" : "22",
-        "x" : 1390,
-        "y" : 890
-      }, {
-        "id" : "11",
-        "x" : 480,
-        "y" : 20
-      }, {
-        "id" : "23",
-        "x" : 835,
-        "y" : 450
-      }, {
-        "id" : "24",
-        "x" : 835,
-        "y" : 895
-      }, {
-        "id" : "13",
-        "x" : 840,
-        "y" : 1345
-      }, {
-        "id" : "14",
-        "x" : 1380,
-        "y" : 15
-      }, {
-        "id" : "25",
-        "x" : 215,
-        "y" : 455
-      }, {
-        "id" : "26",
-        "x" : 215,
-        "y" : 890
-      }, {
-        "id" : "21",
-        "x" : 1390,
-        "y" : 455
-      } ],
-      "relationships" : [ {
-        "id" : "70"
-      }, {
-        "id" : "72"
-      }, {
-        "id" : "71"
-      }, {
-        "id" : "73"
-      }, {
-        "id" : "65"
-      }, {
-        "id" : "64"
-      }, {
-        "id" : "67"
-      }, {
-        "id" : "66"
-      }, {
-        "id" : "69"
-      }, {
-        "id" : "68"
-      } ]
-    }, {
-      "key" : "backendServerComponentDiagram",
+    } ],
+    "deploymentViews" : [ {
+      "softwareSystemId" : "7",
+      "key" : "productionDeploymentDiagram",
       "paperSize" : "A4_Landscape",
       "dimensions" : {
         "width" : 3508,
         "height" : 2480
       },
-      "containerId" : "15",
-      "externalContainerBoundariesVisible" : true,
+      "environment" : "Production",
       "elements" : [ {
-        "id" : "11",
-        "x" : 2795,
-        "y" : 40
+        "id" : "88",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "22",
-        "x" : 2010,
-        "y" : 895
+        "id" : "89",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "12",
-        "x" : 1720,
-        "y" : -100
+        "id" : "90",
+        "x" : 225,
+        "y" : 975
       }, {
-        "id" : "23",
-        "x" : 2525,
-        "y" : 485
+        "id" : "92",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "24",
-        "x" : 2530,
-        "y" : 890
+        "id" : "93",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "13",
-        "x" : 810,
-        "y" : 1955
+        "id" : "94",
+        "x" : 1220,
+        "y" : 1650
       }, {
-        "id" : "14",
-        "x" : 2045,
-        "y" : 45
+        "id" : "73",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "25",
-        "x" : 2990,
-        "y" : 485
+        "id" : "74",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "26",
-        "x" : 2170,
-        "y" : 1495
+        "id" : "96",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "16",
-        "x" : 105,
-        "y" : 480
+        "id" : "75",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "27",
-        "x" : 585,
-        "y" : 475
+        "id" : "97",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "17",
-        "x" : 110,
-        "y" : 890
+        "id" : "76",
+        "x" : 1570,
+        "y" : 245
       }, {
-        "id" : "28",
-        "x" : 585,
-        "y" : 890
+        "id" : "98",
+        "x" : 1920,
+        "y" : 1755
       }, {
-        "id" : "18",
-        "x" : 1065,
-        "y" : 480
+        "id" : "77",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "19",
-        "x" : 1065,
-        "y" : 890
+        "id" : "78",
+        "x" : 2660,
+        "y" : 315
       }, {
-        "id" : "1",
-        "x" : 105,
-        "y" : 1955
+        "id" : "100",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "8",
-        "x" : 100,
-        "y" : 25
+        "id" : "101",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "9",
-        "x" : 720,
-        "y" : 20
+        "id" : "102",
+        "x" : 2820,
+        "y" : 1720
       }, {
-        "id" : "20",
-        "x" : 1535,
-        "y" : 475
+        "id" : "80",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "21",
-        "x" : 2005,
-        "y" : 480
+        "id" : "81",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "10",
-        "x" : 1225,
-        "y" : 20
+        "id" : "82",
+        "x" : 220,
+        "y" : 195
+      }, {
+        "id" : "84",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "85",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "86",
+        "x" : 245,
+        "y" : 1765
       } ],
       "relationships" : [ {
-        "id" : "70",
-        "vertices" : [ {
-          "x" : 3220,
-          "y" : 1195
-        } ]
+        "id" : "83"
       }, {
-        "id" : "72"
+        "id" : "91"
       }, {
-        "id" : "71"
+        "id" : "87"
       }, {
-        "id" : "51"
+        "id" : "95"
       }, {
-        "id" : "73"
+        "id" : "99"
       }, {
-        "id" : "52"
+        "id" : "79"
       }, {
-        "id" : "53"
-      }, {
-        "id" : "54"
-      }, {
-        "id" : "67"
-      }, {
-        "id" : "66"
-      }, {
-        "id" : "69"
-      }, {
-        "id" : "68"
-      }, {
-        "id" : "49"
-      }, {
-        "id" : "61"
-      }, {
-        "id" : "60"
-      }, {
-        "id" : "63",
-        "vertices" : [ {
-          "x" : 1760,
-          "y" : 1180
-        } ]
-      }, {
-        "id" : "62"
-      }, {
-        "id" : "65"
-      }, {
-        "id" : "64"
-      }, {
-        "id" : "55"
-      }, {
-        "id" : "56"
-      }, {
-        "id" : "57"
-      }, {
-        "id" : "58"
-      }, {
-        "id" : "59"
+        "id" : "103"
       } ]
     } ],
     "configuration" : {
@@ -1088,7 +1431,7 @@
       },
       "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
       "terminology" : { },
-      "lastSavedView" : "PackageLifecycleComponentDiagram"
+      "lastSavedView" : "WarehouseOrderingComponentDiagram"
     }
   }
 }

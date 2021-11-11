@@ -11,18 +11,21 @@ workspace {
         
         drugMonitoring = softwareSystem "Drug Monitoring" "" "" {
 
-            warehouseManagementApp = container "Warehouse Management App" "Provides warehouse overview and allows drug ordering" "Web application" "Website"
+            group "Warehouse" {
+                warehouseManagementApp = container "Warehouse Management App" "Provides warehouse overview and allows drug ordering" "Web application" "Website"
 
-            stockingCounter = container "Stocking Counter" "Records new packages as being stocked" "Native application" ""
-            unstockingCounter = container "Unstocking Counter" "Records packages as leaving the warehouse" "Native application" ""
-
-            wardCounter = container "Ward Counter" "Allows drug requests and arrival and depletion recording" "Native application" ""
+                stockingCounter = container "Stocking Counter" "Records new packages as being stocked" "Native application" ""
+                unstockingCounter = container "Unstocking Counter" "Records packages as leaving the warehouse" "Native application" ""
+            }
 
             lifecycleMonitoringApp = container "Lifecycle Monitoring App" "Displays package lifecycle" "Mobile application" "Mobile"
-            
-            database = container "Database" "Stores state for the entire system" "Relational databse" "Database"
 
-            requestManagementApp = container "Request Management App" "Allows drug requests" "Web application" "Website"
+            group "Hospital Ward" {
+                wardCounter = container "Ward Counter" "Allows drug requests and arrival and depletion recording" "Native application" ""
+                requestManagementApp = container "Request Management App" "Allows drug requests" "Web application" "Website"
+            }
+
+            database = container "Database" "Stores state for the entire system" "Relational databse" "Database"
 
             backendServer = container "Backend Server" "Handles business logic" "PHP" "" {
                 orderingController = component "Ordering Controller" "Allows users to place drug orders" "Laravel REST Controller" "Controller"
@@ -36,13 +39,9 @@ workspace {
                 arrivalComponent = component "Arrival Component" "Handles arrival events"
                 depletionController = component "Depletion Controller" "Records package depletion" "Laravel REST Controller" "Controller"
                 packageLifecycleComponent = component "Package Lifecycle Component" "Updates package lifecycle status" 
-                warehouseManagementController = component "Warehouse Management Controller" "Provides warehouse overview" "Laravel REST Controller" "Controller"
-                warehouseManagementComponent = component "Warehouse Management Component" "Aggregates warehouse stock of packages"
-
-
+                warehouseManagementController = component "Warehouse Management Controller" "Returns warehouse state and drug requests" "Laravel REST Controller" "Controller"
+                warehouseManagementComponent = component "Warehouse Management Component" "Summarizes warehouse state and lists drug requests"
             }
-
-
         }
 
         // software system relationships
@@ -62,9 +61,8 @@ workspace {
         headNurse -> requestManagementApp "Requests drug packages"
         backendServer -> supplier "Makes drug orders"
 
-
         // container to container relationships
-        backendServer -> warehouseManagementApp "Serves"
+        warehouseManagementApp -> backendServer "Sends ordering requests"
         backendServer -> database "Uses"
         stockingCounter -> backendServer "Sends stocking request"
         unstockingCounter -> backendServer "Sends unstocking request"
@@ -76,30 +74,78 @@ workspace {
         warehouseManagementApp -> orderingController "Makes API calls to" "JSON/HTTPS"
         orderingController -> orderingComponent "Uses" 
         orderingComponent -> supplier "Sends orders" "SOAP"
-        orderingComponent -> database "Uses"
+        orderingComponent -> database "Records orders"
         warehouseManagementApp -> warehouseManagementController "Makes API calls to" "JSON/HTTPS"
         warehouseManagementController -> warehouseManagementComponent "Uses"
-        warehouseManagementComponent -> database "Reads/Writes" "SQL"
+        warehouseManagementComponent -> database "Reads warehouse state and drug requests" "SQL"
         stockingCounter -> stockingController "Makes API calls to" "JSON/HTTPS"
         stockingController -> stockingComponent "Uses"
-        stockingComponent -> packageLifecycleComponent "Uses"
-        stockingComponent -> database "Reads/Writes" "SQL"
+        stockingComponent -> packageLifecycleComponent "Reports changes to"
+        stockingComponent -> database "Modifies warehouse state" "SQL"
         unstockingCounter -> stockingController "Makes API calls to" "JSON/HTTPS"
         lifecycleMonitoringApp -> lifecycleController "Makes API calls to" "JSON/HTTPS"
-        lifecycleController -> packageLifecycleComponent "Uses"
+        lifecycleController -> packageLifecycleComponent "Reads from"
         requestManagementApp -> drugRequestController "Makes API calls to" "JSON/HTTPS"
         drugRequestController -> drugRequestComponent "Uses"
         drugRequestComponent -> database "Writes" "SQL"
-        packageLifecycleComponent -> database "Reads/Writes" "SQL"
+        packageLifecycleComponent -> database "Reads/modifies package lifecycle state" "SQL"
         wardCounter -> arrivalController "Makes API calls to" "JSON/HTTPS"
         wardCounter -> depletionController "Makes API calls to" "JSON/HTTPS"
-        depletionController -> packageLifecycleComponent "Uses"
+        depletionController -> packageLifecycleComponent "Reports depletions to"
         arrivalController -> arrivalComponent "Uses"
-        arrivalComponent -> packageLifecycleComponent "Uses"
-        arrivalComponent -> database "Reads/Writes" "SQL"
+        arrivalComponent -> packageLifecycleComponent "Reports arrivals to"
+        arrivalComponent -> database "Acknowledges package arrivals" "SQL"
 
+        deploymentEnvironment "Production" {
+            deploymentNode "Hospital server" "" "" {
 
+                deploymentNode "Nginx" "Nginx 1.18.*" "" {
+                    deploymentNode "PHP" "PHP FPM 7.4.*" "" {
+                        containerInstance backendServer
+                    }
+                }
 
+                deploymentNode "MySQL" "MySQL Community Server 8.0.*" "" {
+                    containerInstance database
+                }
+            }
+
+            deploymentNode "Storekeeper's computer" "" "" {
+                deploymentNode "Web browser" "" "" {
+                    containerInstance warehouseManagementApp
+                }
+            }
+
+            deploymentNode "Stocking counter machine" "" "" {
+                deploymentNode ".NET" ".NET Core 5.0.*" "" {
+                    containerInstance stockingCounter
+                }
+            }
+
+            deploymentNode "Unstocking counter machine" "" "" {
+                deploymentNode ".NET" ".NET Core 5.0.*" "" {
+                    containerInstance unstockingCounter
+                }
+            }
+
+            deploymentNode "Hospital employee's work phone" "" "" "" 250 {
+                deploymentNode "Android/iOS" "Android >=7.* / iOS >=12.*" "" {
+                    containerInstance lifecycleMonitoringApp
+                }
+            }
+
+            deploymentNode "Head nurse's computer" "" "" "" 20 {
+                deploymentNode "Web browser" "" "" {
+                    containerInstance requestManagementApp
+                }
+            }
+
+            deploymentNode "Ward counter machine" "" "" "" 20 {
+                deploymentNode ".NET" ".NET Core 5.0.*" "" {
+                    containerInstance wardCounter
+                }
+            }
+        }
     }
 
     views {
@@ -116,6 +162,8 @@ workspace {
         }
 
         component backendServer "WarehouseOrderingComponentDiagram" {
+            title "Warehouse Ordering/Management Component Diagram"
+
             include warehouseManagementApp
             include orderingController
             include orderingComponent
@@ -126,6 +174,8 @@ workspace {
         }
 
         component backendServer "WarehouseStockingComponentDiagram" {
+            title "Warehouse Stocking Component Diagram"
+
             include stockingCounter
             include unstockingCounter
             include stockingController
@@ -135,6 +185,8 @@ workspace {
         }
 
         component backendServer "PackageLifecycleComponentDiagram" {
+            title "Package Lifecycle Component Diagram"
+
             include stockingCounter
             include unstockingCounter
             include stockingController
@@ -153,6 +205,8 @@ workspace {
         }
 
         component backendServer "WardComponentDiagram" {
+            title "Ward Component Diagram"
+
             include requestManagementApp
             include drugRequestController
             include drugRequestComponent
@@ -165,6 +219,10 @@ workspace {
             include packageLifecycleComponent
             include database
 
+        }
+        
+        deployment drugMonitoring "Production" "productionDeploymentDiagram" {
+            include *
         }
 
         theme default

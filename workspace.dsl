@@ -5,7 +5,7 @@ workspace {
 
         storekeeper = person "Storekeeper" "Makes sure the warehouse has drugs on stock"
         warehouseWorker = person "Warehouse Worker" "Stocks and unstocks packgages"
-        wardWorker = person "Ward Worker" "Requests drugs, records their arrival and depletion"
+        wardWorker = person "Ward Worker" "Records drug arrival and depletion"
         employee = person "Hospital Employee" "Any employee, can view package lifecycle"
         headNurse = person "Head Nurse" "Head nurse makes drug requests to the warehouse"
         

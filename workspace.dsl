@@ -40,6 +40,10 @@ workspace {
                 packageLifecycleComponent = component "Package Lifecycle Component" "Updates package lifecycle status" 
                 warehouseManagementController = component "Warehouse Management Controller" "Returns warehouse state and drug requests" "Laravel REST Controller" "Controller"
                 warehouseManagementComponent = component "Warehouse Management Component" "Summarizes warehouse state and lists drug requests"
+
+                warehouseObjectModel = component "Warehouse Object Model" "Translates requests into optimized database queries"
+                wardObjectModel = component "Ward Object Model" "Translates requests into optimized database queries"
+                lifecycleObjectModel = component "Package Lifecycle Object Model" "Translates requests into optimized database queries"
             }
         }
 
@@ -71,26 +75,30 @@ workspace {
         warehouseManagementApp -> orderingController "Makes API calls to" "JSON/HTTPS"
         orderingController -> orderingComponent "Uses" 
         orderingComponent -> supplier "Sends orders" "SOAP"
-        orderingComponent -> database "Records orders"
+        orderingComponent -> warehouseObjectModel "Records orders"
         warehouseManagementApp -> warehouseManagementController "Makes API calls to" "JSON/HTTPS"
         warehouseManagementController -> warehouseManagementComponent "Uses"
-        warehouseManagementComponent -> database "Reads warehouse state and drug requests" "SQL"
+        warehouseManagementComponent -> warehouseObjectModel "Reads warehouse state and drug requests"
         stockingCounter -> stockingController "Makes API calls to" "JSON/HTTPS"
         stockingController -> stockingComponent "Uses"
         stockingComponent -> packageLifecycleComponent "Reports changes to"
-        stockingComponent -> database "Modifies warehouse state" "SQL"
+        stockingComponent -> warehouseObjectModel "Modifies warehouse state"
         lifecycleMonitoringApp -> lifecycleController "Makes API calls to" "JSON/HTTPS"
         lifecycleController -> packageLifecycleComponent "Reads from"
         requestManagementApp -> drugRequestController "Makes API calls to" "JSON/HTTPS"
         drugRequestController -> drugRequestComponent "Uses"
-        drugRequestComponent -> database "Writes" "SQL"
-        packageLifecycleComponent -> database "Reads/modifies package lifecycle state" "SQL"
+        drugRequestComponent -> wardObjectModel "Writes"
+        packageLifecycleComponent -> lifecycleObjectModel "Reads/modifies package lifecycle state"
         wardCounter -> arrivalController "Makes API calls to" "JSON/HTTPS"
         wardCounter -> depletionController "Makes API calls to" "JSON/HTTPS"
         depletionController -> packageLifecycleComponent "Reports depletions to"
         arrivalController -> arrivalComponent "Uses"
         arrivalComponent -> packageLifecycleComponent "Reports arrivals to"
-        arrivalComponent -> database "Acknowledges package arrivals" "SQL"
+        arrivalComponent -> wardObjectModel "Acknowledges package arrivals"
+
+        warehouseObjectModel -> database "Reads/Writes" "SQL"
+        wardObjectModel -> database "Reads/Writes" "SQL"
+        lifecycleObjectModel -> database "Reads/Writes" "SQL"
 
         deploymentEnvironment "Production" {
             deploymentNode "Hospital server" "" "" {
@@ -169,6 +177,7 @@ workspace {
             include orderingComponent
             include warehouseManagementController
             include warehouseManagementComponent
+            include warehouseObjectModel
             include database
             include supplier
         }
@@ -180,6 +189,8 @@ workspace {
             include stockingController
             include stockingComponent
             include packageLifecycleComponent
+            include warehouseObjectModel
+            include lifecycleObjectModel
             include database
         }
 
@@ -199,6 +210,10 @@ workspace {
             include depletionController
 
             include packageLifecycleComponent
+
+            include warehouseObjectModel
+            include wardObjectModel
+            include lifecycleObjectModel
             include database
         }
 
@@ -215,6 +230,9 @@ workspace {
             include depletionController
 
             include packageLifecycleComponent
+
+            include wardObjectModel
+            include lifecycleObjectModel
             include database
 
         }

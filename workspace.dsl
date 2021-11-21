@@ -242,6 +242,17 @@ workspace {
             exclude stockingCounter -> backendServer
         }
 
+        dynamic backendServer "OrderingDynamicView" "Placing an order with the supplier scenario"  {
+            warehouseManagementApp -> orderingController "Send HTTPS request to order from the supplier"
+            orderingController -> orderingComponent "Calling component ordering functionality"
+            orderingComponent -> supplier "Placing an order with the supplier"
+            supplier -> orderingComponent "Confirming order"
+            orderingComponent -> warehouseObjectModel "Saving a record of the order"
+            warehouseObjectModel -> database "Writing the record to the database"
+            orderingComponent -> orderingController "Calling functionality to send confirmation of the order"
+            orderingController -> warehouseManagementApp "Send an HTTPS message confirming the order"
+        }
+
         theme default
 
         styles {

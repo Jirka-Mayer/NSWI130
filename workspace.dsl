@@ -14,8 +14,7 @@ workspace {
             group "Warehouse" {
                 warehouseManagementApp = container "Warehouse Management App" "Provides warehouse overview and allows drug ordering" "Web application" "Website"
 
-                stockingCounter = container "Stocking Counter" "Records new packages as being stocked" "Native application" ""
-                unstockingCounter = container "Unstocking Counter" "Records packages as leaving the warehouse" "Native application" ""
+                stockingCounter = container "Stocking Counter" "Records new packages being stocked and pakcages leaving the warehouse" "Native application" ""
             }
 
             lifecycleMonitoringApp = container "Lifecycle Monitoring App" "Displays package lifecycle" "Mobile application" "Mobile"
@@ -54,8 +53,7 @@ workspace {
 
         // external to container relationships
         storekeeper -> warehouseManagementApp "Oversees warehouse and orders drugs"
-        warehouseWorker -> stockingCounter "Stocks new packages"
-        warehouseWorker -> unstockingCounter "Unstocks packages to be sent to wards"
+        warehouseWorker -> stockingCounter "Stocks new packages and unstocks packages to be sent to wards"
         wardWorker -> wardCounter "Requests packages, records their arrival and depletion"
         employee -> lifecycleMonitoringApp "Views lifetime of a package"
         headNurse -> requestManagementApp "Requests drug packages"
@@ -64,8 +62,7 @@ workspace {
         // container to container relationships
         warehouseManagementApp -> backendServer "Sends ordering requests"
         backendServer -> database "Uses"
-        stockingCounter -> backendServer "Sends stocking request"
-        unstockingCounter -> backendServer "Sends unstocking request"
+        stockingCounter -> backendServer "Sends stocking/unstocking requests"
         lifecycleMonitoringApp -> backendServer "Requests package lifecycle"
         wardCounter -> backendServer "Records drug arrival and depletion"
         requestManagementApp -> backendServer "Records drug requests"
@@ -82,7 +79,6 @@ workspace {
         stockingController -> stockingComponent "Uses"
         stockingComponent -> packageLifecycleComponent "Reports changes to"
         stockingComponent -> database "Modifies warehouse state" "SQL"
-        unstockingCounter -> stockingController "Makes API calls to" "JSON/HTTPS"
         lifecycleMonitoringApp -> lifecycleController "Makes API calls to" "JSON/HTTPS"
         lifecycleController -> packageLifecycleComponent "Reads from"
         requestManagementApp -> drugRequestController "Makes API calls to" "JSON/HTTPS"
@@ -99,7 +95,7 @@ workspace {
         deploymentEnvironment "Production" {
             deploymentNode "Hospital server" "" "" {
 
-                deploymentNode "Nginx" "Nginx 1.18.*" "" {
+                beckendServerDeployment = deploymentNode "Nginx" "Nginx 1.18.*" "" {
                     deploymentNode "PHP" "PHP FPM 7.4.*" "" {
                         containerInstance backendServer
                     }
@@ -116,15 +112,15 @@ workspace {
                 }
             }
 
-            deploymentNode "Stocking counter machine" "" "" {
+            stockingCounterDeployment = deploymentNode "Stocking counter machine" "" "" {
                 deploymentNode ".NET" ".NET Core 5.0.*" "" {
                     containerInstance stockingCounter
                 }
             }
 
-            deploymentNode "Unstocking counter machine" "" "" {
+            unstockingCounterDeployment = deploymentNode "Unstocking counter machine" "" "" {
                 deploymentNode ".NET" ".NET Core 5.0.*" "" {
-                    containerInstance unstockingCounter
+                    containerInstance stockingCounter
                 }
             }
 
@@ -145,6 +141,10 @@ workspace {
                     containerInstance wardCounter
                 }
             }
+
+            // Relationships
+            stockingCounterDeployment -> beckendServerDeployment "Sends stocking requests"
+            unstockingCounterDeployment -> beckendServerDeployment "Sends unstocking requests"
         }
     }
 
@@ -177,7 +177,6 @@ workspace {
             title "Warehouse Stocking Component Diagram"
 
             include stockingCounter
-            include unstockingCounter
             include stockingController
             include stockingComponent
             include packageLifecycleComponent
@@ -188,7 +187,6 @@ workspace {
             title "Package Lifecycle Component Diagram"
 
             include stockingCounter
-            include unstockingCounter
             include stockingController
             include stockingComponent
 
@@ -223,6 +221,7 @@ workspace {
         
         deployment drugMonitoring "Production" "productionDeploymentDiagram" {
             include *
+            exclude stockingCounter -> backendServer
         }
 
         theme default

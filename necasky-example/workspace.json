@@ -3,8 +3,8 @@
   "name" : "Public Data Space",
   "description" : "This workspace documents the architecture of the Public Data Space which enables public institutions in Czechia to share public data among each other in a guaranteed way.",
   "revision" : 0,
-  "lastModifiedDate" : "2021-09-28T16:00:25Z",
-  "lastModifiedAgent" : "structurizr-web/2502",
+  "lastModifiedDate" : "2021-11-21T23:24:47Z",
+  "lastModifiedAgent" : "structurizr-web/2544/diagram",
   "properties" : {
     "structurizr.dsl" : "d29ya3NwYWNlICJQdWJsaWMgRGF0YSBTcGFjZSIgIlRoaXMgd29ya3NwYWNlIGRvY3VtZW50cyB0aGUgYXJjaGl0ZWN0dXJlIG9mIHRoZSBQdWJsaWMgRGF0YSBTcGFjZSB3aGljaCBlbmFibGVzIHB1YmxpYyBpbnN0aXR1dGlvbnMgaW4gQ3plY2hpYSB0byBzaGFyZSBwdWJsaWMgZGF0YSBhbW9uZyBlYWNoIG90aGVyIGluIGEgZ3VhcmFudGVlZCB3YXkuIiB7CgogICAgbW9kZWwgewogICAgICAgIGVudGVycHJpc2UgIlB1YmxpYyBEYXRhIFNwYWNlIiB7CiAgICAgICAgICAgIHN0b3JhZ2UgPSBzb2Z0d2FyZVN5c3RlbSAiQ29udGVudCBTdG9yYWdlIiAiU3RvcmVzIGNvbnRlbnQgb2YgZGF0YSBzZXRzIG9mIG9uZSBvciBtb3JlIGRhdGEgcHJvdmlkZXJzIGFuZCBlbmFibGVzIGRhdGEgY29uc3VtZXJzIHRvIGFjY2VzcyB0aGUgY29udGVudCAoZG93bmxvYWQgb3IgcXVlcnkpLiIgICAgewogICAgICAgICAgICAgICAgZmlsZVN0b3JhZ2UgPSBjb250YWluZXIgIkZpbGUgU3RvcmFnZSIgIlN0b3JlcyB0aGUgY29udGVudCBvZiBkYXRhIHNldHMgYXMgaW5kaXZpZHVhbCBkYXRhIGZpbGVzIGluIGRpZmZlcmVudCBmb3JtYXRzIGRlZmluZWQgYnkgRm9ybWFsIE9wZW4gU3BlY2lmaWNhdGlvbnMuIiAiVW5peCBmaWxlIHN5c3RlbSIgIlN0b3JhZ2UiICB7CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZGZEYXRhYmFzZSA9IGNvbnRhaW5lciAiRGF0YWJhc2UiICJTdG9yZXMgdGhlIGNvbnRlbnQgb2YgZGF0YSBzZXRzIHJlcHJlc2VudGVkIGFzIFJERiB0cmlwbGVzIGFuZCBwcm92aWRlcyBhIFNQQVJRTCBlbmRwb2ludCBmb3IgcXVlcnlpbmcgdGhlIGRhdGEgc2V0cy4iICJSREYgdHJpcGxlIHN0b3JlIiAiU3RvcmFnZSIgewogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcXVlcnlFZGl0b3IgPSBjb250YWluZXIgIlF1ZXJ5IEVkaXRvciIgIlByb3ZpZGVzIGEgdXNlciBpbnRlcmZhY2UgZm9yIHdyaXRpbmcgYW5kIGV4ZWN1dGluZyBTUEFSUUwgcXVlcmllcyBvbiB0aGUgU1BBUlFMIGVuZHBvaW50IGFuZCBmb3Igdmlld2luZyB0aGUgcXVlcnkgcmVzdWx0cy4iICJZYXNndWkgU1BBUlFMIGVkaXRvciIgIldlYiBCcm93c2VyIiAgewogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdHJhbnNmb3JtYXRvciA9IGNvbnRhaW5lciAiQ29udGVudCBUcmFuc2Zvcm1hdG9yIiAiVHJhbnNmb3JtcyB0aGUgY29udGVudCBvZiBkYXRhIHNldHMgc2VudCBieSBkYXRhIHB1Ymxpc2hpbmcgc3lzdGVtcyB0byBkYXRhIGZvcm1hdHMgZGVmaW5lZCBieSBGb3JtYWwgT3BlbiBTcGVjaWZpY2F0aW9ucy4iICJMaW5rZWRQaXBlcyBFVEwiICJFVEwiIHsKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNvbnRlbnRNYW5hZ2VtZW50QXBwID0gY29udGFpbmVyICJDb250ZW50IE1hbmFnZW1lbnQgQXBwbGljYXRpb24iICJQcm92aWRlcyBhbGwgdGhlIERhdGEgc2V0IHN0b3JhZ2UgZnVuY3Rpb25hbGl0eSB0byBkYXRhIHB1Ymxpc2hpbmcgYW5kIGNvbnN1bXB0aW9uIHN5c3RlbXMuIiAgewogICAgICAgICAgICAgICAgICAgIGNvbnRlbnRVcGxvYWRDb250cm9sbGVyID0gY29tcG9uZW50ICJDb250ZW50IFVwbG9hZCBDb250cm9sbGVyIiAiQWxsb3dzIGRhdGEgcHVibGlzaGluZyBzeXN0ZW1zIHRvIHVwbG9hZCBhbmQgc3RvcmUgY29udGVudCBvZiBuZXcgZGF0YSBzZXRzIG9yIHVwZGF0ZSB0aGUgZXhpc3Rpbmcgb25lcy4iCiAgICAgICAgICAgICAgICAgICAgY29udGVudFJlbW92YWxDb250cm9sbGVyID0gY29tcG9uZW50ICJDb250ZW50IFJlbW92YWwgQ29udHJvbGxlciIgIkFsbG93cyBkYXRhIHB1Ymxpc2hpbmcgc3lzdGVtcyB0byByZW1vdmUgc3RvcmVkIGNvbnRlbnQuIgogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIGNvbnRlbnRWYWxpZGF0aW9uQ29tcG9uZW50ID0gY29tcG9uZW50ICJDb250ZW50IFZhbGlkYXRpb24gQ29tcG9uZW50IiAiUGVyZm9ybXMgdmFsaWRhdGlvbiBvZiBzdXBwbGllZCBjb250ZW50IG9mIGRhdGEgc2V0cyBpbiBzdXBwb3J0ZWQgZGF0YSBmb3JtYXRzIgogICAgICAgICAgICAgICAgICAgIHZhbGlkYXRvciA9IGNvbXBvbmVudCAiQ29udGVudCBWYWxpZGF0b3IiICJWYWxpZGF0ZXMgdGhlIGNvbnRlbnQgb2YgZGF0YSBzZXRzIHNlbnQgYnkgZGF0YSBwdWJsaXNoaW5nIHN5c3RlbXMuIgogICAgICAgICAgICAgICAgICAgIHhtbFZhbGlkYXRvciA9IGNvbXBvbmVudCAiWE1MIENvbnRlbnQgVmFsaWRhdG9yIiAiVmFsaWRhdGVzIFhNTCBjb250ZW50LiIKICAgICAgICAgICAgICAgICAgICBqc29uVmFsaWRhdG9yID0gY29tcG9uZW50ICJKU09OIENvbnRlbnQgVmFsaWRhdG9yIiAiVmFsaWRhdGVzIEpTT04gY29udGVudC4iCiAgICAgICAgICAgICAgICAgICAgY3N2VmFsaWRhdG9yID0gY29tcG9uZW50ICJDU1YgQ29udGVudCBWYWxpZGF0b3IiICJWYWxpZGF0ZXMgQ1NWIGNvbnRlbnQuIgogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIGZvc01vZGVsID0gY29tcG9uZW50ICJGb3JtYWwgT3BlbiBTcGVjaWZpY2F0aW9ucyBNb2RlbCIgIkVuYWJsZXMgb3RoZXIgY29tcG9uZW50cyB0byBhY2Nlc3MgdG8gZm9ybWFsIG9wZW4gc3BlY2lmaWNhdGlvbnMuIgogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIHRlbXBGaWxlU3RvcmFnZSA9IGNvbXBvbmVudCAiVGVtcG9yYXJ5IEZpbGUgU3RvcmFnZSIgIlN0b3JlcyByZWNlaXZlZCBjb250ZW50IG9mIGRhdGEgc2V0cyBpbiB0ZW1wb3JhcnkgZmlsZXMgYmVmb3JlIHRoZXkgYXJlIHZhbGlkYXRlZCBhbmQgdHJhbnNmb3JtZWQuIiAiVU5JWCBmaWxlIHN5c3RlbSIKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICBmaWxlU3RvcmFnZUFQSSA9IGNvbXBvbmVudCAiRmlsZSBTdG9yYWdlIEFQSSIgIkVuYWJsZXMgdG8gc2F2ZS9yZXBsYWNlL3JlbW92ZSBmaWxlcyBpbiB0aGUgZmlsZSBzdG9yYWdlLiIKICAgICAgICAgICAgICAgICAgICBkYXRhYmFzZUFQSSA9IGNvbXBvbmVudCAiRGF0YWJhc2UgQVBJIiAiRW5hYmxlcyB0byBsb2FkL3JlbW92ZSBSREYgdHJpcGxlcyBpbiB0aGUgZGF0YWJhc2UuIgogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIGNvbnRlbnRVcGxvYWRDb250cm9sbGVyIC0+IGZvc01vZGVsICJVc2VzIHRvIGNoZWNrIGV4aXN0ZW5jZSBvZiBGb3JtYWwgT3BlbiBTcGVjaWZpY2F0aW9ucyIKICAgICAgICAgICAgICAgICAgICBjb250ZW50VXBsb2FkQ29udHJvbGxlciAtPiB0ZW1wRmlsZVN0b3JhZ2UgIlVzZXMgdG8gc3RvcmUgcmVjZWl2ZWQgY29udGVudCIKICAgICAgICAgICAgICAgICAgICBjb250ZW50VXBsb2FkQ29udHJvbGxlciAtPiBjb250ZW50VmFsaWRhdGlvbkNvbXBvbmVudCAiVXNlcyB0byB2YWxpZGF0ZSBjb250ZW50IG9mIGRhdGEgc2V0cyIKICAgICAgICAgICAgICAgICAgICBjb250ZW50VXBsb2FkQ29udHJvbGxlciAtPiBmaWxlU3RvcmFnZUFQSSAiVXNlcyB0byBzYXZlL3JlcGxhY2UgZmlsZXMgaW4gdGhlIGZpbGUgc3RvcmFnZSIKICAgICAgICAgICAgICAgICAgICBjb250ZW50VXBsb2FkQ29udHJvbGxlciAtPiBkYXRhYmFzZUFQSSAiVXNlcyB0byBsb2FkIFJERiB0cmlwbGVzIGluIHRoZSBkYXRhYmFzZSIKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICBjb250ZW50UmVtb3ZhbENvbnRyb2xsZXIgLT4gZmlsZVN0b3JhZ2VBUEkgIlVzZXMgdG8gcmVtb3ZlIGZpbGVzIGZyb20gdGhlIGZpbGUgc3RvcmFnZSIKICAgICAgICAgICAgICAgICAgICBjb250ZW50UmVtb3ZhbENvbnRyb2xsZXIgLT4gZGF0YWJhc2VBUEkgIlVzZXMgdG8gcmVtb3ZlIFJERiB0cmlwbGVzIGZyb20gdGhlIGRhdGFiYXNlIgogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIGNvbnRlbnRWYWxpZGF0aW9uQ29tcG9uZW50IC0+IHZhbGlkYXRvciAiVXNlcyB0byB2YWxpZGF0ZSBYTUwsIEpTT04gb3IgQ1NWIGNvbnRlbnQiCiAgICAgICAgICAgICAgICAgICAgdmFsaWRhdG9yIC0+IHhtbFZhbGlkYXRvciAiR2VuZXJhbGl6ZXMiCiAgICAgICAgICAgICAgICAgICAgdmFsaWRhdG9yIC0+IGpzb25WYWxpZGF0b3IgIkdlbmVyYWxpemVzIgogICAgICAgICAgICAgICAgICAgIHZhbGlkYXRvciAtPiBjc3ZWYWxpZGF0b3IgIkdlbmVyYWxpemVzIgogICAgICAgICAgICAgICAgICAgIHZhbGlkYXRvciAtPiB0ZW1wRmlsZVN0b3JhZ2UgIlVzZXMgdG8gcmVhZCBmaWxlIGZvciB2YWxpZGF0aW9uIgogICAgICAgICAgICAgICAgICAgIHZhbGlkYXRvciAtPiBmb3NNb2RlbCAiVXNlcyB0byByZWFkIGRhdGEgc2NoZW1hIGZyb20iCiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgY29udGVudFVwbG9hZENvbnRyb2xsZXIgLT4gdHJhbnNmb3JtYXRvciAiVXNlcyB0byB0cmFuc2Zvcm0gY29udGVudCB0byBvdXRwdXQgZm9ybWF0cyIKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICBmaWxlU3RvcmFnZUFQSSAtPiBmaWxlU3RvcmFnZSAiVXNlcyB0byBzdG9yZSBjb250ZW50IG9mIGRhdGEgc2V0cyBhcyBmaWxlcyIgIlNDUCIKICAgICAgICAgICAgICAgICAgICBkYXRhYmFzZUFQSSAtPiByZGZEYXRhYmFzZSAiVXNlcyB0byBzdG9yZSBjb250ZW50IG9mIGRhdGEgc2V0cyBhcyBSREYgdHJpcGxlcyB0byIgIlNQQVJRTCBHcmFwaCBTdG9yZSBIVFRQUyIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBxdWVyeUVkaXRvciAtPiByZGZkYXRhYmFzZSAiVXNlcyB0byBleGVjdXRlIHF1ZXJpZXMiCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICFkb2NzIGRvY3MKICAgICAgICAgICAgfQogICAgICAgICAgICBjYXRhbG9nID0gc29mdHdhcmVTeXN0ZW0gIk5hdGlvbmFsIE9wZW4gRGF0YSBDYXRhbG9nIiAiU3RvcmVzIGFuZCBwcmVzZW50cyBtZXRhZGF0YSByZWNvcmRzIGFib3V0IGRhdGEgc2V0cyBhbmQgaGFydmVzdHMgbWV0YSBkYXRhIGZyb20gbG9jYWwgb3BlbiBkYXRhIGNhdGFsb2dzLiIgIHsKICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9CiAgICAgICAgICAgIHJlZ2lzdHJ5ID0gc29mdHdhcmVTeXN0ZW0gIlJlZ2lzdHJ5IG9mIFJpZ2h0cyBhbmQgT2JsaWdhdGlvbnMiICJNYW5hZ2VzIGVudGl0eSB0eXBlcyBhbmQgdGhlaXIgcHJvcGVydGllcyByZWdpc3RlcmVkIGluIGdvdmVybm1lbnRhbCBpbmZvcm1hdGlvbiBzeXN0ZW1zIGFuZCB0aGVpciBwdWJsaWMgYXZhaWxhYmlsaXR5IGluIGRhdGEgc2V0cy4iICAgewogICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZm9zUmVwb3NpdG9yeSA9IHNvZnR3YXJlU3lzdGVtICJGb3JtYWwgT3BlbiBTcGVjaWZpY2F0aW9ucyBSZXBvc2l0b3J5IiAiU3RvcmVzIGFuZCBwcm92aWRlcyBhY2Nlc3MgdG8gRm9ybWFsIE9wZW4gU3BlY2lmaWNhdGlvbnMgKG1ldGFkYXRhLCBkYXRhIHNjaGVtYXMsIHRyYW5zZm9ybWF0aW9uIGFuZCBtYXBwaW5nIGRlZmluaXRpb25zKS4iICAgIHsKICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnN1bWVyQ2F0YWxvZyA9IHNvZnR3YXJlU3lzdGVtICJEYXRhIENvbnN1bWVyIENhdGFsb2ciICJTdG9yZXMgYW5kIHByZXNlbnRzIHJlZ2lzdHJhdGlvbnMgb2YgZ292ZXJubWVudCBvcmdhbml6YXRpb25zIHRvIGRhdGEgc2V0IGNvbnN1bXB0aW9uLiIgICB7CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgfQogICAgICAgICAgICByb3V0aW5nU2VydmljZSA9IHNvZnR3YXJlU3lzdGVtICJSb3V0aW5nIFNlcnZpY2UiICJSZWRpcmVjdHMgcmVxdWVzdHMgb24gZ2xvYmFsIElSSXMgdG8gbG9jYWwgSVJJcy4iICAgIHsKICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9CiAgICAgICAgICAgIG5vdGlmaWNhdGlvbkh1YiA9IHNvZnR3YXJlU3lzdGVtICJOb3RpZmljYXRpb24gSHViIiAiRW5hYmxlcyB0byByZWdpc3RlciBjaGFuZ2VzIGluIGRhdGEgc2V0cyBhbmQgcmVnaXN0ZXJzIGRhdGEgc2V0IGNvbnN1bWVycyBhYm91dCBjaGFuZ2VzIiAgIHsKICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICByZWdpc3RyeSAtPiBjYXRhbG9nICJVc2VzIHRvIHJlYWQgZGF0YSBzZXQgbWV0YWRhdGEiCgogICAgICAgICAgICBjYXRhbG9nIC0+IHN0b3JhZ2UgIlVzZXMgdG8gY2hlY2sgZXhpc3RlbmNlIGFuZCBhdmFpbGFiaWxpdHkgb2YgZGF0YSBzZXQgZGlzdHJpYnV0aW9ucyIKCiAgICAgICAgICAgIHRyYW5zZm9ybWF0b3IgLT4gZm9zUmVwb3NpdG9yeSAiVXNlcyB0byByZWFkIGRhdGEgdHJhbnNmb3JtYXRpb25zIGFuZCBtYXBwaW5nIGRlZmluaXRpb25zIgogICAgICAgICAgICAKICAgICAgICAgICAgZm9zTW9kZWwgLT4gIGZvc1JlcG9zaXRvcnkgIlVzZXMgdG8gcmVhZCBGb3JtYWwgT3BlbiBTcGVjaWZpY2F0aW9ucyAobWV0YWRhdGEsIHNjaGVtYXMsIHRyYW5zZm9ybWF0aW9ucyBhbmQgbWFwcGluZ3MpIgoKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgY29uc3VtZXIgPSBwZXJzb24gIkNvbnN1bWVyIiAiQW4gYWN0b3Igd2hvIHNlYXJjaGVzIGZvciBkYXRhIHNldHMgYW5kIGFjY2Vzc2VzIHRoZW0gZm9yIHZhcmlvdXMgcHVycG9zZXMuIiAiQ29uc3VtZXIiCiAgICAgICAgcHVibGlzaGVyID0gcGVyc29uICJQdWJsaXNoZXIiICJBbiBhY3RvciB3aG8gaXMgcmVzcG9uc2libGUgZm9yIGEgZGF0YSBwdWJsaXNoaW5nIHN5c3RlbSBhbmQgZm9yIHRoZSBjb250ZW50IG9mIHB1Ymxpc2hlZCBkYXRhIHNldHMuIiAiUHVibGlzaGVyIgogICAgICAgIAogICAgICAgIHB1Ymxpc2hpbmdTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiRGF0YSBwdWJsaXNoaW5nIHN5c3RlbSIgIkluZm9ybWF0aW9uIHN5c3RlbSBmb3IgdGhlIG1hbmFnZW1lbnQgb2YgdGhlIHNvdXJjZSBkYXRhIHdoaWNoIGlzIHB1Ymxpc2hlZCB0byB0aGUgUHVibGljIERhdGEgU3BhY2UuIiAiRXhpc3RpbmcgU3lzdGVtIgogICAgICAgIGNvbnN1bXB0aW9uU3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIkRhdGEgY29uc3VtcHRpb24gc3lzdGVtIiAiU3lzdGVtIHdoaWNoIGNvbnN1bWVzIGRhdGEgZnJvbSB0aGUgUHVibGljIERhdGEgU3BhY2UuIiAiRXhpc3RpbmcgU3lzdGVtIgogICAgCiAgICAgICAgcHVibGlzaGVyIC0+IGNhdGFsb2cgIlJlZ2lzdGVycyBhIGRhdGEgcHVibGlzaGluZyBzeXN0ZW0gaW4iCiAgICAgICAgcHVibGlzaGVyIC0+IHB1Ymxpc2hpbmdTeXN0ZW0gIklzIHJlc3BvbnNpYmxlIGZvciIKICAgICAgICBwdWJsaXNoZXIgLT4gcmVnaXN0cnkgIlJlZ2lzdGVycyBkYXRhIHNldHMgdG8gZGF0YSBwcm9wZXJ0aWVzIgoKICAgICAgICBjb25zdW1lciAtPiBjYXRhbG9nICJTZWFyY2hlcyBmb3IgZGF0YSBzZXRzIGluIgogICAgICAgIAogICAgICAgIHB1Ymxpc2hpbmdTeXN0ZW0gLT4gY29udGVudFVwbG9hZENvbnRyb2xsZXIgIlVzZXMgdG8gdXBsb2FkIHN0b3JlZCBjb250ZW50IG9mIGRhdGEgc2V0cyIgIkpTT04vSFRUUFMiCiAgICAgICAgcHVibGlzaGluZ1N5c3RlbSAtPiBjb250ZW50UmVtb3ZhbENvbnRyb2xsZXIgIlVzZXMgdG8gcmVtb3ZlIHN0b3JlZCBjb250ZW50IG9mIGRhdGEgc2V0cyIgIkpTT04vSFRUUFMiCiAgICAgICAgcHVibGlzaGluZ1N5c3RlbSAtPiBmb3NSZXBvc2l0b3J5ICJVc2VzIHRvIHJlYWQgZGF0YSBzY2hlbWFzIgogICAgICAgIHB1Ymxpc2hpbmdTeXN0ZW0gLT4gbm90aWZpY2F0aW9uSHViICJVc2VzIHRvIHJlZ2lzdGVyIGNoYW5nZXMgaW4gZGF0YSBzZXRzIgogICAgICAgIGNhdGFsb2cgLT4gcHVibGlzaGluZ1N5c3RlbSAiVXNlcyB0byBoYXJ2ZXN0cyBkYXRhIHNldCBtZXRhZGF0YSIKICAgICAgICAKICAgICAgICBjb25zdW1wdGlvblN5c3RlbSAtPiBzdG9yYWdlICJVc2VzIHRvIHJlYWQgZGlzdHJpYnV0aW9ucyIKICAgICAgICBjb25zdW1wdGlvblN5c3RlbSAtPiBjYXRhbG9nICJVc2VzIHRvIHJlYWQgZGF0YSBzZXQgbWV0YWRhdGEiCiAgICAgICAgY29uc3VtcHRpb25TeXN0ZW0gLT4gcmVnaXN0cnkgIlVzZXMgdG8gcmVhZCBlbnRpdHkgdHlwZXMsIHRoZWlyIHByb3BlcnRpZXMgYW5kIHJlZmVyZW5jZXMgdG8gZGF0YSBzZXQgbWV0YWRhdGEgcmVjb3JkcyIKICAgICAgICBjb25zdW1wdGlvblN5c3RlbSAtPiBmb3NSZXBvc2l0b3J5ICJVc2VzIHRvIHJlYWQgc2NoZW1hcyIKICAgICAgICBjb25zdW1wdGlvblN5c3RlbSAtPiByZGZkYXRhYmFzZSAiVXNlcyB0byBleGVjdXRlIHF1ZXJpZXMiCiAgICAgICAgbm90aWZpY2F0aW9uSHViIC0+IGNvbnN1bXB0aW9uU3lzdGVtICJDYWxscyB0byBub3RpZnkgYWJvdXQgZGF0YSBzZXQgY2hhbmdlcyIKICAgIH0KICAgIAogICAgdmlld3MgewogICAgICAgIHN5c3RlbUxhbmRzY2FwZSAicHVibGlzaGluZ1RvUHVibGljRGF0YVNwYWNlU3lzdGVtTGFuZHNjYXBlRGlhZ3JhbSIgewogICAgICAgICAgICBpbmNsdWRlIHN0b3JhZ2UgY2F0YWxvZyBub3RpZmljYXRpb25IdWIgcmVnaXN0cnkgZm9zUmVwb3NpdG9yeSBwdWJsaXNoaW5nU3lzdGVtIHB1Ymxpc2hlcgogICAgICAgIH0KICAgICAgICAKICAgICAgICBzeXN0ZW1Db250ZXh0IHN0b3JhZ2UgInN0b3JhZ2VTeXN0ZW1Db250ZXh0RGlhZ3JhbSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIHN5c3RlbUNvbnRleHQgY2F0YWxvZyAiY2F0YWxvZ1N5c3RlbUNvbnRleHREaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KICAgICAgICAKICAgICAgICBjb250YWluZXIgc3RvcmFnZSAic3RvcmFnZUNvbnRhaW5lckRpYWdyYW0iIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQogICAgICAgIAogICAgICAgIGNvbXBvbmVudCBjb250ZW50TWFuYWdlbWVudEFwcCAiY29udGVudE1hbmFnZW1lbnRBcHBsaWNhdGlvbkRpYWdyYW0iIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQogICAgICAgIAogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgICAgICAKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgICAgIGZvbnRTaXplIDIyCiAgICAgICAgICAgICAgICBzaGFwZSBQZXJzb24KICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb25zdW1lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMkI1NTY0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiUHVibGlzaGVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMyQjU1NjQKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJFeGlzdGluZyBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzk5OTk5OQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlNvZnR3YXJlIFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjNjJBNEJDCiAgICAgICAgICAgICAgICBjb2xvciAjRkZGRkZGCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiV2ViIEJyb3dzZXIiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFdlYkJyb3dzZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb250YWluZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzYyQTRCQwogICAgICAgICAgICAgICAgY29sb3IgI0ZGRkZGRgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbXBvbmVudCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjNjJBNEJDCiAgICAgICAgICAgICAgICBjb2xvciAjRkZGRkZGCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU3RvcmFnZSIgewogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJFVEwiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFBpcGUKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCn0K"
   },
@@ -19,12 +19,6 @@
       "name" : "Publisher",
       "description" : "An actor who is responsible for a data publishing system and for the content of published data sets.",
       "relationships" : [ {
-        "id" : "56",
-        "tags" : "Relationship",
-        "sourceId" : "51",
-        "destinationId" : "39",
-        "description" : "Registers data sets to data properties"
-      }, {
         "id" : "54",
         "tags" : "Relationship",
         "sourceId" : "51",
@@ -36,6 +30,12 @@
         "sourceId" : "51",
         "destinationId" : "52",
         "description" : "Is responsible for"
+      }, {
+        "id" : "56",
+        "tags" : "Relationship",
+        "sourceId" : "51",
+        "destinationId" : "39",
+        "description" : "Registers data sets to data properties"
       } ],
       "location" : "Unspecified"
     }, {
@@ -53,6 +53,31 @@
       "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
+      "id" : "40",
+      "tags" : "Element,Software System",
+      "name" : "Formal Open Specifications Repository",
+      "description" : "Stores and provides access to Formal Open Specifications (metadata, data schemas, transformation and mapping definitions).",
+      "location" : "Internal"
+    }, {
+      "id" : "38",
+      "tags" : "Element,Software System",
+      "name" : "National Open Data Catalog",
+      "description" : "Stores and presents metadata records about data sets and harvests meta data from local open data catalogs.",
+      "relationships" : [ {
+        "id" : "64",
+        "tags" : "Relationship",
+        "sourceId" : "38",
+        "destinationId" : "52",
+        "description" : "Uses to harvests data set metadata"
+      }, {
+        "id" : "45",
+        "tags" : "Relationship",
+        "sourceId" : "38",
+        "destinationId" : "1",
+        "description" : "Uses to check existence and availability of data set distributions"
+      } ],
+      "location" : "Internal"
+    }, {
       "id" : "39",
       "tags" : "Element,Software System",
       "name" : "Registry of Rights and Obligations",
@@ -66,24 +91,42 @@
       } ],
       "location" : "Internal"
     }, {
-      "id" : "38",
-      "tags" : "Element,Software System",
-      "name" : "National Open Data Catalog",
-      "description" : "Stores and presents metadata records about data sets and harvests meta data from local open data catalogs.",
+      "id" : "53",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "Data consumption system",
+      "description" : "System which consumes data from the Public Data Space.",
       "relationships" : [ {
-        "id" : "45",
+        "id" : "69",
         "tags" : "Relationship",
-        "sourceId" : "38",
-        "destinationId" : "1",
-        "description" : "Uses to check existence and availability of data set distributions"
+        "sourceId" : "53",
+        "destinationId" : "3",
+        "description" : "Uses to execute queries"
       }, {
-        "id" : "64",
+        "id" : "66",
         "tags" : "Relationship",
-        "sourceId" : "38",
-        "destinationId" : "52",
-        "description" : "Uses to harvests data set metadata"
+        "sourceId" : "53",
+        "destinationId" : "38",
+        "description" : "Uses to read data set metadata"
+      }, {
+        "id" : "65",
+        "tags" : "Relationship",
+        "sourceId" : "53",
+        "destinationId" : "1",
+        "description" : "Uses to read distributions"
+      }, {
+        "id" : "68",
+        "tags" : "Relationship",
+        "sourceId" : "53",
+        "destinationId" : "40",
+        "description" : "Uses to read schemas"
+      }, {
+        "id" : "67",
+        "tags" : "Relationship",
+        "sourceId" : "53",
+        "destinationId" : "39",
+        "description" : "Uses to read entity types, their properties and references to data set metadata records"
       } ],
-      "location" : "Internal"
+      "location" : "External"
     }, {
       "id" : "1",
       "tags" : "Element,Software System",
@@ -98,36 +141,42 @@
       } ],
       "location" : "Internal",
       "containers" : [ {
-        "id" : "5",
-        "tags" : "Element,Container,ETL",
-        "name" : "Content Transformator",
-        "description" : "Transforms the content of data sets sent by data publishing systems to data formats defined by Formal Open Specifications.",
+        "id" : "3",
+        "tags" : "Element,Container,Storage",
+        "name" : "Database",
+        "description" : "Stores the content of data sets represented as RDF triples and provides a SPARQL endpoint for querying the data sets.",
+        "technology" : "RDF triple store"
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container,Web Browser",
+        "name" : "Query Editor",
+        "description" : "Provides a user interface for writing and executing SPARQL queries on the SPARQL endpoint and for viewing the query results.",
         "relationships" : [ {
-          "id" : "46",
+          "id" : "37",
           "tags" : "Relationship",
-          "sourceId" : "5",
-          "destinationId" : "40",
-          "description" : "Uses to read data transformations and mapping definitions"
+          "sourceId" : "4",
+          "destinationId" : "3",
+          "description" : "Uses to execute queries"
         } ],
-        "technology" : "LinkedPipes ETL"
+        "technology" : "Yasgui SPARQL editor"
       }, {
         "id" : "6",
         "tags" : "Element,Container",
         "name" : "Content Management Application",
         "description" : "Provides all the Data set storage functionality to data publishing and consumption systems.",
         "relationships" : [ {
+          "id" : "49",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "40",
+          "description" : "Uses to read Formal Open Specifications (metadata, schemas, transformations and mappings)"
+        }, {
           "id" : "34",
           "tags" : "Relationship",
           "sourceId" : "6",
           "destinationId" : "2",
           "description" : "Uses to store content of data sets as files",
           "technology" : "SCP"
-        }, {
-          "id" : "49",
-          "tags" : "Relationship",
-          "sourceId" : "6",
-          "destinationId" : "40",
-          "description" : "Uses to read Formal Open Specifications (metadata, schemas, transformations and mappings)"
         }, {
           "id" : "32",
           "tags" : "Relationship",
@@ -143,105 +192,6 @@
           "technology" : "SPARQL Graph Store HTTPS"
         } ],
         "components" : [ {
-          "id" : "11",
-          "tags" : "Element,Component",
-          "name" : "XML Content Validator",
-          "description" : "Validates XML content.",
-          "size" : 0
-        }, {
-          "id" : "7",
-          "tags" : "Element,Component",
-          "name" : "Content Upload Controller",
-          "description" : "Allows data publishing systems to upload and store content of new data sets or update the existing ones.",
-          "relationships" : [ {
-            "id" : "18",
-            "tags" : "Relationship",
-            "sourceId" : "7",
-            "destinationId" : "14",
-            "description" : "Uses to check existence of Formal Open Specifications"
-          }, {
-            "id" : "20",
-            "tags" : "Relationship",
-            "sourceId" : "7",
-            "destinationId" : "9",
-            "description" : "Uses to validate content of data sets"
-          }, {
-            "id" : "31",
-            "tags" : "Relationship",
-            "sourceId" : "7",
-            "destinationId" : "5",
-            "description" : "Uses to transform content to output formats"
-          }, {
-            "id" : "19",
-            "tags" : "Relationship",
-            "sourceId" : "7",
-            "destinationId" : "15",
-            "description" : "Uses to store received content"
-          }, {
-            "id" : "21",
-            "tags" : "Relationship",
-            "sourceId" : "7",
-            "destinationId" : "16",
-            "description" : "Uses to save/replace files in the file storage"
-          }, {
-            "id" : "22",
-            "tags" : "Relationship",
-            "sourceId" : "7",
-            "destinationId" : "17",
-            "description" : "Uses to load RDF triples in the database"
-          } ],
-          "size" : 0
-        }, {
-          "id" : "14",
-          "tags" : "Element,Component",
-          "name" : "Formal Open Specifications Model",
-          "description" : "Enables other components to access to formal open specifications.",
-          "relationships" : [ {
-            "id" : "48",
-            "tags" : "Relationship",
-            "sourceId" : "14",
-            "destinationId" : "40",
-            "description" : "Uses to read Formal Open Specifications (metadata, schemas, transformations and mappings)"
-          } ],
-          "size" : 0
-        }, {
-          "id" : "10",
-          "tags" : "Element,Component",
-          "name" : "Content Validator",
-          "description" : "Validates the content of data sets sent by data publishing systems.",
-          "relationships" : [ {
-            "id" : "26",
-            "tags" : "Relationship",
-            "sourceId" : "10",
-            "destinationId" : "11",
-            "description" : "Generalizes"
-          }, {
-            "id" : "30",
-            "tags" : "Relationship",
-            "sourceId" : "10",
-            "destinationId" : "14",
-            "description" : "Uses to read data schema from"
-          }, {
-            "id" : "28",
-            "tags" : "Relationship",
-            "sourceId" : "10",
-            "destinationId" : "13",
-            "description" : "Generalizes"
-          }, {
-            "id" : "27",
-            "tags" : "Relationship",
-            "sourceId" : "10",
-            "destinationId" : "12",
-            "description" : "Generalizes"
-          }, {
-            "id" : "29",
-            "tags" : "Relationship",
-            "sourceId" : "10",
-            "destinationId" : "15",
-            "description" : "Uses to read file for validation"
-          } ],
-          "size" : 0
-        }, {
           "id" : "17",
           "tags" : "Element,Component",
           "name" : "Database API",
@@ -253,6 +203,62 @@
             "destinationId" : "3",
             "description" : "Uses to store content of data sets as RDF triples to",
             "technology" : "SPARQL Graph Store HTTPS"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "name" : "Content Upload Controller",
+          "description" : "Allows data publishing systems to upload and store content of new data sets or update the existing ones.",
+          "relationships" : [ {
+            "id" : "22",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "17",
+            "description" : "Uses to load RDF triples in the database"
+          }, {
+            "id" : "31",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "5",
+            "description" : "Uses to transform content to output formats"
+          }, {
+            "id" : "18",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "14",
+            "description" : "Uses to check existence of Formal Open Specifications"
+          }, {
+            "id" : "19",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "15",
+            "description" : "Uses to store received content"
+          }, {
+            "id" : "20",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "9",
+            "description" : "Uses to validate content of data sets"
+          }, {
+            "id" : "21",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "16",
+            "description" : "Uses to save/replace files in the file storage"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "9",
+          "tags" : "Element,Component",
+          "name" : "Content Validation Component",
+          "description" : "Performs validation of supplied content of data sets in supported data formats",
+          "relationships" : [ {
+            "id" : "25",
+            "tags" : "Relationship",
+            "sourceId" : "9",
+            "destinationId" : "10",
+            "description" : "Uses to validate XML, JSON or CSV content"
           } ],
           "size" : 0
         }, {
@@ -270,23 +276,48 @@
           } ],
           "size" : 0
         }, {
-          "id" : "9",
+          "id" : "11",
           "tags" : "Element,Component",
-          "name" : "Content Validation Component",
-          "description" : "Performs validation of supplied content of data sets in supported data formats",
-          "relationships" : [ {
-            "id" : "25",
-            "tags" : "Relationship",
-            "sourceId" : "9",
-            "destinationId" : "10",
-            "description" : "Uses to validate XML, JSON or CSV content"
-          } ],
+          "name" : "XML Content Validator",
+          "description" : "Validates XML content.",
           "size" : 0
         }, {
           "id" : "12",
           "tags" : "Element,Component",
           "name" : "JSON Content Validator",
           "description" : "Validates JSON content.",
+          "size" : 0
+        }, {
+          "id" : "8",
+          "tags" : "Element,Component",
+          "name" : "Content Removal Controller",
+          "description" : "Allows data publishing systems to remove stored content.",
+          "relationships" : [ {
+            "id" : "23",
+            "tags" : "Relationship",
+            "sourceId" : "8",
+            "destinationId" : "16",
+            "description" : "Uses to remove files from the file storage"
+          }, {
+            "id" : "24",
+            "tags" : "Relationship",
+            "sourceId" : "8",
+            "destinationId" : "17",
+            "description" : "Uses to remove RDF triples from the database"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "name" : "Formal Open Specifications Model",
+          "description" : "Enables other components to access to formal open specifications.",
+          "relationships" : [ {
+            "id" : "48",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "40",
+            "description" : "Uses to read Formal Open Specifications (metadata, schemas, transformations and mappings)"
+          } ],
           "size" : 0
         }, {
           "id" : "15",
@@ -296,22 +327,40 @@
           "technology" : "UNIX file system",
           "size" : 0
         }, {
-          "id" : "8",
+          "id" : "10",
           "tags" : "Element,Component",
-          "name" : "Content Removal Controller",
-          "description" : "Allows data publishing systems to remove stored content.",
+          "name" : "Content Validator",
+          "description" : "Validates the content of data sets sent by data publishing systems.",
           "relationships" : [ {
-            "id" : "24",
+            "id" : "27",
             "tags" : "Relationship",
-            "sourceId" : "8",
-            "destinationId" : "17",
-            "description" : "Uses to remove RDF triples from the database"
+            "sourceId" : "10",
+            "destinationId" : "12",
+            "description" : "Generalizes"
           }, {
-            "id" : "23",
+            "id" : "28",
             "tags" : "Relationship",
-            "sourceId" : "8",
-            "destinationId" : "16",
-            "description" : "Uses to remove files from the file storage"
+            "sourceId" : "10",
+            "destinationId" : "13",
+            "description" : "Generalizes"
+          }, {
+            "id" : "30",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "14",
+            "description" : "Uses to read data schema from"
+          }, {
+            "id" : "26",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "11",
+            "description" : "Generalizes"
+          }, {
+            "id" : "29",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "15",
+            "description" : "Uses to read file for validation"
           } ],
           "size" : 0
         }, {
@@ -322,85 +371,30 @@
           "size" : 0
         } ]
       }, {
-        "id" : "4",
-        "tags" : "Element,Container,Web Browser",
-        "name" : "Query Editor",
-        "description" : "Provides a user interface for writing and executing SPARQL queries on the SPARQL endpoint and for viewing the query results.",
-        "relationships" : [ {
-          "id" : "37",
-          "tags" : "Relationship",
-          "sourceId" : "4",
-          "destinationId" : "3",
-          "description" : "Uses to execute queries"
-        } ],
-        "technology" : "Yasgui SPARQL editor"
-      }, {
-        "id" : "3",
-        "tags" : "Element,Container,Storage",
-        "name" : "Database",
-        "description" : "Stores the content of data sets represented as RDF triples and provides a SPARQL endpoint for querying the data sets.",
-        "technology" : "RDF triple store"
-      }, {
         "id" : "2",
         "tags" : "Element,Container,Storage",
         "name" : "File Storage",
         "description" : "Stores the content of data sets as individual data files in different formats defined by Formal Open Specifications.",
         "technology" : "Unix file system"
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container,ETL",
+        "name" : "Content Transformator",
+        "description" : "Transforms the content of data sets sent by data publishing systems to data formats defined by Formal Open Specifications.",
+        "relationships" : [ {
+          "id" : "46",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "40",
+          "description" : "Uses to read data transformations and mapping definitions"
+        } ],
+        "technology" : "LinkedPipes ETL"
       } ]
     }, {
       "id" : "42",
       "tags" : "Element,Software System",
       "name" : "Routing Service",
       "description" : "Redirects requests on global IRIs to local IRIs.",
-      "location" : "Internal"
-    }, {
-      "id" : "41",
-      "tags" : "Element,Software System",
-      "name" : "Data Consumer Catalog",
-      "description" : "Stores and presents registrations of government organizations to data set consumption.",
-      "location" : "Internal"
-    }, {
-      "id" : "53",
-      "tags" : "Element,Software System,Existing System",
-      "name" : "Data consumption system",
-      "description" : "System which consumes data from the Public Data Space.",
-      "relationships" : [ {
-        "id" : "69",
-        "tags" : "Relationship",
-        "sourceId" : "53",
-        "destinationId" : "3",
-        "description" : "Uses to execute queries"
-      }, {
-        "id" : "65",
-        "tags" : "Relationship",
-        "sourceId" : "53",
-        "destinationId" : "1",
-        "description" : "Uses to read distributions"
-      }, {
-        "id" : "67",
-        "tags" : "Relationship",
-        "sourceId" : "53",
-        "destinationId" : "39",
-        "description" : "Uses to read entity types, their properties and references to data set metadata records"
-      }, {
-        "id" : "68",
-        "tags" : "Relationship",
-        "sourceId" : "53",
-        "destinationId" : "40",
-        "description" : "Uses to read schemas"
-      }, {
-        "id" : "66",
-        "tags" : "Relationship",
-        "sourceId" : "53",
-        "destinationId" : "38",
-        "description" : "Uses to read data set metadata"
-      } ],
-      "location" : "External"
-    }, {
-      "id" : "40",
-      "tags" : "Element,Software System",
-      "name" : "Formal Open Specifications Repository",
-      "description" : "Stores and provides access to Formal Open Specifications (metadata, data schemas, transformation and mapping definitions).",
       "location" : "Internal"
     }, {
       "id" : "43",
@@ -421,11 +415,17 @@
       "name" : "Data publishing system",
       "description" : "Information system for the management of the source data which is published to the Public Data Space.",
       "relationships" : [ {
-        "id" : "61",
+        "id" : "62",
         "tags" : "Relationship",
         "sourceId" : "52",
-        "destinationId" : "8",
-        "description" : "Uses to remove stored content of data sets",
+        "destinationId" : "40",
+        "description" : "Uses to read data schemas"
+      }, {
+        "id" : "59",
+        "tags" : "Relationship",
+        "sourceId" : "52",
+        "destinationId" : "6",
+        "description" : "Uses to upload stored content of data sets",
         "technology" : "JSON/HTTPS"
       }, {
         "id" : "63",
@@ -434,10 +434,10 @@
         "destinationId" : "43",
         "description" : "Uses to register changes in data sets"
       }, {
-        "id" : "59",
+        "id" : "60",
         "tags" : "Relationship",
         "sourceId" : "52",
-        "destinationId" : "6",
+        "destinationId" : "1",
         "description" : "Uses to upload stored content of data sets",
         "technology" : "JSON/HTTPS"
       }, {
@@ -448,20 +448,20 @@
         "description" : "Uses to upload stored content of data sets",
         "technology" : "JSON/HTTPS"
       }, {
-        "id" : "62",
+        "id" : "61",
         "tags" : "Relationship",
         "sourceId" : "52",
-        "destinationId" : "40",
-        "description" : "Uses to read data schemas"
-      }, {
-        "id" : "60",
-        "tags" : "Relationship",
-        "sourceId" : "52",
-        "destinationId" : "1",
-        "description" : "Uses to upload stored content of data sets",
+        "destinationId" : "8",
+        "description" : "Uses to remove stored content of data sets",
         "technology" : "JSON/HTTPS"
       } ],
       "location" : "External"
+    }, {
+      "id" : "41",
+      "tags" : "Element,Software System",
+      "name" : "Data Consumer Catalog",
+      "description" : "Stores and presents registrations of government organizations to data set consumption.",
+      "location" : "Internal"
     } ]
   },
   "documentation" : {
@@ -533,52 +533,6 @@
       } ]
     } ],
     "systemContextViews" : [ {
-      "softwareSystemId" : "1",
-      "key" : "storageSystemContextDiagram",
-      "dimensions" : {
-        "width" : 2551,
-        "height" : 2014
-      },
-      "enterpriseBoundaryVisible" : true,
-      "elements" : [ {
-        "id" : "1",
-        "x" : 1016,
-        "y" : 904
-      }, {
-        "id" : "38",
-        "x" : 219,
-        "y" : 844
-      }, {
-        "id" : "40",
-        "x" : 1881,
-        "y" : 964
-      }, {
-        "id" : "52",
-        "x" : 970,
-        "y" : 1445
-      }, {
-        "id" : "53",
-        "x" : 1015,
-        "y" : 380
-      } ],
-      "relationships" : [ {
-        "id" : "60"
-      }, {
-        "id" : "62"
-      }, {
-        "id" : "65"
-      }, {
-        "id" : "64"
-      }, {
-        "id" : "45"
-      }, {
-        "id" : "66"
-      }, {
-        "id" : "47"
-      }, {
-        "id" : "68"
-      } ]
-    }, {
       "softwareSystemId" : "38",
       "key" : "catalogSystemContextDiagram",
       "dimensions" : {
@@ -638,6 +592,52 @@
         "id" : "56"
       }, {
         "id" : "57"
+      } ]
+    }, {
+      "softwareSystemId" : "1",
+      "key" : "storageSystemContextDiagram",
+      "dimensions" : {
+        "width" : 2551,
+        "height" : 2014
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1016,
+        "y" : 904
+      }, {
+        "id" : "38",
+        "x" : 219,
+        "y" : 844
+      }, {
+        "id" : "40",
+        "x" : 1881,
+        "y" : 964
+      }, {
+        "id" : "52",
+        "x" : 970,
+        "y" : 1445
+      }, {
+        "id" : "53",
+        "x" : 1015,
+        "y" : 380
+      } ],
+      "relationships" : [ {
+        "id" : "60"
+      }, {
+        "id" : "62"
+      }, {
+        "id" : "65"
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "45"
+      }, {
+        "id" : "66"
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "68"
       } ]
     } ],
     "containerViews" : [ {
@@ -806,15 +806,15 @@
           "y" : 924
         } ]
       }, {
-        "id" : "20"
-      }, {
         "id" : "31"
+      }, {
+        "id" : "20"
       }, {
         "id" : "30"
       }, {
-        "id" : "29"
-      }, {
         "id" : "18"
+      }, {
+        "id" : "29"
       }, {
         "id" : "28",
         "position" : 40
@@ -826,6 +826,12 @@
       }, {
         "id" : "25"
       }, {
+        "id" : "24",
+        "vertices" : [ {
+          "x" : 3500,
+          "y" : 919
+        } ]
+      }, {
         "id" : "35",
         "vertices" : [ {
           "x" : 3220,
@@ -833,12 +839,6 @@
         }, {
           "x" : 4000,
           "y" : 259
-        } ]
-      }, {
-        "id" : "24",
-        "vertices" : [ {
-          "x" : 3500,
-          "y" : 919
         } ]
       }, {
         "id" : "23"

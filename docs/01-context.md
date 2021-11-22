@@ -25,9 +25,23 @@ Storekeeper represents a person, who is responsible for managing the hospital dr
 
 Warehouse Worker is responsible for stocking arriving drug packages entering the warehouse and unstocking drug packages that leave the warehouse after they have been ordered from a hospital ward. The person performing stocking can be different from the one unstocking the drug packages. To enable this, warehouse workers can use scanners that read the drug bar codes to do their job. 
 
-### 
+#### Ward Worker
 
-## Container Context
+TODO
+
+#### Head Nurse
+
+TODO
+
+#### Hospital Employee
+
+TODO
+
+#### Supplier
+
+TODO
+
+### Container Context
 
 --The container context documentation goes here--
 
@@ -36,10 +50,9 @@ Warehouse Worker is responsible for stocking arriving drug packages entering the
 ![](embed:drugMonitoringContainerDiagram)
 
 
-## Overview of Component Context
+### Component Context
 
 --The Overview of Component Context documentation goes here--
-
 
 
 ![](embed:backendServerComponentDiagram)

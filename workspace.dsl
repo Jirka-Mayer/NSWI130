@@ -45,7 +45,7 @@ workspace {
                 wardObjectModel = component "Ward Object Model" "Translates requests into optimized database queries"
                 lifecycleObjectModel = component "Package Lifecycle Object Model" "Translates requests into optimized database queries"
             }
-            
+            !docs docs
         }
 
         // software system relationships
@@ -283,6 +283,4 @@ workspace {
             }
         }
     }
-!docs docs
-
 }

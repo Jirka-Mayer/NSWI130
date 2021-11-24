@@ -1,7 +1,0 @@
-## System Context
-
-Here is a description of the drug monitoring system.
-
-
-
-![](embed:drugMonitoringContextDiagram)

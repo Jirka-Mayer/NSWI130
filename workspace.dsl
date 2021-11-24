@@ -20,7 +20,7 @@ workspace {
             lifecycleMonitoringApp = container "Lifecycle Monitoring App" "Displays package lifecycle" "Mobile application" "Mobile"
 
             group "Hospital Ward" {
-                wardCounter = container "Ward Counter" "Allows drug requests and arrival and depletion recording" "Native application" ""
+                wardCounter = container "Ward Counter" "Allows arrival and depletion recording" "Native application" ""
                 requestManagementApp = container "Request Management App" "Allows drug requests" "Web application" "Website"
             }
 

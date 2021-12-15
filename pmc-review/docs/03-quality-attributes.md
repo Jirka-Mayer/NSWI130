@@ -5,10 +5,10 @@
 
 #### Performance requirement scenarios
 
->  *Patient Condition Controller* of *PMC server* periodically fetches medical devie data for longterm storage
+>  *Patient Condition Controller* of *PMC server* periodically fetches medical device data for long-term storage
 
 - **Source:** *PMC server* container
-- **Stimulus:** Read periodically device information from every device (~5000) every 30 seconds
+- **Stimulus:** Periodic read of device information from every device (~5000) every 30 seconds
 - **Artifact:** *Device web API* container
 - **Environment:** Normal operations
 - **Response:** All fetch request processed
@@ -16,7 +16,7 @@
 
 Since *medical devices* are independent of each other we can read in parallel from them with multiple *Device web API*. We would need a new controller to keep track of registered devices, remove them from individual web APIs and keep the number of device handled by individual web APIs balanced
 
-> Business logic container crashes, is restarted by kubernetes.
+> Medical staff request patient medical data
 
 - **Source:** *Medical staff*
 - **Stimulus:** Sporadically checks patients medical data during the entire day

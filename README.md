@@ -3,6 +3,11 @@
 Semmester project, describing the architecture of a drug monitoring software system in a hospital.
 
 
+## Our review of the `Patient Monitoring and Control` team
+
+See the [`pmc-review`](./pmc-review/) folder.
+
+
 ## Running Structurizr
 
 ### Linux with Docker

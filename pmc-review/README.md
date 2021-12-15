@@ -11,4 +11,4 @@
 
 ## Our review
 
-TODO
+See the third documentation section: [`docs/03-quality-attributes.md`](docs/03-quality-attributes.md)

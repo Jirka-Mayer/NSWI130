@@ -3,8 +3,29 @@
 
 ### Performance
 
-TODO
+#### Performance requirement scenarios
 
+>  *Patient Condition Controller* of *PMC server* periodically fetches medical device data for long-term storage
+
+- **Source:** *PMC server* container
+- **Stimulus:** Periodic read of device information from every device (~5000) every 30 seconds
+- **Artifact:** *Device web API* container
+- **Environment:** Normal operations
+- **Response:** All fetch request processed
+- **Measure:** With latency no larger than 30 seconds
+
+Since *medical devices* are independent of each other we can read in parallel from them with multiple *Device web API*. We would need a new controller to keep track of registered devices, remove them from individual web APIs and keep the number of device handled by individual web APIs balanced
+
+> Medical staff request patient medical data
+
+- **Source:** *Medical staff*
+- **Stimulus:** Sporadically checks patients medical data during the entire day
+- **Artifact:** *PMC Server* container
+- **Environment:** Normal operation
+- **Response:** All requests processed
+- **Measure:** With average latency of 1 seconds
+
+This scenario presents a standard operation of the software system and the system should be able to accomodate such requests. The requests, while sporadic, will mostly be sparse. No alteration to the system is thus needed
 
 ### Usability
 

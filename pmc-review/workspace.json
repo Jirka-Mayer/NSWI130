@@ -3,7 +3,7 @@
   "name" : "Name",
   "description" : "Description",
   "revision" : 0,
-  "lastModifiedDate" : "2021-12-16T00:34:08Z",
+  "lastModifiedDate" : "2021-12-16T00:49:23Z",
   "lastModifiedAgent" : "structurizr-web/2544/diagram",
   "properties" : {
     "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgbWVkaWNhbFN0YWZmID0gcGVyc29uICJNZWRpY2FsIFN0YWZmIgogICAgICAgIHRlY2huaWNhbFN1cHBvcnRTdGFmZiA9IHBlcnNvbiAiTWVkaWNhbCBTdXBwb3J0IFN0YWZmIgoKICAgICAgICBtZWRpY2FsRGV2aWNlID0gc29mdHdhcmVTeXN0ZW0gIk1lZGljYWwgRGV2aWNlIiAiSGFyZHdhcmUiICJTcGVjaWZpYyB0eXBlIG9mIG1lZGljYWwgZGV2aWNlIGNvbnRhaW5pbmcgaGVhbHRoIHNlbnNvcnMiCgogICAgICAgIHBtYyA9IHNvZnR3YXJlU3lzdGVtICJQYXRpZW50IE1vbml0b3JpbmcgYW5kIENvbnRyb2wgKFBNQykiIHsKICAgICAgICAgICAgIWRvY3MgZG9jcwoKICAgICAgICAgICAgZ3JvdXAgIk1lZGljYWwgRGV2aWNlcyBNYW5hZ2VtZW50IiB7CiAgICAgICAgICAgICAgICBkZXZpY2VzV2ViQVBJID0gY29udGFpbmVyICJEZXZpY2VzIFdlYiBBUEkiICJNYW5hZ2VzIG1lZGljYWwgZGV2aWNlcywgcmVzb2x2ZXMgY29tbXVuaWNhdGlvbiBkaWZmZXJlbmNlcyBvZiBkZXZpY2VzIGFzIGFkYXB0ZXIiICJKYXZhIFNwcmluZyBCb290IiB7CiAgICAgICAgICAgICAgICAgICAgZGV2aWNlc0RhdGFDb250cm9sbGVyID0gY29tcG9uZW50ICJEZXZpY2VzIERhdGEgQ29udHJvbGxlciIgIkVuZHBvaW50cyB0byBnZXQgZGV2aWNlIGRhdGEiCiAgICAgICAgICAgICAgICAgICAgZGV2aWNlc01hbmFnZW1lbnRDb250cm9sbGVyID0gY29tcG9uZW50ICJEZXZpY2VzIFJlZ2lzdHJhdGlvbiBDb250cm9sbGVyIiAiRW5kcG9pbnRzIHRvIChkZSlyZWdpc3RlciBkZXZpY2VzIgogICAgICAgICAgICAgICAgICAgIGRldmljZXNNYW5hZ2VtZW50ID0gY29tcG9uZW50ICJEZXZpY2VzIE1hbmFnZW1lbnQiICJJbXBsZW1lbnRhdGlvbiBsb2dpYyBvZiBkZXZpY2VzIGFwcGxpY2F0aW9uIgogICAgICAgICAgICAgICAgICAgIGRldmljZXNQZXJzaXN0ZW5jZSA9IGNvbXBvbmVudCAiRGV2aWNlcyBQZXJzaXN0ZW5jZSIgIkRCIG9wZXJhdGlvbnMgT1JNcyIKICAgICAgICAgICAgICAgICAgICBkZXZpY2VzTm90aWZpY2F0aW9ucyA9IGNvbXBvbmVudCAiRGV2aWNlcyBOb3RpZmljYXRpb25zIiAiU2VuZHMgZS1tYWlsIC8gc21zIG5vdGlmaWNhdGlvbiB0byB1c2VycyIKICAgICAgICAgICAgICAgICAgICBkZXZpY2VzQWRhcHRlciA9IGNvbXBvbmVudCAiRGV2aWNlcyBBZGFwdGVyIiAiQWRhcHRlcnMgZm9yIGRpZmZlcmVudCBBUElzIG9mIGRldmljZXMiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkZXZpY2VzV2ViQXBwID0gY29udGFpbmVyICJEZXZpY2VzIFdlYiBBcHAiICJQcm92aWRlcyBVSSB0byBtYW5hZ2UgYW5kIGFsbG9jYXRlIG1lZGljYWwgZGV2aWNlcyIgIlJlYWN0IFRTIiAid2ViQXBwIgogICAgICAgICAgICAgICAgZGV2aWNlc0RCID0gY29udGFpbmVyICJEZXZpY2VzIERhdGEgU3RvcmFnZSIgIlBlcnNpc3RzIG1lZGljYWwgZGV2aWNlcyBjb25maWd1cmF0aW9ucyIgIlJlbGF0aW9uYWwgREIiCiAgICAgICAgICAgICAgICBzZWNvbmRhcnlEZXZpY2VzREIgPSBjb250YWluZXIgIkRldmljZXMgRGF0YSBTZWNvbmRhcnkgU3RvcmFnZSIgIlBlcnNpc3RzIG1lZGljYWwgZGV2aWNlcyBjb25maWd1cmF0aW9ucyIgIlJlbGF0aW9uYWwgREIiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGdyb3VwICJQYXRpZW50IE1vbml0b3JpbmcgYW5kIENvbnRyb2wiIHsKICAgICAgICAgICAgICAgIHBtY0JhY2tlbmQgPSBjb250YWluZXIgIlBNQyBTZXJ2ZXIiICJNYW5hZ2VzIGFsbG9jYXRpb24gb2YgcGF0aWVudHMsIGdhdGhlcmluZyBtb25pdG9yaW5nIGRhdGEgYW5kIGRydWdzIHVzYWdlIiAiSmF2YSBTcHJpbmcgQm9vdCIgewogICAgICAgICAgICAgICAgICAgIGxvY2F0aW9uQ3RybCA9IGNvbXBvbmVudCAiUGF0aWVudCBMb2NhdGlvbiBDb250cm9sbGVyIiAiaW1wbGVtZW50cyB0aGUgbG9naWMgcmVsYXRlZCB0byBnZXR0aW5nIGFuZCBzZXR0aW5nIHRoZSBsb2NhdGlvbiBvZiBhIHBhdGllbnQiICIiCgogICAgICAgICAgICAgICAgICAgIGhvc3BpdGFsQmVkQ3RybCA9IGNvbXBvbmVudCAiSG9zcGl0YWwgQmVkIENvbnRyb2xsZXIiICJpbXBsZW1lbnRzIHRoZSBsb2dpYyByZWxhdGVkIHRvIGdldHRpbmcgYW5kIHNldHRpbmcgdGhlIGhvc3BpdGFsIGJlZCBhdmFpbGFiaWxpdHkiICIiCgogICAgICAgICAgICAgICAgICAgIHZlYyA9IGNvbXBvbmVudCAiTmV3LXBhdGllbnQgZGV0ZWN0b3IiICJpbXBsZW1lbnRzIHRoZSBsb2dpYyBiZWhpbmQgZGV0ZWN0aW5nIG5ldyBwYXRpZW50cyIgIiIKCiAgICAgICAgICAgICAgICAgICAgaGlzdG9yeUN0cmwgPSBjb21wb25lbnQgIlBhdGllbnQgSGlzdG9yeSBDb250cm9sbGVyIiAiaW1wbGVtZW50cyB0aGUgbG9naWMgcmVsYXRlZCB0byBnZXR0aW5nIGFuZCBwZXJzaXN0aW5nIHBhdGllbnQncyBoaXN0b3J5IiAiIgoKICAgICAgICAgICAgICAgICAgICBkcnVnQ3RybCA9IGNvbXBvbmVudCAiRHJ1ZyBDb250cm9sbGVyIiAiaW1wbGVtZW50cyB0aGUgbG9naWMgcmVsYXRlZCB0byBnZXR0aW5nIHBhdGllbnQncyBkcnVnIGRhdGEiICIiCiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgY29uZGl0aW9uQ3RybCA9IGNvbXBvbmVudCAiUGF0aWVudCBDb25kaXRpb24gQ29udHJvbGxlciIgImltcGxlbWVudHMgdGhlIGxvZ2ljIHJlbGF0ZWQgdG8gZ2V0dGluZyBwYXRpZW50J3MgY3VycmVudCBjb25kaXRpb24iICIiCgogICAgICAgICAgICAgICAgICAgIHBlcnNpc3RhbmNlTGF5ZXIgPSBjb21wb25lbnQgIlBlcnNpc3RhbmNlIExheWVyIiAiUHJvdmlkZXMgZGF0YSBtYXBwaW5nIChpbiB0aGUgZm9ybSBvZiBtYW55IE9STSBjbGFzc2VzKSB0byB0aGUgc3RvcmFnZSIgIiIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBwbWNGcm9udGVuZCA9IGNvbnRhaW5lciAiUE1DIFdlYiBBcHAiICJBbGxvd3MgdG8gbWFuYWdlIHBhdGllbnQnIGFsbG9jYXRpb24sIHZpZXcgbW9uaXRvcmluZyBkYXRhIGFuZCBzZXQgcmVjb3JkcyBvZiBkcnVnIHVzYWdlIiAiUmVhY3QgVFMiICJ3ZWJBcHAiCiAgICAgICAgICAgICAgICBwbWNEQiA9IGNvbnRhaW5lciAiUE1DIERhdGEgU3RvcmFnZSIgIlBlcnNpc3RzIHBhdGllbnQgaGlzdG9yeSwgYWxsb2NhdGlvbiBvZiBkZXZpY2VzIHRvIGJlZHMsIGF2YWlsYWJsZSBiZWRzIGNvbmZpZ3VyYXRpb24iICJSZWxhdGlvbmFsIERCIgogICAgICAgICAgICAgICAgc2Vjb25kYXJ5UG1jREIgPSBjb250YWluZXIgIlBNQyBEYXRhIFNlY29uZGFyeSBTdG9yYWdlIiAiUGVyc2lzdHMgbWVkaWNhbCBkZXZpY2VzIGNvbmZpZ3VyYXRpb25zIiAiUmVsYXRpb25hbCBEQiIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZ3JvdXAgIkRydWdzIFVzYWdlIiB7CiAgICAgICAgICAgICAgICBkcnVnc1VzYWdlV2ViQVBJID0gY29udGFpbmVyICJEcnVncyBVc2FnZSBXZWIgQVBJIiAiQWxsb2NhdGVzIGRydWdzIGFuZCByZXBvcnRzIGRlcGxldGlvbiBvZiBkcnVncyIgIkphdmEgU3ByaW5nIEJvb3QiIHsKICAgICAgICAgICAgICAgICAgICBkcnVnRGVsaXZlcnlNYW4gPSBjb21wb25lbnQgIkRydWcgRGVsaXZlcnkgTWFuYWdlciIgIkltcGxlbWVudHMgbG9naWMgcmVsYXRlZCB0byByZXF1ZXN0aW5nIGRydWcgZGVsaXZlcnkiCgogICAgICAgICAgICAgICAgICAgIGRydWdDYXRhbG9nTWFuID0gY29tcG9uZW50ICJEcnVnIENhdGFsb2cgTWFuYWdlciIgIkltcGxlbWVudHMgbG9naWMgcmVsYXRlZCB0byBxdWVyeWluZyBkcnVnIGluZm9ybWF0aW9uIgoKICAgICAgICAgICAgICAgICAgICBkcnVnVXNhZ2VDdHJsID0gY29tcG9uZW50ICJEcnVnIENvbnRyb2xsZXIiICJFbmRwb2ludCBmb3IgZHJ1ZyBtYW5hZ2VtZW50IGFuZCBpbmZvIgoKICAgICAgICAgICAgICAgICAgICBkcnVnTWFuYWdlbWVudCA9IGNvbXBvbmVudCAiRHJ1ZyBNYW5hZ2VtZW50IiAiTWFuYWdlcyBkcnVnIG5lZWRzIgoKICAgICAgICAgICAgICAgICAgICBkcnVnUGVyc2lzdGFuY2VMYXllciA9IGNvbXBvbmVudCAiUGVyc2lzdGFuY2UgbGF5ZXIiCgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZHJ1Z3NVc2FnZURCID0gY29udGFpbmVyICJEcnVncyBVc2FnZSBEYXRhIFN0b3JhZ2UiICJTdG9yZXMgYXZhaWxhYmxlIGRydWdzIGFsbG9jYXRpb24gKGJhbGFuY2UpIiAiUmVsYXRpb25hbCBEQiIKICAgICAgICAgICAgICAgIGRydWdzVXNhZ2VTZWNvbmRhcnlEQiA9IGNvbnRhaW5lciAiRHJ1Z3MgVXNhZ2UgRGF0YSBTZWNvbmRhcnkgU3RvcmFnZSIgIlN0b3JlcyBhdmFpbGFibGUgZHJ1Z3MgYWxsb2NhdGlvbiAoYmFsYW5jZSkiICJSZWxhdGlvbmFsIERCIgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBkbSA9IHNvZnR3YXJlU3lzdGVtICJEcnVnIE1vbml0b3JpbmcgKERNKSIgIlNvZnR3YXJlIFN5c3RlbSIKICAgICAgICBwYXRpZW50c1JlZ2lzdHJ5QVBJID0gc29mdHdhcmVTeXN0ZW0gIlBhdGllbnQgcmVnaXN0cnkiICJTb2Z0d2FyZSBTeXN0ZW0iCiAgICAgICAgb2F0aFVzZXJBdXRob3JpemF0aW9uID0gc29mdHdhcmVTeXN0ZW0gIk9BdXRoIEF1dGhvcml6YXRpb24gU2VydmVyIiAiU29mdHdhcmUgU3lzdGVtIgoKICAgICAgICBtZWRpY2FsU3RhZmYgLT4gcG1jICJVc2VzIFBNQyB0byBtYW5hZ2UgcGF0aWVudCBoZWFsdGggZGF0YSBhbmQgYmVkIGFsbG9jYXRpb25zIgogICAgICAgIHRlY2huaWNhbFN1cHBvcnRTdGFmZiAtPiBwbWMgIlVzZXMgUE1DIHRvIHJlZ2lzdGVyIG9yIHJlcGxhY2UgbWVkaWNhbCBkZXZpY2UgdG8gaG9zcGl0YWwgYmVkcyIKICAgICAgICBwbWMgLT4gZG0gIlVzZXMgRE0gdG8gbW9uaXRvciBkcnVnIHVzYWdlIgogICAgICAgIHBtYyAtPiBvYXRoVXNlckF1dGhvcml6YXRpb24gIlVzZXMgT0F1dGggdG8gYXV0aG9yaXplIG1lZGljYWwgYW5kIHRlY2huaWNhbCBzdGFmZiIKCiAgICAgICAgZGV2aWNlc1dlYkFQSSAtPiBtZWRpY2FsRGV2aWNlICJQdWxscyBtZWRpY2FsIGRhdGEiCiAgICAgICAgZGV2aWNlc1dlYkFQSSAtPiB0ZWNobmljYWxTdXBwb3J0U3RhZmYgIlJlcG9ydHMgZGV2aWNlIG1hbGZ1bmN0aW9ucyIKCiAgICAgICAgdGVjaG5pY2FsU3VwcG9ydFN0YWZmIC0+IGRldmljZXNXZWJBcHAgIlJlZ2lzdGVycyBvciByZXBsYWNlcyBtZWRpY2FsIGRldmljZSIKICAgICAgICBkZXZpY2VzV2ViQVBJIC0+IG9hdGhVc2VyQXV0aG9yaXphdGlvbiAiQXV0aG9yaXplcyBtZWRpY2FsIHN1cHBvcnQgc3RhZmYiCiAgICAgICAgbWVkaWNhbFN0YWZmIC0+IHBtY0Zyb250ZW5kICJVc2VzIgogICAgICAgIHBtY0JhY2tlbmQgLT4gb2F0aFVzZXJBdXRob3JpemF0aW9uICJBdXRob3JpemVzIG1lZGljYWwgc3RhZmYiCgogICAgICAgIGRldmljZXNXZWJBUEkgLT4gcG1jQmFja2VuZCAiUmVxdWVzdHMgYmVkcyBkYXRhIGZyb20gUE1DLCBzZW5kcyBuZXcgZGV2aWNlJ3MgYWxsb2NhdGlvbiBkZXZpY2UgdG8gUE1DIgogICAgICAgIHBtY0JhY2tlbmQgLT4gZGV2aWNlc1dlYkFQSSAiUXVlcmllcyBkYXRhIGZyb20gbWVkaWNhbCBkZXZpY2VzIgoKICAgICAgICBkcnVnc1VzYWdlV2ViQVBJIC0+IGRtICJSZXBvcnRzIGRydWdzIGRlcGxldGlvbiIKICAgICAgICBkbSAtPiBkcnVnc1VzYWdlV2ViQVBJICJBbGxvY2F0ZXMgZHJ1Z3MiCgogICAgICAgIGRydWdzVXNhZ2VXZWJBUEkgLT4gZHJ1Z3NVc2FnZURCICJVc2VzIgogICAgICAgIHBtY0JhY2tlbmQgLT4gcG1jREIgIlVzZXMiCiAgICAgICAgZGV2aWNlc1dlYkFQSSAtPiBkZXZpY2VzREIgIlVzZXMiCiAgICAgICAgcG1jRnJvbnRlbmQgLT4gcG1jQmFja2VuZCAiVXNlcyIKICAgICAgICBkZXZpY2VzV2ViQXBwIC0+IGRldmljZXNXZWJBUEkgIlVzZXMiCgogICAgICAgIHBtY0JhY2tlbmQgLT4gZHJ1Z3NVc2FnZVdlYkFQSSAiUmVxdWVzdCBhbGxvY2F0aW9uIG9mIGRydWdzIHRvIHBhdGllbnQiCiAgICAgICAgcG1jQmFja2VuZCAtPiBwYXRpZW50c1JlZ2lzdHJ5QVBJICJGZXRjaGVzIHBhdGllbnRzIGRhdGEiCgogICAgICAgIC8vIFBNQyBCQUNLRU5EIEwzCiAgICAgICAgbG9jYXRpb25DdHJsIC0+IHBlcnNpc3RhbmNlTGF5ZXIgIlVzZXMgdG8gYWNjZXNzIHBhdGllbnQgbG9jYXRpb24gZGF0YSIKICAgICAgICB2ZWMgLT4gcGF0aWVudHNSZWdpc3RyeUFQSSAiUXVlcmllcyIKICAgICAgICBsb2NhdGlvbkN0cmwgLT4gdmVjICJRdWVycmllcyBmb3IgbmV3IHBhdGllbnRzIgogICAgICAgIHBtY0Zyb250ZW5kIC0+IGxvY2F0aW9uQ3RybCAiTWFrZXMgQVBJIGNhbGxzIHRvIGdldC9hc3NpZ24gcGF0aWVudHMnIGxvY2F0aW9ucyIgIkpTT04vSFRUUCIKCiAgICAgICAgaG9zcGl0YWxCZWRDdHJsIC0+IGxvY2F0aW9uQ3RybCAiUHJvdmlkZXMgZGF0YSBib3V0IGF2YWlsYWJsZSBob3NwaXRhbCBiZWRzIiAiSlNPTi9IVFRQIgogICAgICAgIGxvY2F0aW9uQ3RybCAtPiBob3NwaXRhbEJlZEN0cmwgIldyaXRlcyBjaGFuZ2VzIGluIGhvc3BpdGFsIGJlZCBhdmFpbGlhYmlsaXR5IiAiSlNPTi9IVFRQIgoKICAgICAgICBob3NwaXRhbEJlZEN0cmwgLT4gcGVyc2lzdGFuY2VMYXllciAiVXNlcyB0byBhY2Nlc3MgaG9zcGl0YWwgYmVkIGF2YWlsYWJpbGl0eSBkYXRhIiAiSlNPTi9IVFRQIgoKICAgICAgICBoaXN0b3J5Q3RybCAtPiBkcnVnVXNhZ2VDdHJsICJGZXRjaGVzIGRhdGEgdG8gcGVyc2lzdCBmcm9tIgoKICAgICAgICBwbWNGcm9udGVuZCAtPiBoaXN0b3J5Q3RybCAiTWFrZXMgQVBJIGNhbGxzIHRvIGdldCBwYXRpZW50IGhpc3RvcnkiICJKU09OL0hUVFAiCiAgICAgICAgaGlzdG9yeUN0cmwgLT4gcGVyc2lzdGFuY2VMYXllciAiVXNlcyB0byBhY2Nlc3MgcGF0aWVudCBoaXN0b3J5IGRhdGEiCgogICAgICAgIHBtY0Zyb250ZW5kIC0+IGRydWdDdHJsICJNYWtlcyBBUEkgY2FsbHMgdG8gZ2V0IHBhdGllbnQncyBkcnVnIHVzYWdlIGRhdGEiICJKU09OL0hUVFAiCiAgICAgICAgZHJ1Z0N0cmwgLT4gZHJ1Z1VzYWdlQ3RybCAiVXNlcyB0byBhY2Nlc3MgcGF0aWVudC1kcnVnIGRhdGEiCgogICAgICAgIHBtY0Zyb250ZW5kIC0+IGNvbmRpdGlvbkN0cmwgIk1ha2VzIEFQSSBjYWxscyB0byBnZXQgcGF0aWVudCdzIGN1cnJlbnQgY29uZGl0aW9uIiAiSlNPTi9IVFRQIgoKICAgICAgICBkcnVnQ3RybCAtPiBvYXRoVXNlckF1dGhvcml6YXRpb24gIlVzZXMgdG8gYXV0aG9yaXplIHJlcXVlc3RzIgogICAgICAgIGNvbmRpdGlvbkN0cmwgLT4gb2F0aFVzZXJBdXRob3JpemF0aW9uICJVc2VzIHRvIGF1dGhvcml6ZSByZXF1ZXN0cyIKICAgICAgICBoaXN0b3J5Q3RybCAtPiBvYXRoVXNlckF1dGhvcml6YXRpb24gIlVzZXMgdG8gYXV0aG9yaXplIHJlcXVlc3RzIgogICAgICAgIGxvY2F0aW9uQ3RybCAtPiBvYXRoVXNlckF1dGhvcml6YXRpb24gIlVzZXMgdG8gYXV0aG9yaXplIHJlcXVlc3RzIgoKICAgICAgICBjb25kaXRpb25DdHJsIC0+IGRldmljZXNXZWJBUEkgIlF1ZXJpZXMgc2Vuc29yIGRhdGEgZnJvbSIgIiIKICAgICAgICBjb25kaXRpb25DdHJsIC0+IHBlcnNpc3RhbmNlTGF5ZXIgIlVzZXMgdG8gcGVyc2lzdHMvYWNjZXNzIHNlbnNvciBkYXRhIChkdXJpbmcgYSBzaW5nbGUgaG9zcGl0YWxpemF0aW9uKSIgIiIKICAgICAgICBoaXN0b3J5Q3RybCAtPiBwZXJzaXN0YW5jZUxheWVyICJVc2VzIHRvIHBlcnNpc3QgZGF0YSBmcm9tIiAidmFyaW91cyBPUk1zIHJlbGF0ZWQgdG8gY29udHJvbGxlcnMiCgogICAgICAgIHBlcnNpc3RhbmNlTGF5ZXIgLT4gcG1jREIgIlJlYWRzIGRhdGEgZnJvbSwgd3JpdGVzIGRhdGEgdG8iCgogICAgICAgIHBtY0JhY2tlbmQgLT4gZGV2aWNlc0RhdGFDb250cm9sbGVyICJNYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgIGRldmljZXNEYXRhQ29udHJvbGxlciAtPiBkZXZpY2VzTWFuYWdlbWVudCAiR2V0cyBkZXZpY2VzIGRhdGEgcHJvY2Vzc2VkIGJ5IGFwcGxpY2F0aW9uIGxvZ2ljIgogICAgICAgIGRldmljZXNNYW5hZ2VtZW50IC0+IGRldmljZXNQZXJzaXN0ZW5jZSAiU3RvcmVzIGRldmljZXMgZGF0YSBhbmQgbWV0YWRhdGEiCiAgICAgICAgZGV2aWNlc01hbmFnZW1lbnQgLT4gZGV2aWNlc0FkYXB0ZXIgIlJldHJpZXZlcyBkZXZpY2VzIGRhdGEgdXNpbmcgYWRhcHRlciIKICAgICAgICBkZXZpY2VzTWFuYWdlbWVudCAtPiBkZXZpY2VzTm90aWZpY2F0aW9ucyAiUmVwb3J0cyBkZXZpY2UncyBmYXVsdC9mYWlsdXJlIHRvIGV4dGVybmFsIHNlcnZpY2VzIgogICAgICAgIGRldmljZXNBZGFwdGVyIC0+IG1lZGljYWxEZXZpY2UgIk1ha2VzIGNhbGwgdG8gdW5pcXVlIEFQSSIgIlByb3RvY29scyBkZXBlbmQgb24gZGV2aWNlIHNwZWMiCiAgICAgICAgZGV2aWNlc01hbmFnZW1lbnRDb250cm9sbGVyIC0+IGRldmljZXNNYW5hZ2VtZW50ICIoRGUpcmVnaXN0ZXJzIGRldmljZXMiCgogICAgICAgIGRldmljZXNXZWJBcHAgLT4gZGV2aWNlc0RhdGFDb250cm9sbGVyICJNYWtlcyBjYWxsIHRvIgogICAgICAgIGRldmljZXNXZWJBcHAgLT4gZGV2aWNlc01hbmFnZW1lbnRDb250cm9sbGVyICJNYWtlcyBjYWxsIHRvIgoKICAgICAgICBkZXZpY2VzUGVyc2lzdGVuY2UgLT4gZGV2aWNlc0RCICJVc2VzIE9STSB0byBwZXJzaXN0IGRhdGEiCiAgICAgICAgZGV2aWNlc05vdGlmaWNhdGlvbnMgLT4gdGVjaG5pY2FsU3VwcG9ydFN0YWZmICJSZXBvcnRzIGRldmljZSdzIGZhdWx0L2ZhaWx1cmUgdG8iCgoKICAgICAgICBkcnVnVXNhZ2VDdHJsIC0+IGRydWdDYXRhbG9nTWFuICJSZWxheXMgcXVlcmllcyBhYm91dCBkcnVnIGluZm9ybWF0aW9uIgogICAgICAgIGRydWdDYXRhbG9nTWFuIC0+IGRtICJNYWtlcyBBUEkgY2FsbCB0byIKICAgICAgICBkcnVnVXNhZ2VDdHJsIC0+IGRydWdNYW5hZ2VtZW50ICJSZWxheXMgaW5mbyBhYm91dCBkcnVnIHByZXNjcmlwdGlvbnMiCiAgICAgICAgZHJ1Z01hbmFnZW1lbnQgLT4gZHJ1Z1BlcnNpc3RhbmNlTGF5ZXIgIlN0b3JlcyBkcnVnIHByZXNjcmlwdGlvbnMgYW5kIGxvY2FsIHN0b3JhZ2UiCiAgICAgICAgZHJ1Z1BlcnNpc3RhbmNlTGF5ZXIgLT4gZHJ1Z3NVc2FnZURCICJVc2VzIHRvIHBlcnNpc3QgZGF0YSIKICAgICAgICBkcnVnTWFuYWdlbWVudCAtPiBkcnVnRGVsaXZlcnlNYW4gIlJlcXVlc3RzIGRydWcgZGVsaXZlcnkiCiAgICAgICAgZHJ1Z0RlbGl2ZXJ5TWFuIC0+IGRtICJNYWtlcyBBUEkgY2FsbCB0byIKCiAgICAgICAgZGVwbG95bWVudEVudmlyb25tZW50ICJQcm9kdWN0aW9uIiB7CiAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJUZWNobmljYWwgVXNlcidzIFdvcmtzdGF0aW9uIiAiIiAiTWljcm9zb2Z0IFdpbmRvd3MgMTAiIHsKICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJXZWIgQnJvd3NlciIgIiIgIkNocm9tZSwgRmlyZWZveCwgU2FmYXJpLCBvciBFZGdlIiB7CiAgICAgICAgICAgICAgICAgICAgZGV2aWNlc1dlYkFwcEluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgZGV2aWNlc1dlYkFwcAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiTWVkaWNhbCBTdGFmZidzIFdvcmtzdGF0aW9uIiAiIiAiTWljcm9zb2Z0IFdpbmRvd3MgMTAiIHsKICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJXZWIgQnJvd3NlciIgIiIgIkNocm9tZSwgRmlyZWZveCwgU2FmYXJpLCBvciBFZGdlIiB7CiAgICAgICAgICAgICAgICAgICAgcG1jRnJvbnRlbmRJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIHBtY0Zyb250ZW5kCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJPbi1wcmVtaXNlcyBEYXRhY2VudGVyIiB7CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiazgtbWVkLWFwcHMuW2Jhc2UtaW50cmFuZXQtdXJsXSIgIiIgIlVidW50dSAxOC4wNCBMVFMiIHsKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQ29udGFpbmVyICMxIiAiIiAiRG9ja2VyIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJhcHAucG1jLltiYXNlLWludHJhbmV0LXVybF0iICIiICJBcGFjaGUgVG9tY2F0IDgueCIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcG1jQmFja2VuZEluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgcG1jQmFja2VuZAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJDb250YWluZXIgIzIiICIiICJEb2NrZXIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgImRldmljZXMucG1jLltiYXNlLWludHJhbmV0LXVybF0iICIiICJBcGFjaGUgVG9tY2F0IDgueCIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGV2aWNlc1dlYkFQSUluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgZGV2aWNlc1dlYkFQSQogICAgICAgICAgICAgICAgICAgICAgICB9ICAgICAKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkNvbnRhaW5lciAjMyIgIiIgIkRvY2tlciIgewogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiZHJ1Zy11c2FnZS5wbWMuW2Jhc2UtaW50cmFuZXQtdXJsXSIgIiIgIkFwYWNoZSBUb21jYXQgOC54IiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkcnVnc1VzYWdlV2ViQVBJSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBkcnVnc1VzYWdlV2ViQVBJCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIm1lZC1kYjAxLltiYXNlLWludHJhbmV0LXVybF0iICIiICJVYnVudHUgMTguMDQgTFRTIiB7CiAgICAgICAgICAgICAgICAgICAgcHJpbWFyeURhdGFiYXNlU2VydmVyID0gZGVwbG95bWVudE5vZGUgIk9yYWNsZSAtIFByaW1hcnkiICIiICJPcmFjbGUgMTljIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHByaW1hcnlEZXZpY2VzREJJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGRldmljZXNEQgogICAgICAgICAgICAgICAgICAgICAgICBwcmltYXJ5RHJ1Z3NEQkluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgZHJ1Z3NVc2FnZURCCiAgICAgICAgICAgICAgICAgICAgICAgIHByaW1hcnlQbWNEQkluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgcG1jREIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIm1lZC1kYjAzLltiYXNlLWludHJhbmV0LXVybF0iICIiICJVYnVudHUgMTguMDQgTFRTIiAiRmFpbG92ZXIiIHsKICAgICAgICAgICAgICAgICAgICBzZWNvbmRhcnlEYXRhYmFzZVNlcnZlciA9IGRlcGxveW1lbnROb2RlICJPcmFjbGUgLSBTZWNvbmRhcnkiICIiICJPcmFjbGUgMTljIiAiRmFpbG92ZXIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2Vjb25kYXJ5RGV2aWNlc0RCSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBzZWNvbmRhcnlEZXZpY2VzREIKICAgICAgICAgICAgICAgICAgICAgICAgc2Vjb25kYXJ5RHJ1Z3NEQkluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgZHJ1Z3NVc2FnZVNlY29uZGFyeURCCiAgICAgICAgICAgICAgICAgICAgICAgIHNlY29uZGFyeVBtY0RCSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBzZWNvbmRhcnlQbWNEQgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBwcmltYXJ5RGF0YWJhc2VTZXJ2ZXIgLT4gc2Vjb25kYXJ5RGF0YWJhc2VTZXJ2ZXIgIlJlcGxpY2F0ZXMgZGF0YSB0byIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtQ29udGV4dCBwbWMgIkxldmVsXzEiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgcG1jICJMZXZlbF8yIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBleGNsdWRlIHNlY29uZGFyeURldmljZXNEQgogICAgICAgICAgICBleGNsdWRlIGRydWdzVXNhZ2VTZWNvbmRhcnlEQgogICAgICAgICAgICBleGNsdWRlIHNlY29uZGFyeVBtY0RCCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgcG1jQmFja2VuZCAiTGV2ZWxfM19jZW50cmFsIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBleGNsdWRlIGRldmljZXNXZWJBUEkgLT4gb2F0aFVzZXJBdXRob3JpemF0aW9uCgogICAgICAgIH0KICAgICAgICAKICAgICAgICBjb21wb25lbnQgZGV2aWNlc1dlYkFQSSAiTGV2ZWxfM19kZXZpY2VzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGRydWdzVXNhZ2VXZWJBUEkgIkxldmVsXzNfZHJ1Z3MiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKCiAgICAgICAgZHluYW1pYyBwbWMgIlNpbXBsZVBhdGllbnREaXNjb3ZlcnlXb3JrZmxvdyIgIlN1bW1hcmlzZXMgaG93IG5ldyBhbmQgdW5hc3NpZ25lZCBwYXRpZW50cyBhcmUgZGlzY292ZXJlZC4iIHsKICAgICAgICAgICAgbWVkaWNhbFN0YWZmIC0+IHBtY0Zyb250ZW5kICJEaXNwbGF5cyB0aGUgdW5hc3NpZ25lZC1wYXRpZW50IHZpZXcgLyBwYWdlIgogICAgICAgICAgICBwbWNGcm9udGVuZCAtPiBwbWNCYWNrZW5kICJSZXF1ZXN0cyBpbmNvbWluZyB1bmFzc2lnbmVkIHBhdGllbnQgbGlzdCIKICAgICAgICAgICAgcG1jQmFja2VuZCAtPiBwYXRpZW50c1JlZ2lzdHJ5QVBJICJSZXF1ZXN0cyBpbmZvcm1hdGlvbiB0byBkZXRlcm1pbmUgbmV3IHBhdGllbnRzIgogICAgICAgICAgICBwYXRpZW50c1JlZ2lzdHJ5QVBJIC0+IHBtY0JhY2tlbmQgIlJlc3BvbmRzIHdpdGggdGhlIHJlcXVpcmVkIGluZm9ybWF0aW9uIgogICAgICAgICAgICBwbWNCYWNrZW5kIC0+IHBtY0Zyb250ZW5kICJSZXR1cm5zIGxpc3Qgb2YgaW5jb21pbmcgdW5hc3NpZ25lZCBwYXRpZW50cyIKICAgICAgICAgICAgYXV0b2xheW91dAogICAgICAgIH0KCiAgICAgICAgZHluYW1pYyBwbWNCYWNrZW5kICJQYXRpZW50RGlzY292ZXJ5V29ya2Zsb3ciICJTdW1tYXJpc2VzIGhvdyBuZXcgYW5kIHVuYXNzaWduZWQgcGF0aWVudHMgYXJlIGRpc2NvdmVyZWQuIiB7CiAgICAgICAgICAgIG1lZGljYWxTdGFmZiAtPiBwbWNGcm9udGVuZCAiRGlzcGxheXMgdGhlIHVuYXNzaWduZWQtcGF0aWVudCB2aWV3IC8gcGFnZSIKICAgICAgICAgICAgcG1jRnJvbnRlbmQgLT4gbG9jYXRpb25DdHJsICJSZXF1ZXN0cyBpbmNvbWluZyB1bmFzc2lnbmVkIHBhdGllbnQgbGlzdCIKICAgICAgICAgICAgbG9jYXRpb25DdHJsIC0+IHZlYyAiUmVxdWVzdHMgbmV3LXBhdGllbnQgbGlzdCIKICAgICAgICAgICAgdmVjIC0+IHBhdGllbnRzUmVnaXN0cnlBUEkgIlJlcXVlc3RzIHBhdGllbnQgZGF0YSB0byBkZXRlcm1pbmUgbmV3IHBhdGllbnRzIgogICAgICAgICAgICBwYXRpZW50c1JlZ2lzdHJ5QVBJIC0+IHZlYyAiUmV0dXJucyBwYXRpZW50IGRhdGEiCiAgICAgICAgICAgIHZlYyAtPiBsb2NhdGlvbkN0cmwgIlJldHVybnMgaW5jb21pbmcgcGF0aWVudCBsaXN0IgogICAgICAgICAgICBsb2NhdGlvbkN0cmwgLT4gcGVyc2lzdGFuY2VMYXllciAiRmlsdGVyIHVuYXNzaWduZWQgcGF0aWVudHMgdXNpbmciCiAgICAgICAgICAgIHBlcnNpc3RhbmNlTGF5ZXIgLT4gbG9jYXRpb25DdHJsICJSZXR1cm5zIGxpc3Qgb2YgZmlsdGVyZWQgdW5hc3NpZ25lZCBwYXRpZW50cyIKICAgICAgICAgICAgbG9jYXRpb25DdHJsIC0+IHBtY0Zyb250ZW5kICJSZXR1cm5zIGxpc3Qgb2YgaW5jb21pbmcgdW5hc3NpZ25lZCBwYXRpZW50cyIKICAgICAgICAgICAgcG1jRnJvbnRlbmQgLT4gbWVkaWNhbFN0YWZmICJEaXNwbGF5cyB1bmFzc2lnbmVkIHBhdGllbnRzIgogICAgICAgIH0KCiAgICAgICAgZHluYW1pYyBwbWMgIlNpbXBsZUFkZFBhdGllbnRXb3JrZmxvdyIgIlN1bW1hcmlzZXMgaG93IHRoZSBhc3NpZ25pbmcgb2YgcGF0aWVudHMgd29ya3MuIiB7CiAgICAgICAgICAgIG1lZGljYWxTdGFmZiAtPiBwbWNGcm9udGVuZCAiQXNzaWducyBhbiB1bmFzc2lnbmVkIHBhdGllbnQgdG8gYSBiZWQiCiAgICAgICAgICAgIHBtY0Zyb250ZW5kIC0+IHBtY0JhY2tlbmQgIlJlcXVlc3RzIHRoZSBhc3NpZ25tZW50IG9mIGEgcGF0aWVudCB0byBhIGJlZCIKICAgICAgICAgICAgcG1jQmFja2VuZCAtPiBwbWNGcm9udGVuZCAiU2lnbmFscyBzdWNjZXNzL2ZhaWx1cmUiCiAgICAgICAgICAgIHBtY0Zyb250ZW5kIC0+IG1lZGljYWxTdGFmZiAiU2lnbmFscyBzdWNjZXNzL2ZhaWx1cmUiCiAgICAgICAgfQoKICAgICAgICBkeW5hbWljIHBtY0JhY2tlbmQgIkFkZFBhdGllbnRXb3JrZmxvdyIgIlN1bW1hcmlzZXMgaG93IHRoZSBhc3NpZ25pbmcgb2YgcGF0aWVudHMgd29ya3MuIiB7CiAgICAgICAgICAgIG1lZGljYWxTdGFmZiAtPiBwbWNGcm9udGVuZCAiQXNzaWducyBhbiB1bmFzc2lnbmVkIHBhdGllbnQgdG8gYSBiZWQiCiAgICAgICAgICAgIHBtY0Zyb250ZW5kIC0+IGxvY2F0aW9uQ3RybCAiUmVxdWVzdHMgdGhlIGFzc2lnbm1lbnQgb2YgYSBwYXRpZW50IHRvIGEgYmVkIgogICAgICAgICAgICBsb2NhdGlvbkN0cmwgLT4gcGVyc2lzdGFuY2VMYXllciAiVmFsaWRhdGVzICYgd3JpdGVzIGRhdGEgdXNpbmciCiAgICAgICAgICAgIHBlcnNpc3RhbmNlTGF5ZXIgLT4gbG9jYXRpb25DdHJsICJTaWduYWxzIHN1Y2Nlc3MgLyBmYWlsdXJlIgogICAgICAgICAgICAvLyBhbHRlcm5hdGl2bmkgbmF2cmggbmFzbGVkdWppY2lobyAxIGtyb2t1OgogICAgICAgICAgICAvLyBoaXN0b3J5Q3RybCBtYSBwb21vY2kgcGVyc2lzdGFuY2UgbGF5ZXIgZXZlbnQgbGlzdGVuZXIgbmEga2F6ZGVtICJsdXprdSIKICAgICAgICAgICAgLy8gICAgICBjYWxsYmFjazogem1lbmEgcGFjaWVudGEgbmEgbHV6a3UgCiAgICAgICAgICAgIC8vICAgICAgICAgICAgICAgIChwdXZvZG5pX3BhY2llbnQsIGx1emtvKSA9PiB2eWtvbm55IGtvZCBoaXN0b3J5Q3RybAogICAgICAgICAgICAvLyBwcmkgem1lbmUgbHV6a2EgYnkgc2UgZGFsbyBuYXBzYXQsIHplIGhpc3RvcnljdHJsIHNpIHZzaW1uZSB6bWVueSBhIHphcmVhZ3VqZQogICAgICAgICAgICBsb2NhdGlvbkN0cmwgLT4gaGlzdG9yeUN0cmwgIklmIGFuIG9sZCBwYXRpZW50IHdhcyBvdmVyd3JpdHRlbiwgdHJpZ2dlciBwYXRpZW50IGhpc3RvcnkgcGVyc2lzdGFuY2UgZm9yIG92ZXJ3cml0dGVuIHBhdGllbnQiCiAgICAgICAgICAgIGxvY2F0aW9uQ3RybCAtPiBwbWNGcm9udGVuZCAiU2lnbmFscyBzdWNjZXNzIC8gZmFpbHVyZSIKICAgICAgICB9CgogICAgICAgIGR5bmFtaWMgcG1jICJTaW1wbGVQYXRpZW50Q29uZGl0aW9uQ2hlY2tXb3JrZmxvdyIgIlN1bW1hcmlzZXMgaG93IHRoZSBtZWRpY2FsIHN0YWZmIGNhbiBhY2Nlc3MgcGF0aWVudCdzIGN1cnJlbnQgY29uZGl0aW9uIiB7CiAgICAgICAgICAgIG1lZGljYWxTdGFmZiAtPiBwbWNGcm9udGVuZCAiRGlzcGxheXMgcGF0aWVudCdzIGNvbmRpdGlvbiB2aWV3IC8gcGFnZSIKICAgICAgICAgICAgcG1jRnJvbnRlbmQgLT4gcG1jQmFja2VuZCAiUmVxdWVzdHMgcGF0aWVudCdzIGNvbmRpdGlvbiIKICAgICAgICAgICAgcG1jQmFja2VuZCAtPiBkZXZpY2VzV2ViQVBJICJSZXF1ZXN0cyBzZW5zb3IgZGF0YSByZWxhdGVkIHRvIHBhdGllbnQncyBiZWQiCiAgICAgICAgICAgIGRldmljZXNXZWJBUEkgLT4gbWVkaWNhbERldmljZSAiUmVxdWVzdHMgZGV2aWNlIGRhdGEiCiAgICAgICAgICAgIG1lZGljYWxEZXZpY2UgLT4gZGV2aWNlc1dlYkFQSSAiUmV0dXJucyBkZXZpY2UgZGF0YSIKICAgICAgICAgICAgZGV2aWNlc1dlYkFQSSAtPiBwbWNCYWNrZW5kICJSZXR1cm5zIGRldmljZSBkYXRhIgogICAgICAgICAgICBwbWNCYWNrZW5kIC0+IHBtY0Zyb250ZW5kICJSZXR1cm5zIHBhdGllbnQncyBjb25kaXRpb24iCiAgICAgICAgICAgIHBtY0Zyb250ZW5kIC0+IG1lZGljYWxTdGFmZiAiRGlzcGxheXMgcGF0aWV0bidzIGNvbmRpdGlvbiIKICAgICAgICB9CgogICAgICAgIGR5bmFtaWMgcG1jQmFja2VuZCAiUGF0aWVudENvbmRpdGlvbkNoZWNrV29ya2Zsb3ciICJTdW1tYXJpc2VzIGhvdyB0aGUgbWVkaWNhbCBzdGFmZiBjYW4gYWNjZXNzIHBhdGllbnQncyBjdXJyZW50IGNvbmRpdGlvbiIgewogICAgICAgICAgICBtZWRpY2FsU3RhZmYgLT4gcG1jRnJvbnRlbmQgIkRpc3BsYXlzIHBhdGllbnQncyBjb25kaXRpb24gdmlldyAvIHBhZ2UiCiAgICAgICAgICAgIHBtY0Zyb250ZW5kIC0+IGNvbmRpdGlvbkN0cmwgIlJlcXVlc3RzIHBhdGllbnQncyBjb25kaXRpb24iCiAgICAgICAgICAgIGNvbmRpdGlvbkN0cmwgLT4gcGVyc2lzdGFuY2VMYXllciAiUmVxdWVzdHMgcGF0aWVudCdzIGJlZCIKICAgICAgICAgICAgcGVyc2lzdGFuY2VMYXllciAtPiBjb25kaXRpb25DdHJsICJSZXR1cm5zIHBhdGllbnQncyBiZWQiCiAgICAgICAgICAgIGNvbmRpdGlvbkN0cmwgLT4gZGV2aWNlc0RhdGFDb250cm9sbGVyICJSZXF1ZXN0cyBzZW5zb3IgZGF0YSByZWxhdGVkIHRvIHBhdGllbnQncyBiZWQiCiAgICAgICAgICAgIGRldmljZXNEYXRhQ29udHJvbGxlciAtPiBkZXZpY2VzTWFuYWdlbWVudCAiUmVxdWVzdHMgc2Vuc29yIGRhdGEgcmVsYXRlZCB0byB0aGUgYmVkIgogICAgICAgICAgICBkZXZpY2VzTWFuYWdlbWVudCAtPiBkZXZpY2VzQWRhcHRlciAiUmVxdWVzdCBmcmVzaCBkZXZpY2UgZGF0YSB1c2luZyIKICAgICAgICAgICAgZGV2aWNlc0FkYXB0ZXIgLT4gbWVkaWNhbERldmljZSAiRmV0Y2hlcyBkZXZpY2UgZGF0YSIKICAgICAgICAgICAgbWVkaWNhbERldmljZSAtPiBkZXZpY2VzQWRhcHRlciAiUmV0dXJucyBkZXZpY2UgZGF0YSIKICAgICAgICAgICAgZGV2aWNlc0FkYXB0ZXIgLT4gZGV2aWNlc01hbmFnZW1lbnQgIlNlbmRzIGJhY2sgc2Vuc29yIGRhdGEiCiAgICAgICAgICAgIGRldmljZXNNYW5hZ2VtZW50IC0+IGRldmljZXNEYXRhQ29udHJvbGxlciAiUmV0dXJucyBkZXZpY2UgZGF0YSIKICAgICAgICAgICAgZGV2aWNlc0RhdGFDb250cm9sbGVyIC0+IGNvbmRpdGlvbkN0cmwgIlNlbmRzIGRldmljZSBkYXRhIGluIHJlc3BvbnNlIgogICAgICAgICAgICBjb25kaXRpb25DdHJsIC0+IHBtY0Zyb250ZW5kICJTZW5kcyBjdXJyZW50IHBhdGllbnQgY29uZGl0aW9uIGRhdGEiCiAgICAgICAgfQoKICAgICAgICBkeW5hbWljIHBtYyAiU2ltcGxlRHJ1Z3NNYW5hZ2VtZW50V29ya2Zsb3ciICJTdW1tYXJpc2VzIGhvdyBtZWRpY2FsIHN0YWZmIGFsbG9jYXRlcyBkcnVncyB0byBhIHBhdGllbnQuIiB7CiAgICAgICAgICAgIG1lZGljYWxTdGFmZiAtPiBwbWNGcm9udGVuZCAiQXNzaWducyBhIGRydWcgdG8gYSBwYXRpZW50IgogICAgICAgICAgICBwbWNGcm9udGVuZCAtPiBwbWNCYWNrZW5kICJSZXF1ZXN0cyB0aGUgYXNzaWdubWVudCBvZiB0aGUgZHJ1ZyB0byB0aGUgcGF0aWVudCIKICAgICAgICAgICAgcG1jQmFja2VuZCAtPiBkcnVnc1VzYWdlV2ViQVBJICJSZWxheXMgdGhlIHJlcXVlc3Qgb2YgdGhlIGFzc2lnbm1lbnQgb2YgdGhlIGRydWcgdG8gdGhlIHBhdGllbnQiCiAgICAgICAgICAgIGRydWdzVXNhZ2VXZWJBUEkgLT4gZG0gIkluIGNhc2UgdGhlIGRydWcgaXMgbm90IGF2YWlsYWJsZSwgcmVxdWVzdHMgZGVsaXZlcnkiCiAgICAgICAgICAgIGF1dG9sYXlvdXQKICAgICAgICB9CgogICAgICAgIGR5bmFtaWMgZHJ1Z3NVc2FnZVdlYkFQSSAiRHJ1Z3NNYW5hZ2VtZW50V29ya2Zsb3ciICJTdW1tYXJpc2VzIGhvdyBtZWRpY2FsIHN0YWZmIGFsbG9jYXRlcyBkcnVncyB0byBhIHBhdGllbnQuIiB7CiAgICAgICAgICAgIG1lZGljYWxTdGFmZiAtPiBwbWNGcm9udGVuZCAiQXNzaWducyBhIGRydWcgdG8gYSBwYXRpZW50IgogICAgICAgICAgICBwbWNGcm9udGVuZCAtPiBkcnVnQ3RybCAiUmVxdWVzdHMgdGhlIGFzc2lnbm1lbnQgb2YgdGhlIGRydWcgdG8gdGhlIHBhdGllbnQiCiAgICAgICAgICAgIGRydWdDdHJsIC0+IGRydWdVc2FnZUN0cmwgIlJlbGF5cyB0aGUgcmVxdWVzdCBvZiB0aGUgYXNzaWdubWVudCBvZiB0aGUgZHJ1ZyB0byB0aGUgcGF0aWVudCIKICAgICAgICAgICAgZHJ1Z1VzYWdlQ3RybCAtPiBkcnVnTWFuYWdlbWVudCAiUmVxdWVzdHMgcHJlc2NyaXB0aW9uIG9mIHRoZSBkcnVnIHRvIHRoZSBwYXRpZW50IgogICAgICAgICAgICBkcnVnTWFuYWdlbWVudCAtPiBkcnVnUGVyc2lzdGFuY2VMYXllciAiV3JpdGVzIGluZm9ybWF0aW9uIGFib3V0IHRoZSBwcmVzY3JpcHRpb24gb2YgdGhlIGRydWcgdG8gdGhlIHBhdGllbnQiCiAgICAgICAgICAgIGRydWdNYW5hZ2VtZW50IC0+IGRydWdQZXJzaXN0YW5jZUxheWVyICJDaGVja3MgdGhlIGF2YWlsYWJpbGl0eSBvZiB0aGUgZHJ1ZyIKICAgICAgICAgICAgZHJ1Z01hbmFnZW1lbnQgLT4gZHJ1Z0RlbGl2ZXJ5TWFuICJJbiBjYXNlIHRoZSBkcnVnIGlzIG5vdCBhdmFpbGFibGUsIHJlcXVlc3RzIGRlbGl2ZXJ5IgogICAgICAgICAgICBkcnVnRGVsaXZlcnlNYW4gLT4gZG0gIlJlcXVlc3RzIGRlbGl2ZXJ5IG9mIHRoZSBkcnVnIgogICAgICAgIH0KCiAgICAgICAgZHluYW1pYyBkZXZpY2VzV2ViQVBJICJEZXZpY2VGYWlsdXJlV29ya2Zsb3ciICJTdW1tYXJpc2VzIGhvdyB0ZWNobmljYWwgc3RhZmYgaXMgaW5mb3JtZWQgYWJvdXQgZGV2aWNlIG1hbGZ1bmN0aW9uLiIgewogICAgICAgICAgICBkZXZpY2VzTWFuYWdlbWVudCAtPiBkZXZpY2VzQWRhcHRlciAiUmVxdWVzdHMgZGF0YSBmcm9tIGEgZGV2aWNlIgogICAgICAgICAgICBkZXZpY2VzQWRhcHRlciAtPiBkZXZpY2VzTWFuYWdlbWVudCAiUmV0dXJucyBpbnZhbGlkIGRhdGEiCiAgICAgICAgICAgIGRldmljZXNNYW5hZ2VtZW50IC0+IGRldmljZXNOb3RpZmljYXRpb25zICJSZXF1ZXN0cyB0byBub3RpZnkgdXNlcnMgb2YgdGhlIGZhaWx1cmUiCiAgICAgICAgICAgIGRldmljZXNNYW5hZ2VtZW50IC0+IGRldmljZXNQZXJzaXN0ZW5jZSAiU3RvcmVzIGZhaWx1cmUgZGV0YWlscyIKICAgICAgICAgICAgZGV2aWNlc05vdGlmaWNhdGlvbnMgLT4gdGVjaG5pY2FsU3VwcG9ydFN0YWZmICJOb3RpZmllcyBvZiB0aGUgZmFpbHVyZSIKICAgICAgICAgICAgdGVjaG5pY2FsU3VwcG9ydFN0YWZmIC0+IGRldmljZXNXZWJBcHAgIlJldmlld3MgZmFpbHVyZSBkZXRhaWxzIGZvciBkaWFnbm9zdGljcyIKICAgICAgICAgICAgYXV0b2xheW91dAogICAgICAgIH0KCiAgICAgICAgZHluYW1pYyBwbWMgIlNpbXBsZURldmljZUZhaWx1cmVXb3JrZmxvdyIgIlN1bW1hcmlzZXMgaG93IHRlY2huaWNhbCBzdGFmZiBpcyBpbmZvcm1lZCBhYm91dCBkZXZpY2UgbWFsZnVuY3Rpb24uIiB7CiAgICAgICAgICAgIHBtY0JhY2tlbmQgLT4gZGV2aWNlc1dlYkFQSSAiUmVxdWVzdHMgZGV2aWNlcyBkYXRhIGZvciBob3NwaXRhbCBiZWQiCiAgICAgICAgICAgIGRldmljZXNXZWJBUEkgLT4gbWVkaWNhbERldmljZSAiUmVxdWVzdHMgZGV2aWNlIGRhdGEiCiAgICAgICAgICAgIG1lZGljYWxEZXZpY2UgLT4gZGV2aWNlc1dlYkFQSSAiTWFsZnVuY3Rpb24gaW4gZGV2aWNlIgogICAgICAgICAgICBkZXZpY2VzV2ViQVBJIC0+IHBtY0JhY2tlbmQgIlJldHVybnMgZ2VuZXJpYyBub24tdGVjaG5pY2FsIGVycm9yIG1lc3NhZ2UiCiAgICAgICAgICAgIGRldmljZXNXZWJBUEkgLT4gdGVjaG5pY2FsU3VwcG9ydFN0YWZmICJTZW5kcyBub3RpZmljYXRpb24iCiAgICAgICAgICAgIHRlY2huaWNhbFN1cHBvcnRTdGFmZiAtPiBkZXZpY2VzV2ViQXBwICJDYW4gcmV2aWV3IG1hbGZ1bmN0aW9uIGRldGFpbHMiCiAgICAgICAgICAgIGF1dG9sYXlvdXQKICAgICAgICB9CgogICAgICAgIGR5bmFtaWMgcG1jICJTaW1wbGVEZXZpY2VBc3NpZ25tZW50V29ya2Zsb3ciICJTdW1tYXJpc2VzIGhvdyBkZXZpY2VzIGFwcCBpcyB1dGlsaXplZCB3aXRoIHBtYyBhcHBsaWNhdGlvbi4iIHsKICAgICAgICAgICAgdGVjaG5pY2FsU3VwcG9ydFN0YWZmIC0+IG1lZGljYWxEZXZpY2UgIkluc3RhbGxzIGRldmljZSB0byBob3NwaXRhbCBiZWQiCiAgICAgICAgICAgIHRlY2huaWNhbFN1cHBvcnRTdGFmZiAtPiBkZXZpY2VzV2ViQXBwICJNYWtlcyByZXF1ZXN0IHRvIHJlZ2lzdGVyIGRldmljZSBmb3IgaG9zcGl0YWwgYmVkIgogICAgICAgICAgICBkZXZpY2VzV2ViQXBwIC0+IGRldmljZXNXZWJBUEkgIlJlZ2lzdGVycyBkZXZpY2UgZm9yIGhvc3BpdGFsIGJlZCIKICAgICAgICAgICAgbWVkaWNhbFN0YWZmIC0+IHBtY0Zyb250ZW5kICJXYW50cyB0byBzZWUgbWVkaWNhbCBkYXRhIGZvciBwYXRpZW50IgogICAgICAgICAgICBwbWNGcm9udGVuZCAtPiBwbWNCYWNrZW5kICJSZXF1ZXN0cyBkYXRhIGZvciBwYXRpZW50IgogICAgICAgICAgICBwbWNCYWNrZW5kIC0+IGRldmljZXNXZWJBUEkgIlJlcXVlc3RzIGRldmljZXMgZGF0YSBmb3IgYmVkIHdoZXJlIHBhdGllbnQgaXMgYWxsb2NhdGVkIgogICAgICAgICAgICBkZXZpY2VzV2ViQVBJIC0+IG1lZGljYWxEZXZpY2UgIlJlcXVlc3RzIGRldmljZSBkYXRhIGZvciBlYWNoIGRldmljZSBvbiBiZWQiCiAgICAgICAgICAgIG1lZGljYWxEZXZpY2UgLT4gZGV2aWNlc1dlYkFQSSAiUmV0dXJucyBkZXZpY2UgZGF0YSIKICAgICAgICAgICAgZGV2aWNlc1dlYkFQSSAtPiBwbWNCYWNrZW5kICJSZXR1cm5zIGRldmljZSBkYXRhIgogICAgICAgICAgICBwbWNCYWNrZW5kIC0+IHBtY0Zyb250ZW5kICJSZXR1cm5zIGRldmljZSBkYXRhIgogICAgICAgICAgICBwbWNGcm9udGVuZCAtPiBtZWRpY2FsU3RhZmYgIlVzZXIgY2FuIHNlZSBtZWRpY2FsIGRhdGEiCiAgICAgICAgfQoKICAgICAgICBkZXBsb3ltZW50IHBtYyAiUHJvZHVjdGlvbiIgIlByb2QiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICAgICAgCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAid2ViQXBwIiB7CiAgICAgICAgICAgICAgICAgICAgc2hhcGUgIldlYkJyb3dzZXIiIAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAibW9iaWxlQXBwIiB7CiAgICAgICAgICAgICAgICBzaGFwZSAiTW9iaWxlRGV2aWNlUG9ydHJhaXQiIAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkZhaWxvdmVyIiB7CiAgICAgICAgICAgICAgICBvcGFjaXR5IDI1CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgCn0K"
@@ -11,30 +11,6 @@
   "configuration" : { },
   "model" : {
     "people" : [ {
-      "id" : "2",
-      "tags" : "Element,Person",
-      "name" : "Medical Support Staff",
-      "relationships" : [ {
-        "id" : "45",
-        "tags" : "Relationship",
-        "sourceId" : "2",
-        "destinationId" : "12",
-        "description" : "Registers or replaces medical device"
-      }, {
-        "id" : "142",
-        "tags" : "Relationship",
-        "sourceId" : "2",
-        "destinationId" : "3",
-        "description" : "Installs device to hospital bed"
-      }, {
-        "id" : "38",
-        "tags" : "Relationship",
-        "sourceId" : "2",
-        "destinationId" : "4",
-        "description" : "Uses PMC to register or replace medical device to hospital beds"
-      } ],
-      "location" : "Unspecified"
-    }, {
       "id" : "1",
       "tags" : "Element,Person",
       "name" : "Medical Staff",
@@ -52,14 +28,32 @@
         "description" : "Uses"
       } ],
       "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "name" : "Medical Support Staff",
+      "relationships" : [ {
+        "id" : "38",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Uses PMC to register or replace medical device to hospital beds"
+      }, {
+        "id" : "142",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Installs device to hospital bed"
+      }, {
+        "id" : "45",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "12",
+        "description" : "Registers or replaces medical device"
+      } ],
+      "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
-      "id" : "35",
-      "tags" : "Element,Software System",
-      "name" : "Patient registry",
-      "description" : "Software System",
-      "location" : "Unspecified"
-    }, {
       "id" : "36",
       "tags" : "Element,Software System",
       "name" : "OAuth Authorization Server",
@@ -71,16 +65,16 @@
       "name" : "Drug Monitoring (DM)",
       "description" : "Software System",
       "relationships" : [ {
-        "id" : "52",
-        "tags" : "Relationship",
-        "sourceId" : "34",
-        "destinationId" : "26",
-        "description" : "Allocates drugs"
-      }, {
         "id" : "53",
         "tags" : "Relationship",
         "sourceId" : "34",
         "destinationId" : "4",
+        "description" : "Allocates drugs"
+      }, {
+        "id" : "52",
+        "tags" : "Relationship",
+        "sourceId" : "34",
+        "destinationId" : "26",
         "description" : "Allocates drugs"
       } ],
       "location" : "Unspecified"
@@ -95,17 +89,17 @@
         "destinationId" : "3",
         "description" : "Pulls medical data"
       }, {
+        "id" : "40",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "36",
+        "description" : "Uses OAuth to authorize medical and technical staff"
+      }, {
         "id" : "44",
         "tags" : "Relationship",
         "sourceId" : "4",
         "destinationId" : "2",
         "description" : "Reports device malfunctions"
-      }, {
-        "id" : "39",
-        "tags" : "Relationship",
-        "sourceId" : "4",
-        "destinationId" : "34",
-        "description" : "Uses DM to monitor drug usage"
       }, {
         "id" : "61",
         "tags" : "Relationship",
@@ -113,285 +107,14 @@
         "destinationId" : "35",
         "description" : "Fetches patients data"
       }, {
-        "id" : "40",
+        "id" : "39",
         "tags" : "Relationship",
         "sourceId" : "4",
-        "destinationId" : "36",
-        "description" : "Uses OAuth to authorize medical and technical staff"
+        "destinationId" : "34",
+        "description" : "Uses DM to monitor drug usage"
       } ],
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "33",
-        "tags" : "Element,Container",
-        "name" : "Drugs Usage Data Secondary Storage",
-        "description" : "Stores available drugs allocation (balance)",
-        "group" : "Drugs Usage",
-        "technology" : "Relational DB"
-      }, {
-        "id" : "15",
-        "tags" : "Element,Container",
-        "name" : "PMC Server",
-        "description" : "Manages allocation of patients, gathering monitoring data and drugs usage",
-        "relationships" : [ {
-          "id" : "48",
-          "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "36",
-          "description" : "Authorizes medical staff"
-        }, {
-          "id" : "60",
-          "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "35",
-          "description" : "Fetches patients data"
-        }, {
-          "id" : "71",
-          "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "29",
-          "description" : "Fetches data to persist from"
-        }, {
-          "id" : "50",
-          "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "5",
-          "description" : "Queries data from medical devices"
-        }, {
-          "id" : "59",
-          "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "26",
-          "description" : "Request allocation of drugs to patient"
-        }, {
-          "id" : "86",
-          "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "6",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
-        }, {
-          "id" : "55",
-          "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "24",
-          "description" : "Uses"
-        } ],
-        "group" : "Patient Monitoring and Control",
-        "technology" : "Java Spring Boot",
-        "components" : [ {
-          "id" : "21",
-          "tags" : "Element,Component",
-          "name" : "Patient Condition Controller",
-          "description" : "implements the logic related to getting patient's current condition",
-          "relationships" : [ {
-            "id" : "141",
-            "tags" : "Relationship",
-            "sourceId" : "21",
-            "destinationId" : "6",
-            "description" : "Requests sensor data related to patient's bed"
-          }, {
-            "id" : "79",
-            "tags" : "Relationship",
-            "sourceId" : "21",
-            "destinationId" : "36",
-            "description" : "Uses to authorize requests"
-          }, {
-            "id" : "83",
-            "tags" : "Relationship",
-            "sourceId" : "21",
-            "destinationId" : "22",
-            "description" : "Uses to persists/access sensor data (during a single hospitalization)"
-          }, {
-            "id" : "82",
-            "tags" : "Relationship",
-            "sourceId" : "21",
-            "destinationId" : "5",
-            "description" : "Queries sensor data from"
-          } ],
-          "size" : 0
-        }, {
-          "id" : "17",
-          "tags" : "Element,Component",
-          "name" : "Hospital Bed Controller",
-          "description" : "implements the logic related to getting and setting the hospital bed availability",
-          "relationships" : [ {
-            "id" : "68",
-            "tags" : "Relationship",
-            "sourceId" : "17",
-            "destinationId" : "22",
-            "description" : "Uses to access hospital bed availability data",
-            "technology" : "JSON/HTTP"
-          }, {
-            "id" : "66",
-            "tags" : "Relationship",
-            "sourceId" : "17",
-            "destinationId" : "16",
-            "description" : "Provides data bout available hospital beds",
-            "technology" : "JSON/HTTP"
-          } ],
-          "size" : 0
-        }, {
-          "id" : "20",
-          "tags" : "Element,Component",
-          "name" : "Drug Controller",
-          "description" : "implements the logic related to getting patient's drug data",
-          "relationships" : [ {
-            "id" : "78",
-            "tags" : "Relationship",
-            "sourceId" : "20",
-            "destinationId" : "36",
-            "description" : "Uses to authorize requests"
-          }, {
-            "id" : "75",
-            "tags" : "Relationship",
-            "sourceId" : "20",
-            "destinationId" : "29",
-            "description" : "Uses to access patient-drug data"
-          }, {
-            "id" : "76",
-            "tags" : "Relationship",
-            "sourceId" : "20",
-            "destinationId" : "26",
-            "description" : "Uses to access patient-drug data"
-          } ],
-          "size" : 0
-        }, {
-          "id" : "22",
-          "tags" : "Element,Component",
-          "name" : "Persistance Layer",
-          "description" : "Provides data mapping (in the form of many ORM classes) to the storage",
-          "relationships" : [ {
-            "id" : "85",
-            "tags" : "Relationship",
-            "sourceId" : "22",
-            "destinationId" : "24",
-            "description" : "Reads data from, writes data to"
-          } ],
-          "size" : 0
-        }, {
-          "id" : "16",
-          "tags" : "Element,Component",
-          "name" : "Patient Location Controller",
-          "description" : "implements the logic related to getting and setting the location of a patient",
-          "relationships" : [ {
-            "id" : "62",
-            "tags" : "Relationship",
-            "sourceId" : "16",
-            "destinationId" : "22",
-            "description" : "Uses to access patient location data"
-          }, {
-            "id" : "140",
-            "tags" : "Relationship",
-            "sourceId" : "16",
-            "destinationId" : "19",
-            "description" : "If an old patient was overwritten, trigger patient history persistance for overwritten patient"
-          }, {
-            "id" : "64",
-            "tags" : "Relationship",
-            "sourceId" : "16",
-            "destinationId" : "18",
-            "description" : "Querries for new patients"
-          }, {
-            "id" : "67",
-            "tags" : "Relationship",
-            "sourceId" : "16",
-            "destinationId" : "17",
-            "description" : "Writes changes in hospital bed availiability",
-            "technology" : "JSON/HTTP"
-          }, {
-            "id" : "81",
-            "tags" : "Relationship",
-            "sourceId" : "16",
-            "destinationId" : "36",
-            "description" : "Uses to authorize requests"
-          } ],
-          "size" : 0
-        }, {
-          "id" : "19",
-          "tags" : "Element,Component",
-          "name" : "Patient History Controller",
-          "description" : "implements the logic related to getting and persisting patient's history",
-          "relationships" : [ {
-            "id" : "69",
-            "tags" : "Relationship",
-            "sourceId" : "19",
-            "destinationId" : "29",
-            "description" : "Fetches data to persist from"
-          }, {
-            "id" : "73",
-            "tags" : "Relationship",
-            "sourceId" : "19",
-            "destinationId" : "22",
-            "description" : "Uses to access patient history data"
-          }, {
-            "id" : "70",
-            "tags" : "Relationship",
-            "sourceId" : "19",
-            "destinationId" : "26",
-            "description" : "Fetches data to persist from"
-          }, {
-            "id" : "80",
-            "tags" : "Relationship",
-            "sourceId" : "19",
-            "destinationId" : "36",
-            "description" : "Uses to authorize requests"
-          }, {
-            "id" : "84",
-            "tags" : "Relationship",
-            "sourceId" : "19",
-            "destinationId" : "22",
-            "description" : "Uses to persist data from",
-            "technology" : "various ORMs related to controllers"
-          } ],
-          "size" : 0
-        }, {
-          "id" : "18",
-          "tags" : "Element,Component",
-          "name" : "New-patient detector",
-          "description" : "implements the logic behind detecting new patients",
-          "relationships" : [ {
-            "id" : "63",
-            "tags" : "Relationship",
-            "sourceId" : "18",
-            "destinationId" : "35",
-            "description" : "Queries"
-          } ],
-          "size" : 0
-        } ]
-      }, {
-        "id" : "12",
-        "tags" : "Element,Container,webApp",
-        "name" : "Devices Web App",
-        "description" : "Provides UI to manage and allocate medical devices",
-        "relationships" : [ {
-          "id" : "58",
-          "tags" : "Relationship",
-          "sourceId" : "12",
-          "destinationId" : "5",
-          "description" : "Uses"
-        }, {
-          "id" : "93",
-          "tags" : "Relationship",
-          "sourceId" : "12",
-          "destinationId" : "6",
-          "description" : "Makes call to"
-        }, {
-          "id" : "94",
-          "tags" : "Relationship",
-          "sourceId" : "12",
-          "destinationId" : "7",
-          "description" : "Makes call to"
-        } ],
-        "group" : "Medical Devices Management",
-        "technology" : "React TS"
-      }, {
-        "id" : "32",
-        "tags" : "Element,Container",
-        "name" : "Drugs Usage Data Storage",
-        "description" : "Stores available drugs allocation (balance)",
-        "group" : "Drugs Usage",
-        "technology" : "Relational DB"
-      }, {
         "id" : "26",
         "tags" : "Element,Container",
         "name" : "Drugs Usage Web API",
@@ -412,37 +135,6 @@
         "group" : "Drugs Usage",
         "technology" : "Java Spring Boot",
         "components" : [ {
-          "id" : "31",
-          "tags" : "Element,Component",
-          "name" : "Persistance layer",
-          "relationships" : [ {
-            "id" : "101",
-            "tags" : "Relationship",
-            "sourceId" : "31",
-            "destinationId" : "32",
-            "description" : "Uses to persist data"
-          } ],
-          "size" : 0
-        }, {
-          "id" : "29",
-          "tags" : "Element,Component",
-          "name" : "Drug Controller",
-          "description" : "Endpoint for drug management and info",
-          "relationships" : [ {
-            "id" : "99",
-            "tags" : "Relationship",
-            "sourceId" : "29",
-            "destinationId" : "30",
-            "description" : "Relays info about drug prescriptions"
-          }, {
-            "id" : "97",
-            "tags" : "Relationship",
-            "sourceId" : "29",
-            "destinationId" : "28",
-            "description" : "Relays queries about drug information"
-          } ],
-          "size" : 0
-        }, {
           "id" : "28",
           "tags" : "Element,Component",
           "name" : "Drug Catalog Manager",
@@ -453,6 +145,37 @@
             "sourceId" : "28",
             "destinationId" : "34",
             "description" : "Makes API call to"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "30",
+          "tags" : "Element,Component",
+          "name" : "Drug Management",
+          "description" : "Manages drug needs",
+          "relationships" : [ {
+            "id" : "102",
+            "tags" : "Relationship",
+            "sourceId" : "30",
+            "destinationId" : "27",
+            "description" : "Requests drug delivery"
+          }, {
+            "id" : "100",
+            "tags" : "Relationship",
+            "sourceId" : "30",
+            "destinationId" : "31",
+            "description" : "Stores drug prescriptions and local storage"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "31",
+          "tags" : "Element,Component",
+          "name" : "Persistance layer",
+          "relationships" : [ {
+            "id" : "101",
+            "tags" : "Relationship",
+            "sourceId" : "31",
+            "destinationId" : "32",
+            "description" : "Uses to persist data"
           } ],
           "size" : 0
         }, {
@@ -469,22 +192,260 @@
           } ],
           "size" : 0
         }, {
-          "id" : "30",
+          "id" : "29",
           "tags" : "Element,Component",
-          "name" : "Drug Management",
-          "description" : "Manages drug needs",
+          "name" : "Drug Controller",
+          "description" : "Endpoint for drug management and info",
           "relationships" : [ {
-            "id" : "100",
+            "id" : "97",
             "tags" : "Relationship",
-            "sourceId" : "30",
-            "destinationId" : "31",
-            "description" : "Stores drug prescriptions and local storage"
+            "sourceId" : "29",
+            "destinationId" : "28",
+            "description" : "Relays queries about drug information"
           }, {
-            "id" : "102",
+            "id" : "99",
             "tags" : "Relationship",
-            "sourceId" : "30",
-            "destinationId" : "27",
-            "description" : "Requests drug delivery"
+            "sourceId" : "29",
+            "destinationId" : "30",
+            "description" : "Relays info about drug prescriptions"
+          } ],
+          "size" : 0
+        } ]
+      }, {
+        "id" : "25",
+        "tags" : "Element,Container",
+        "name" : "PMC Data Secondary Storage",
+        "description" : "Persists medical devices configurations",
+        "group" : "Patient Monitoring and Control",
+        "technology" : "Relational DB"
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container",
+        "name" : "PMC Server",
+        "description" : "Manages allocation of patients, gathering monitoring data and drugs usage",
+        "relationships" : [ {
+          "id" : "86",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "6",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "48",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "36",
+          "description" : "Authorizes medical staff"
+        }, {
+          "id" : "55",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "24",
+          "description" : "Uses"
+        }, {
+          "id" : "59",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "26",
+          "description" : "Request allocation of drugs to patient"
+        }, {
+          "id" : "60",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "35",
+          "description" : "Fetches patients data"
+        }, {
+          "id" : "71",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "29",
+          "description" : "Fetches data to persist from"
+        }, {
+          "id" : "50",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "5",
+          "description" : "Queries data from medical devices"
+        } ],
+        "group" : "Patient Monitoring and Control",
+        "technology" : "Java Spring Boot",
+        "components" : [ {
+          "id" : "22",
+          "tags" : "Element,Component",
+          "name" : "Persistance Layer",
+          "description" : "Provides data mapping (in the form of many ORM classes) to the storage",
+          "relationships" : [ {
+            "id" : "85",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "24",
+            "description" : "Reads data from, writes data to"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "18",
+          "tags" : "Element,Component",
+          "name" : "New-patient detector",
+          "description" : "implements the logic behind detecting new patients",
+          "relationships" : [ {
+            "id" : "63",
+            "tags" : "Relationship",
+            "sourceId" : "18",
+            "destinationId" : "35",
+            "description" : "Queries"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "19",
+          "tags" : "Element,Component",
+          "name" : "Patient History Controller",
+          "description" : "implements the logic related to getting and persisting patient's history",
+          "relationships" : [ {
+            "id" : "70",
+            "tags" : "Relationship",
+            "sourceId" : "19",
+            "destinationId" : "26",
+            "description" : "Fetches data to persist from"
+          }, {
+            "id" : "69",
+            "tags" : "Relationship",
+            "sourceId" : "19",
+            "destinationId" : "29",
+            "description" : "Fetches data to persist from"
+          }, {
+            "id" : "84",
+            "tags" : "Relationship",
+            "sourceId" : "19",
+            "destinationId" : "22",
+            "description" : "Uses to persist data from",
+            "technology" : "various ORMs related to controllers"
+          }, {
+            "id" : "73",
+            "tags" : "Relationship",
+            "sourceId" : "19",
+            "destinationId" : "22",
+            "description" : "Uses to access patient history data"
+          }, {
+            "id" : "80",
+            "tags" : "Relationship",
+            "sourceId" : "19",
+            "destinationId" : "36",
+            "description" : "Uses to authorize requests"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "20",
+          "tags" : "Element,Component",
+          "name" : "Drug Controller",
+          "description" : "implements the logic related to getting patient's drug data",
+          "relationships" : [ {
+            "id" : "75",
+            "tags" : "Relationship",
+            "sourceId" : "20",
+            "destinationId" : "29",
+            "description" : "Uses to access patient-drug data"
+          }, {
+            "id" : "76",
+            "tags" : "Relationship",
+            "sourceId" : "20",
+            "destinationId" : "26",
+            "description" : "Uses to access patient-drug data"
+          }, {
+            "id" : "78",
+            "tags" : "Relationship",
+            "sourceId" : "20",
+            "destinationId" : "36",
+            "description" : "Uses to authorize requests"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "16",
+          "tags" : "Element,Component",
+          "name" : "Patient Location Controller",
+          "description" : "implements the logic related to getting and setting the location of a patient",
+          "relationships" : [ {
+            "id" : "64",
+            "tags" : "Relationship",
+            "sourceId" : "16",
+            "destinationId" : "18",
+            "description" : "Querries for new patients"
+          }, {
+            "id" : "81",
+            "tags" : "Relationship",
+            "sourceId" : "16",
+            "destinationId" : "36",
+            "description" : "Uses to authorize requests"
+          }, {
+            "id" : "62",
+            "tags" : "Relationship",
+            "sourceId" : "16",
+            "destinationId" : "22",
+            "description" : "Uses to access patient location data"
+          }, {
+            "id" : "67",
+            "tags" : "Relationship",
+            "sourceId" : "16",
+            "destinationId" : "17",
+            "description" : "Writes changes in hospital bed availiability",
+            "technology" : "JSON/HTTP"
+          }, {
+            "id" : "140",
+            "tags" : "Relationship",
+            "sourceId" : "16",
+            "destinationId" : "19",
+            "description" : "If an old patient was overwritten, trigger patient history persistance for overwritten patient"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "21",
+          "tags" : "Element,Component",
+          "name" : "Patient Condition Controller",
+          "description" : "implements the logic related to getting patient's current condition",
+          "relationships" : [ {
+            "id" : "83",
+            "tags" : "Relationship",
+            "sourceId" : "21",
+            "destinationId" : "22",
+            "description" : "Uses to persists/access sensor data (during a single hospitalization)"
+          }, {
+            "id" : "79",
+            "tags" : "Relationship",
+            "sourceId" : "21",
+            "destinationId" : "36",
+            "description" : "Uses to authorize requests"
+          }, {
+            "id" : "82",
+            "tags" : "Relationship",
+            "sourceId" : "21",
+            "destinationId" : "5",
+            "description" : "Queries sensor data from"
+          }, {
+            "id" : "141",
+            "tags" : "Relationship",
+            "sourceId" : "21",
+            "destinationId" : "6",
+            "description" : "Requests sensor data related to patient's bed"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "17",
+          "tags" : "Element,Component",
+          "name" : "Hospital Bed Controller",
+          "description" : "implements the logic related to getting and setting the hospital bed availability",
+          "relationships" : [ {
+            "id" : "66",
+            "tags" : "Relationship",
+            "sourceId" : "17",
+            "destinationId" : "16",
+            "description" : "Provides data bout available hospital beds",
+            "technology" : "JSON/HTTP"
+          }, {
+            "id" : "68",
+            "tags" : "Relationship",
+            "sourceId" : "17",
+            "destinationId" : "22",
+            "description" : "Uses to access hospital bed availability data",
+            "technology" : "JSON/HTTP"
           } ],
           "size" : 0
         } ]
@@ -496,11 +457,37 @@
         "group" : "Medical Devices Management",
         "technology" : "Relational DB"
       }, {
-        "id" : "24",
+        "id" : "12",
+        "tags" : "Element,Container,webApp",
+        "name" : "Devices Web App",
+        "description" : "Provides UI to manage and allocate medical devices",
+        "relationships" : [ {
+          "id" : "94",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "7",
+          "description" : "Makes call to"
+        }, {
+          "id" : "93",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "6",
+          "description" : "Makes call to"
+        }, {
+          "id" : "58",
+          "tags" : "Relationship",
+          "sourceId" : "12",
+          "destinationId" : "5",
+          "description" : "Uses"
+        } ],
+        "group" : "Medical Devices Management",
+        "technology" : "React TS"
+      }, {
+        "id" : "33",
         "tags" : "Element,Container",
-        "name" : "PMC Data Storage",
-        "description" : "Persists patient history, allocation of devices to beds, available beds configuration",
-        "group" : "Patient Monitoring and Control",
+        "name" : "Drugs Usage Data Secondary Storage",
+        "description" : "Stores available drugs allocation (balance)",
+        "group" : "Drugs Usage",
         "technology" : "Relational DB"
       }, {
         "id" : "23",
@@ -508,25 +495,11 @@
         "name" : "PMC Web App",
         "description" : "Allows to manage patient' allocation, view monitoring data and set records of drug usage",
         "relationships" : [ {
-          "id" : "77",
-          "tags" : "Relationship",
-          "sourceId" : "23",
-          "destinationId" : "21",
-          "description" : "Makes API calls to get patient's current condition",
-          "technology" : "JSON/HTTP"
-        }, {
           "id" : "72",
           "tags" : "Relationship",
           "sourceId" : "23",
           "destinationId" : "19",
           "description" : "Makes API calls to get patient history",
-          "technology" : "JSON/HTTP"
-        }, {
-          "id" : "65",
-          "tags" : "Relationship",
-          "sourceId" : "23",
-          "destinationId" : "16",
-          "description" : "Makes API calls to get/assign patients' locations",
           "technology" : "JSON/HTTP"
         }, {
           "id" : "74",
@@ -541,40 +514,40 @@
           "sourceId" : "23",
           "destinationId" : "15",
           "description" : "Uses"
+        }, {
+          "id" : "77",
+          "tags" : "Relationship",
+          "sourceId" : "23",
+          "destinationId" : "21",
+          "description" : "Makes API calls to get patient's current condition",
+          "technology" : "JSON/HTTP"
+        }, {
+          "id" : "65",
+          "tags" : "Relationship",
+          "sourceId" : "23",
+          "destinationId" : "16",
+          "description" : "Makes API calls to get/assign patients' locations",
+          "technology" : "JSON/HTTP"
         } ],
         "group" : "Patient Monitoring and Control",
         "technology" : "React TS"
-      }, {
-        "id" : "13",
-        "tags" : "Element,Container",
-        "name" : "Devices Data Storage",
-        "description" : "Persists medical devices configurations",
-        "group" : "Medical Devices Management",
-        "technology" : "Relational DB"
-      }, {
-        "id" : "25",
-        "tags" : "Element,Container",
-        "name" : "PMC Data Secondary Storage",
-        "description" : "Persists medical devices configurations",
-        "group" : "Patient Monitoring and Control",
-        "technology" : "Relational DB"
       }, {
         "id" : "5",
         "tags" : "Element,Container",
         "name" : "Devices Web API",
         "description" : "Manages medical devices, resolves communication differences of devices as adapter",
         "relationships" : [ {
-          "id" : "46",
-          "tags" : "Relationship",
-          "sourceId" : "5",
-          "destinationId" : "36",
-          "description" : "Authorizes medical support staff"
-        }, {
           "id" : "41",
           "tags" : "Relationship",
           "sourceId" : "5",
           "destinationId" : "3",
           "description" : "Pulls medical data"
+        }, {
+          "id" : "46",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "36",
+          "description" : "Authorizes medical support staff"
         }, {
           "id" : "49",
           "tags" : "Relationship",
@@ -582,34 +555,21 @@
           "destinationId" : "15",
           "description" : "Requests beds data from PMC, sends new device's allocation device to PMC"
         }, {
-          "id" : "43",
-          "tags" : "Relationship",
-          "sourceId" : "5",
-          "destinationId" : "2",
-          "description" : "Reports device malfunctions"
-        }, {
           "id" : "56",
           "tags" : "Relationship",
           "sourceId" : "5",
           "destinationId" : "13",
           "description" : "Uses"
+        }, {
+          "id" : "43",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "2",
+          "description" : "Reports device malfunctions"
         } ],
         "group" : "Medical Devices Management",
         "technology" : "Java Spring Boot",
         "components" : [ {
-          "id" : "6",
-          "tags" : "Element,Component",
-          "name" : "Devices Data Controller",
-          "description" : "Endpoints to get device data",
-          "relationships" : [ {
-            "id" : "87",
-            "tags" : "Relationship",
-            "sourceId" : "6",
-            "destinationId" : "8",
-            "description" : "Gets devices data processed by application logic"
-          } ],
-          "size" : 0
-        }, {
           "id" : "11",
           "tags" : "Element,Component",
           "name" : "Devices Adapter",
@@ -624,16 +584,54 @@
           } ],
           "size" : 0
         }, {
-          "id" : "10",
+          "id" : "8",
           "tags" : "Element,Component",
-          "name" : "Devices Notifications",
-          "description" : "Sends e-mail / sms notification to users",
+          "name" : "Devices Management",
+          "description" : "Implementation logic of devices application",
           "relationships" : [ {
-            "id" : "96",
+            "id" : "88",
             "tags" : "Relationship",
-            "sourceId" : "10",
-            "destinationId" : "2",
-            "description" : "Reports device's fault/failure to"
+            "sourceId" : "8",
+            "destinationId" : "9",
+            "description" : "Stores devices data and metadata"
+          }, {
+            "id" : "89",
+            "tags" : "Relationship",
+            "sourceId" : "8",
+            "destinationId" : "11",
+            "description" : "Retrieves devices data using adapter"
+          }, {
+            "id" : "90",
+            "tags" : "Relationship",
+            "sourceId" : "8",
+            "destinationId" : "10",
+            "description" : "Reports device's fault/failure to external services"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "6",
+          "tags" : "Element,Component",
+          "name" : "Devices Data Controller",
+          "description" : "Endpoints to get device data",
+          "relationships" : [ {
+            "id" : "87",
+            "tags" : "Relationship",
+            "sourceId" : "6",
+            "destinationId" : "8",
+            "description" : "Gets devices data processed by application logic"
+          } ],
+          "size" : 0
+        }, {
+          "id" : "9",
+          "tags" : "Element,Component",
+          "name" : "Devices Persistence",
+          "description" : "DB operations ORMs",
+          "relationships" : [ {
+            "id" : "95",
+            "tags" : "Relationship",
+            "sourceId" : "9",
+            "destinationId" : "13",
+            "description" : "Uses ORM to persist data"
           } ],
           "size" : 0
         }, {
@@ -650,44 +648,40 @@
           } ],
           "size" : 0
         }, {
-          "id" : "8",
+          "id" : "10",
           "tags" : "Element,Component",
-          "name" : "Devices Management",
-          "description" : "Implementation logic of devices application",
+          "name" : "Devices Notifications",
+          "description" : "Sends e-mail / sms notification to users",
           "relationships" : [ {
-            "id" : "89",
+            "id" : "96",
             "tags" : "Relationship",
-            "sourceId" : "8",
-            "destinationId" : "11",
-            "description" : "Retrieves devices data using adapter"
-          }, {
-            "id" : "88",
-            "tags" : "Relationship",
-            "sourceId" : "8",
-            "destinationId" : "9",
-            "description" : "Stores devices data and metadata"
-          }, {
-            "id" : "90",
-            "tags" : "Relationship",
-            "sourceId" : "8",
-            "destinationId" : "10",
-            "description" : "Reports device's fault/failure to external services"
-          } ],
-          "size" : 0
-        }, {
-          "id" : "9",
-          "tags" : "Element,Component",
-          "name" : "Devices Persistence",
-          "description" : "DB operations ORMs",
-          "relationships" : [ {
-            "id" : "95",
-            "tags" : "Relationship",
-            "sourceId" : "9",
-            "destinationId" : "13",
-            "description" : "Uses ORM to persist data"
+            "sourceId" : "10",
+            "destinationId" : "2",
+            "description" : "Reports device's fault/failure to"
           } ],
           "size" : 0
         } ]
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container",
+        "name" : "Devices Data Storage",
+        "description" : "Persists medical devices configurations",
+        "group" : "Medical Devices Management",
+        "technology" : "Relational DB"
+      }, {
+        "id" : "32",
+        "tags" : "Element,Container",
+        "name" : "Drugs Usage Data Storage",
+        "description" : "Stores available drugs allocation (balance)",
+        "group" : "Drugs Usage",
+        "technology" : "Relational DB"
+      }, {
+        "id" : "24",
+        "tags" : "Element,Container",
+        "name" : "PMC Data Storage",
+        "description" : "Persists patient history, allocation of devices to beds, available beds configuration",
+        "group" : "Patient Monitoring and Control",
+        "technology" : "Relational DB"
       } ]
     }, {
       "id" : "3",
@@ -695,51 +689,50 @@
       "name" : "Medical Device",
       "description" : "Hardware",
       "location" : "Unspecified"
+    }, {
+      "id" : "35",
+      "tags" : "Element,Software System",
+      "name" : "Patient registry",
+      "description" : "Software System",
+      "location" : "Unspecified"
     } ],
     "deploymentNodes" : [ {
+      "id" : "104",
+      "tags" : "Element,Deployment Node",
+      "name" : "Technical User's Workstation",
+      "environment" : "Production",
+      "technology" : "Microsoft Windows 10",
+      "instances" : 1,
+      "children" : [ {
+        "id" : "105",
+        "tags" : "Element,Deployment Node",
+        "name" : "Web Browser",
+        "environment" : "Production",
+        "technology" : "Chrome, Firefox, Safari, or Edge",
+        "instances" : 1,
+        "containerInstances" : [ {
+          "id" : "106",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "119",
+            "sourceId" : "106",
+            "destinationId" : "118",
+            "description" : "Uses",
+            "linkedRelationshipId" : "58"
+          } ],
+          "environment" : "Production",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "12"
+        } ]
+      } ]
+    }, {
       "id" : "110",
       "tags" : "Element,Deployment Node",
       "name" : "On-premises Datacenter",
       "environment" : "Production",
       "instances" : 1,
       "children" : [ {
-        "id" : "134",
-        "tags" : "Element,Deployment Node,Failover",
-        "name" : "med-db03.[base-intranet-url]",
-        "environment" : "Production",
-        "technology" : "Ubuntu 18.04 LTS",
-        "instances" : 1,
-        "children" : [ {
-          "id" : "135",
-          "tags" : "Element,Deployment Node,Failover",
-          "name" : "Oracle - Secondary",
-          "environment" : "Production",
-          "technology" : "Oracle 19c",
-          "instances" : 1,
-          "containerInstances" : [ {
-            "id" : "136",
-            "tags" : "Container Instance",
-            "environment" : "Production",
-            "deploymentGroups" : [ "Default" ],
-            "instanceId" : 1,
-            "containerId" : "14"
-          }, {
-            "id" : "137",
-            "tags" : "Container Instance",
-            "environment" : "Production",
-            "deploymentGroups" : [ "Default" ],
-            "instanceId" : 1,
-            "containerId" : "33"
-          }, {
-            "id" : "138",
-            "tags" : "Container Instance",
-            "environment" : "Production",
-            "deploymentGroups" : [ "Default" ],
-            "instanceId" : 1,
-            "containerId" : "25"
-          } ]
-        } ]
-      }, {
         "id" : "111",
         "tags" : "Element,Deployment Node",
         "name" : "k8-med-apps.[base-intranet-url]",
@@ -747,6 +740,42 @@
         "technology" : "Ubuntu 18.04 LTS",
         "instances" : 1,
         "children" : [ {
+          "id" : "116",
+          "tags" : "Element,Deployment Node",
+          "name" : "Container #2",
+          "environment" : "Production",
+          "technology" : "Docker",
+          "instances" : 1,
+          "children" : [ {
+            "id" : "117",
+            "tags" : "Element,Deployment Node",
+            "name" : "devices.pmc.[base-intranet-url]",
+            "environment" : "Production",
+            "technology" : "Apache Tomcat 8.x",
+            "instances" : 1,
+            "containerInstances" : [ {
+              "id" : "118",
+              "tags" : "Container Instance",
+              "relationships" : [ {
+                "id" : "120",
+                "sourceId" : "118",
+                "destinationId" : "114",
+                "description" : "Requests beds data from PMC, sends new device's allocation device to PMC",
+                "linkedRelationshipId" : "49"
+              }, {
+                "id" : "129",
+                "sourceId" : "118",
+                "destinationId" : "128",
+                "description" : "Uses",
+                "linkedRelationshipId" : "56"
+              } ],
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "containerId" : "5"
+            } ]
+          } ]
+        }, {
           "id" : "122",
           "tags" : "Element,Deployment Node",
           "name" : "Container #3",
@@ -818,42 +847,6 @@
               "containerId" : "15"
             } ]
           } ]
-        }, {
-          "id" : "116",
-          "tags" : "Element,Deployment Node",
-          "name" : "Container #2",
-          "environment" : "Production",
-          "technology" : "Docker",
-          "instances" : 1,
-          "children" : [ {
-            "id" : "117",
-            "tags" : "Element,Deployment Node",
-            "name" : "devices.pmc.[base-intranet-url]",
-            "environment" : "Production",
-            "technology" : "Apache Tomcat 8.x",
-            "instances" : 1,
-            "containerInstances" : [ {
-              "id" : "118",
-              "tags" : "Container Instance",
-              "relationships" : [ {
-                "id" : "129",
-                "sourceId" : "118",
-                "destinationId" : "128",
-                "description" : "Uses",
-                "linkedRelationshipId" : "56"
-              }, {
-                "id" : "120",
-                "sourceId" : "118",
-                "destinationId" : "114",
-                "description" : "Requests beds data from PMC, sends new device's allocation device to PMC",
-                "linkedRelationshipId" : "49"
-              } ],
-              "environment" : "Production",
-              "deploymentGroups" : [ "Default" ],
-              "instanceId" : 1,
-              "containerId" : "5"
-            } ]
-          } ]
         } ]
       }, {
         "id" : "126",
@@ -884,19 +877,56 @@
             "instanceId" : 1,
             "containerId" : "24"
           }, {
-            "id" : "128",
-            "tags" : "Container Instance",
-            "environment" : "Production",
-            "deploymentGroups" : [ "Default" ],
-            "instanceId" : 1,
-            "containerId" : "13"
-          }, {
             "id" : "130",
             "tags" : "Container Instance",
             "environment" : "Production",
             "deploymentGroups" : [ "Default" ],
             "instanceId" : 1,
             "containerId" : "32"
+          }, {
+            "id" : "128",
+            "tags" : "Container Instance",
+            "environment" : "Production",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "13"
+          } ]
+        } ]
+      }, {
+        "id" : "134",
+        "tags" : "Element,Deployment Node,Failover",
+        "name" : "med-db03.[base-intranet-url]",
+        "environment" : "Production",
+        "technology" : "Ubuntu 18.04 LTS",
+        "instances" : 1,
+        "children" : [ {
+          "id" : "135",
+          "tags" : "Element,Deployment Node,Failover",
+          "name" : "Oracle - Secondary",
+          "environment" : "Production",
+          "technology" : "Oracle 19c",
+          "instances" : 1,
+          "containerInstances" : [ {
+            "id" : "138",
+            "tags" : "Container Instance",
+            "environment" : "Production",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "25"
+          }, {
+            "id" : "136",
+            "tags" : "Container Instance",
+            "environment" : "Production",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "14"
+          }, {
+            "id" : "137",
+            "tags" : "Container Instance",
+            "environment" : "Production",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "33"
           } ]
         } ]
       } ]
@@ -930,36 +960,6 @@
           "containerId" : "23"
         } ]
       } ]
-    }, {
-      "id" : "104",
-      "tags" : "Element,Deployment Node",
-      "name" : "Technical User's Workstation",
-      "environment" : "Production",
-      "technology" : "Microsoft Windows 10",
-      "instances" : 1,
-      "children" : [ {
-        "id" : "105",
-        "tags" : "Element,Deployment Node",
-        "name" : "Web Browser",
-        "environment" : "Production",
-        "technology" : "Chrome, Firefox, Safari, or Edge",
-        "instances" : 1,
-        "containerInstances" : [ {
-          "id" : "106",
-          "tags" : "Container Instance",
-          "relationships" : [ {
-            "id" : "119",
-            "sourceId" : "106",
-            "destinationId" : "118",
-            "description" : "Uses",
-            "linkedRelationshipId" : "58"
-          } ],
-          "environment" : "Production",
-          "deploymentGroups" : [ "Default" ],
-          "instanceId" : 1,
-          "containerId" : "12"
-        } ]
-      } ]
     } ]
   },
   "documentation" : {
@@ -974,7 +974,7 @@
       "title" : "Quality attributes",
       "order" : 3,
       "format" : "Markdown",
-      "content" : "## Quality attributes\r\n\r\n\r\n### Performance\r\n\r\nTODO\r\n\r\n\r\n### Usability\r\n\r\nThe system provides various functionalities. Every one of them supports different kinds of tasks. The system is mainly used for *reading* acquired data, but\r\nsome parts can be changed while interacting with the user.\r\n\r\nMain use cases are:\r\n- **Assignment of new patients to beds** \r\n- **Viewing bed distribution among patients** \r\n- **Viewing patient's condition** \r\n- **Viewing and assigning drug usage** \r\n- **Device management** Reading data acquired from devices connected to patient's bed (reading patient's condition if working properly, otherwise reporting to Medical support staff). Installing and setting the devices to a different bed.\r\n\r\n**Learning system features**\r\nThe system should be intuitive and easy to use for everyday use in the hospital. Every task should be done swiftly and without big delays. Every person in the hospital should be learning how to use only the part of the system they will be actively using. Therefore there is no need for doctors to learn how to use Device Management App and for Medical Support Staff there is no need to learn how to order drugs or prescribe drugs to a speific patient or how to allocate the patients to the hospital beds.\r\n**Using system efficiently**\r\nTo be able to use the system efficiently, it should be intuitive, clearly organised and allowing the aggregation of data while reading or changing them. User initiative support should be implemented in order to ease the use of the system. Features of User Initiative Support is described further below.\r\n**Minimizing the impact of errors**\r\nAs with efficiency, for minimizing the impact of errors, user initiative support should be in place, mainly mechanisms of *Cancel* and *Undo*.\r\n**Adapting the system to user needs**\r\nFor proper adaptation of user needs, basic User initiative support should be in place and for more efficient system using, System Initiative Support can be implemented. Read about suggestions down below.\r\n**Increasing confidence and satisfaction**\r\nFor proper confidence in the system, any failure or success of functionality should be reported to the user. When a drug prescription is changed, the system should inform us whether the change got through to the database or whether there was any error along the way. No failure should be left unreported. It should not be the responsibility of the hospital staff to manually check every device if it is currently properly working. Any suspicious behavior should be immediately reported to authorised problem solving personnel.\r\n\r\n#### User Initiative Support\r\n\r\n**Cancel** Cancelling an action in PMC is not needed very often. \r\n> Drug order is suddenly redundant.\r\nImagine a situation when one patient who had a drug prescribed is released to home care. The drugs are no longer needed for his treatment and can be reallocated to other patients. Suddenly a shortage of a drug is no longer in place. What more, there may be not enough space to store the incoming shipment. Therefore it is useful to be able to cancel once issued drug order.\r\n\r\n**Pause/Resume** The only functionality that may need this mechanism is the device management - of one specific device.\r\n> A patient is being moved by the medical staff.\r\nThe device on patients bed may be paused to stop it from triggering an alarm. Then it may be resumed to its previous function without long setting after manipulation with the patient is done.\r\n\r\n**Undo** Is one of two most needed activities that may be needed in the PMC system. It may be needed in a device installing or wrong drug prescription.\r\n> Doctor prescribes s new drug to a patient. Then he is warned by a system, that the drug can't be prescribed with the already prescribed drugs. \r\n The change should be therefore undone with ease. This should be allowed by undo mechanic. Its implementation is possible because the system persists the drug prescription data.\r\n\r\n**Aggregate** Is the second of the two most needed activities that may be needed in the PMC system. Since there are many of the same or very similar entities in the system (hospital beds, drugs, patients, devices) it is mandatory to enable the users to treat them in groups. \r\n> Orthopedic wing is flooded by water due to broken water tubes. Patients need to be moved to another hospital wing. \r\n\r\nIf the capacities allow it, don't move them in the system one by one but all at once. They are all ungoing the same change.\r\n\r\n#### System Initiative Support\r\nModels which could be useful in our Patient Monitoring and Control system, but are not currently supported by specific modules:\r\n\r\n**Task model** \r\n\r\n> When receiving new patient, if diagnosis is available, recommend available hospital bed in suitable hospital wing.\r\nInstead of just filtering patients without assigned hospital bed, recommend a solution if diagnosis data are available.\r\nNo hospital wing / diagnosis recommender map is available at the moment, however if it was to be implemented, the bed database is already available so only mapping of diagnosis-hopital wings would be needed to succesfully make a suitable new module for handling this kind of recommendations.\r\n\r\n**User model**\r\n\r\n> Drug recommendation based on previous patients' diagnosis and drug prescription.\r\nIf a patient has the same diagnosis as a patient treated before him, the same drugs may be used in his treatment. Recommend the combinations to save the time and just ask for doctor's agreement. If the drugs shall be for any reason different, let the doctor prescribe custom drugs.\r\nHowever, patient history is stored in the system and if the component for recommending was to be implemented, it has the data it needs.\r\n\r\n**System model**\r\n\r\n> Show estimated time to arrival of demanded drugs.\r\nThe hospital wing may be in serious time pressing need of specific drugs (a rare case of illness/injury). If the system shows higher estimated arrival time than is acceptable, it can react by dispatching an emergency courrier to acquire them in a faster way not going through the Drug monitoring system warehouse order management. The drug package shall be then received as usual but without the delay at the supllier's side.\r\nThere is currently no way to bypass the drug management ordering process conducted by Drug management external system. It obviously should not be bypassed in most of ordinary scenarios. However if drugs were to get to hospital the unofficial way, the systems would struggle to handle them properly without their proper registration to the package system.\r\n\r\n#### Usability requirement scenarios\r\n\r\nFrom the analysis above we extracted requirement scenarios:\r\n\r\n> Medical support staff receives notification about device failure. Find out where the device is.\r\n\r\n- **Source:** Medical support staff\r\n- **Stimulus:** Device Failure Notification received\r\n- **Artifact:** Device Web API (Devices Notification Component)\r\n- **Environment:** Normal operation\r\n- **Response:** The notification/e-mail contains link to the affected device, saving the worker the need to open Device Web App manually\r\n- **Measure:** 1 click to read the failed device specification (location, brief error message)\r\n\r\nIn current system architecture, it is possible to implement this feature. Devices Management Component is able to gather data about failed device. Through the Devices Data Component it is able to load the device endpoint used in the Devices Web App. No change in the architecture is needed to implement this feature.\r\n\r\n> A new enhanced brand of drugs is operating on the market. Hospital wants to use it instead of its old corresponding drugs.\r\n\r\n- **Source:** Head nurse\r\n- **Stimulus:** Change currently used brand of drugs in all affected patients' drug prescriptions\r\n- **Artifact:** PMC Web App\r\n- **Environment:** Normal operation\r\n- **Response:** The system changes prescribed drug brand for another in all ongoing prescriptions, saving the old brand to history\r\n- **Measure:** In 1 minute without manually searching for every individual affected patient\r\n\r\nDrug Controller implements the logic related to getting patient's drug data. If it is implemented in a way that it can get more data at once, there can be a function that filters the data by a given criterion. Then it should be possible to have those filtering options implemented also in the PMC Web App. Therefore no architecture change should be neccessary.\r\n\r\n> In case of catastrophy, we need to get the number and placement of *all* available beds for incoming injured people.\r\n\r\n- **Source:** Hospital capacity manager\r\n- **Stimulus:** Search for number and placement of available beds\r\n- **Artifact:** PMC Web App\r\n- **Environment:** Normal operation\r\n- **Response:** The system gives number and placement of available beds\r\n- **Measure:** Manager is able to tell a contact person from emergency services their current bed capacity\r\n\r\nIn the specification it is stated that the patients data should be available only for the specific hospital wing staff. However, given that the system is only running once, it can be assumed that there is some implicit filtering done by the user's allocation. If we accept that a director of the hospital should be able to oversee all allocations and patients and devices in the hospital, it can be possible to make a superuser or a superuser for a specific functionality, that would return records from *all* hospital wings, not just one. So we have PMC Data Storage which has available beds configuration, the Persistance Layer above with Patient Location Controller. \r\nEither the Patient Location Controller includes overview of available hospital beds, or a new Controller must be introduced that would be providing data of available beds, and the Controller should communicate with the Patient Location Controller to provide possible allocations for patients.\r\n\r\nIf the new Hospital Bed Controller is needed, the Component Diagram for PMC Server would look like this:\r\n\r\n![](embed:Level_3_central_with_Hospital_Bed_Controller)\r\n\r\n### Availability\r\n\r\nThe system provides multiple functionalities and not all of them are equally important\r\nfor the department's operation. Here is a short assessment of functionalities and their importance:\r\n\r\n- **Assignment of new patients to beds** Patients typically come from a different department and thus a delay of up to 1 day due to software system availability problems is acceptable.\r\n- **Viewing patient's condition** This is a typical action, performed very often. Having this functionality unavailable would severely disturb the department's operation. However, having this functionality unavailable does not directly threaten patient's health.\r\n- **Drug usage** This system is of equal importance.\r\n- **Device management** Adding, modifying or configuring bed devices usually takes couple of hours and is performed by the technical staff. A temporary outage here is not very costly.\r\n\r\n\r\n#### Internal fault tolerance\r\n\r\nThe presentation layer is implement as two web applications. These applications run in the client's browser which can be considered a robust environment. Moreover this gives the user the ability to use a different device in case of a device failure. Since there are many devices available to the department, this transitioning process is quick and has only local effects.\r\n\r\nThe business layer (PMC Server, Drugs Usage Web API, Devices Web API) are all deployed to a kubernetes cluster, each in one replica. The cluster, however, consists of only one node (Ubuntu 18.04 LTS). This is a single point of failure for the entire system and if this node goes down, so does the kubernetes control plane (which is missing in the deployment diagram). Recovering such a failure wold take couple of hours because a technician needs to (re)start the physical machine manually. A solution would be to add a second machine and have the kubernetes control plane run on both of them.\r\n\r\nThe software system containers run only in one replica each, but since they run on kubernetes, liveness probes can be setup to automatically monitor their status. Kubernetes will then restart any service that becomes unavailable. This causes couple seconds of downtime, but that is acceptable given our requirements.\r\n\r\nThe database layer is designed very well, with replication in mind. The two database instances run on different machines and they both hold the latest data. The documentation doesn't state their relationship in regards to failure, but a reasonable option is to have the database cluster perform an automatic failover.\r\n\r\n\r\n#### External fault tolerance\r\n\r\nThere are many external software systems that may fail. The following is an assessment of the impact of such a failure:\r\n\r\n- **Medical Device** Although viewing patient's condition is a primary functionality, having a single device fail does not impact the functionality of the entire system. Moreover, given the number of connected devices, having one failed is a usual event and the PMC system even incorporates functionality for reporting such failures to the department staff.\r\n- **OAuth server** This external system is relied upon by many other software systems throughout the hospital. For this reason is this system designed to be highly available and thus very unlikely to fail.\r\n- **Patient registry** An old system, prone to failure (approx. once a month for an hour). While this system may fail, our system relies on it only when accepting new patients. Since this process is already time consuming, a temporary external system failure does not slow it down substantially. For this reason we do not need to take any measures here (e.g. adding a local cache). Our system remains in a degraded state during the downtime of the patient registry.\r\n- **Drug monitoring** While this system may go down occasionally, it is only used for requesting new drugs and reporting drug depletion. Our local drug usage system already stores information about lots of different drugs and their identification numbers are compatible with the external system. Therefore both drug requests and depletion reports may be queued locally during DM downtime. This will cause the local data (drug metadata, drug list, ...) to get stale over time, but they chage so rarely that it isn't a problem.\r\n\r\nThe architecture of the *Drug Usage Web API* container needs to be slightly modified. The *Drug Catalog Manager* needs to leverage the *Persistance layer* during DM outage. The *Drug Delivery Manager* needs to queue requests via the *Persistance layer* during DM downtime and also send these requests when DM becomes available.\r\n\r\n![](embed:Level_3_drugs)\r\n\r\n\r\n#### Availability requirement scenarios\r\n\r\nFrom the analysis above we extracted requirement scenarios:\r\n\r\n> External drug monitoring system is down and someone requests drugs.\r\n\r\n- **Source:** *Drugs Usage Web API* container\r\n- **Stimulus:** Unable to connect\r\n- **Artifact:** *Drug Monitoring (DM)* external software system\r\n- **Environment:** Normal operation\r\n- **Response:** Mask fault (queue the request)\r\n- **Measure:** No downtime\r\n\r\n> Business logic container crashes, is restarted by kubernetes.\r\n\r\n- **Source:** *PMC Server* container\r\n- **Stimulus:** Unable to connect (omission)\r\n- **Artifact:** *Devices Web API* container\r\n- **Environment:** Normal operation\r\n- **Response:** Mask fault (repeat after 10s)\r\n- **Measure:** 10s downtime\r\n\r\n> Patient registry is unavailable.\r\n\r\n- **Source:** *PMC Server* container\r\n- **Stimulus:** Unable to connect (omission)\r\n- **Artifact:** *Patient registry* external software system\r\n- **Environment:** Normal operation\r\n- **Response:** Describes the problem to the user\r\n- **Measure:** Degraded state\r\n"
+      "content" : "## Quality attributes\r\n\r\n\r\n### Performance\r\n\r\n#### Performance requirement scenarios\r\n\r\n>  *Patient Condition Controller* of *PMC server* periodically fetches medical device data for long-term storage\r\n\r\n- **Source:** *PMC server* container\r\n- **Stimulus:** Periodic read of device information from every device (~5000) every 30 seconds\r\n- **Artifact:** *Device web API* container\r\n- **Environment:** Normal operations\r\n- **Response:** All fetch request processed\r\n- **Measure:** With latency no larger than 30 seconds\r\n\r\nSince *medical devices* are independent of each other we can read in parallel from them with multiple *Device web API*. We would need a new controller to keep track of registered devices, remove them from individual web APIs and keep the number of device handled by individual web APIs balanced\r\n\r\n> Medical staff request patient medical data\r\n\r\n- **Source:** *Medical staff*\r\n- **Stimulus:** Sporadically checks patients medical data during the entire day\r\n- **Artifact:** *PMC Server* container\r\n- **Environment:** Normal operation\r\n- **Response:** All requests processed\r\n- **Measure:** With average latency of 1 seconds\r\n\r\nThis scenario presents a standard operation of the software system and the system should be able to accomodate such requests. The requests, while sporadic, will mostly be sparse. No alteration to the system is thus needed\r\n\r\n### Usability\r\n\r\nThe system provides various functionalities. Every one of them supports different kinds of tasks. The system is mainly used for *reading* acquired data, but\r\nsome parts can be changed while interacting with the user.\r\n\r\nMain use cases are:\r\n- **Assignment of new patients to beds** \r\n- **Viewing bed distribution among patients** \r\n- **Viewing patient's condition** \r\n- **Viewing and assigning drug usage** \r\n- **Device management** Reading data acquired from devices connected to patient's bed (reading patient's condition if working properly, otherwise reporting to Medical support staff). Installing and setting the devices to a different bed.\r\n\r\n**Learning system features**\r\n\r\nThe system should be intuitive and easy to use for everyday use in the hospital. Every task should be done swiftly and without big delays. Every person in the hospital should be learning how to use only the part of the system they will be actively using. Therefore there is no need for doctors to learn how to use Device Management App and for Medical Support Staff there is no need to learn how to order drugs or prescribe drugs to a speific patient or how to allocate the patients to the hospital beds.\r\n\r\n**Using system efficiently**\r\n\r\nTo be able to use the system efficiently, it should be intuitive, clearly organised and allowing the aggregation of data while reading or changing them. User initiative support should be implemented in order to ease the use of the system. Features of User Initiative Support is described further below.\r\n\r\n**Minimizing the impact of errors**\r\n\r\nAs with efficiency, for minimizing the impact of errors, user initiative support should be in place, mainly mechanisms of *Cancel* and *Undo*.\r\n\r\n**Adapting the system to user needs**\r\n\r\nFor proper adaptation of user needs, basic User initiative support should be in place and for more efficient system using, System Initiative Support can be implemented. Read about suggestions down below.\r\n\r\n**Increasing confidence and satisfaction**\r\n\r\nFor proper confidence in the system, any failure or success of functionality should be reported to the user. When a drug prescription is changed, the system should inform us whether the change got through to the database or whether there was any error along the way. No failure should be left unreported. It should not be the responsibility of the hospital staff to manually check every device if it is currently properly working. Any suspicious behavior should be immediately reported to authorised problem solving personnel.\r\n\r\n#### User Initiative Support\r\n\r\n**Cancel** Cancelling an action in PMC is not needed very often. \r\n\r\n> Drug order is suddenly redundant.\r\n\r\nImagine a situation when one patient who had a drug prescribed is released to home care. The drugs are no longer needed for his treatment and can be reallocated to other patients. Suddenly a shortage of a drug is no longer in place. What more, there may be not enough space to store the incoming shipment. Therefore it is useful to be able to cancel once issued drug order.\r\n\r\n**Pause/Resume** The only functionality that may need this mechanism is the device management - of one specific device.\r\n\r\n> A patient is being moved by the medical staff.\r\n\r\nThe device on patients bed may be paused to stop it from triggering an alarm. Then it may be resumed to its previous function without long setting after manipulation with the patient is done.\r\n\r\n**Undo** Is one of two most needed activities that may be needed in the PMC system. It may be needed in a device installing or wrong drug prescription.\r\n\r\n> Doctor prescribes s new drug to a patient. Then he is warned by a system, that the drug can't be prescribed with the already prescribed drugs. \r\n\r\nThe change should be therefore undone with ease. This should be allowed by undo mechanic. Its implementation is possible because the system persists the drug prescription data.\r\n\r\n**Aggregate** Is the second of the two most needed activities that may be needed in the PMC system. Since there are many of the same or very similar entities in the system (hospital beds, drugs, patients, devices) it is mandatory to enable the users to treat them in groups. \r\n\r\n> Orthopedic wing is flooded by water due to broken water pipes. Patients need to be moved to another hospital wing. \r\n\r\nIf the capacities allow it, don't move them in the system one by one but all at once. They are all ungoing the same change.\r\n\r\n#### System Initiative Support\r\nModels which could be useful in our Patient Monitoring and Control system, but are not currently supported by specific modules:\r\n\r\n**Task model** \r\n\r\n> When receiving new patient, if diagnosis is available, recommend available hospital bed in suitable hospital wing.\r\n\r\nInstead of just filtering patients without assigned hospital bed, recommend a solution if diagnosis data are available.\r\nNo hospital wing / diagnosis recommender map is available at the moment, however if it was to be implemented, the bed database is already available so only mapping of diagnosis-hopital wings would be needed to succesfully make a suitable new module for handling this kind of recommendations.\r\n\r\n**User model**\r\n\r\n> Drug recommendation based on previous patients' diagnosis and drug prescription.\r\n\r\nIf a patient has the same diagnosis as a patient treated before him, the same drugs may be used in his treatment. Recommend the combinations to save the time and just ask for doctor's agreement. If the drugs shall be for any reason different, let the doctor prescribe custom drugs.\r\nHowever, patient history is stored in the system and if the component for recommending was to be implemented, it has the data it needs.\r\n\r\n**System model**\r\n\r\n> Show estimated time to arrival of demanded drugs.\r\n\r\nThe hospital wing may be in serious time pressing need of specific drugs (a rare case of illness/injury). If the system shows higher estimated arrival time than is acceptable, it can react by dispatching an emergency courrier to acquire them in a faster way not going through the Drug monitoring system warehouse order management. The drug package shall be then received as usual but without the delay at the supllier's side.\r\nThere is currently no way to bypass the drug management ordering process conducted by Drug management external system. It obviously should not be bypassed in most of ordinary scenarios. However if drugs were to get to hospital the unofficial way, the systems would struggle to handle them properly without their proper registration to the package system.\r\n\r\n#### Usability requirement scenarios\r\n\r\nFrom the analysis above we extracted requirement scenarios:\r\n\r\n> Medical support staff receives notification about device failure. Find out where the device is.\r\n\r\n- **Source:** Medical support staff\r\n- **Stimulus:** Device Failure Notification received\r\n- **Artifact:** Device Web API (Devices Notification Component)\r\n- **Environment:** Normal operation\r\n- **Response:** The notification/e-mail contains link to the affected device, saving the worker the need to open Device Web App manually\r\n- **Measure:** 1 click to read the failed device specification (location, brief error message)\r\n\r\nIn current system architecture, it is possible to implement this feature. Devices Management Component is able to gather data about failed device. Through the Devices Data Component it is able to load the device endpoint used in the Devices Web App. No change in the architecture is needed to implement this feature.\r\n\r\n> A new enhanced brand of drugs is operating on the market. Hospital wants to use it instead of its old corresponding drugs.\r\n\r\n- **Source:** Head nurse\r\n- **Stimulus:** Change currently used brand of drugs in all affected patients' drug prescriptions\r\n- **Artifact:** PMC Web App\r\n- **Environment:** Normal operation\r\n- **Response:** The system changes prescribed drug brand for another in all ongoing prescriptions, saving the old brand to history\r\n- **Measure:** In 1 minute without manually searching for every individual affected patient\r\n\r\nDrug Controller implements the logic related to getting patient's drug data. If it is implemented in a way that it can get more data at once, there can be a function that filters the data by a given criterion. Then it should be possible to have those filtering options implemented also in the PMC Web App. Therefore no architecture change should be neccessary.\r\n\r\n> In case of catastrophy, we need to get the number and placement of *all* available beds for incoming injured people.\r\n\r\n- **Source:** Hospital capacity manager\r\n- **Stimulus:** Search for number and placement of available beds\r\n- **Artifact:** PMC Web App\r\n- **Environment:** Normal operation\r\n- **Response:** The system gives number and placement of available beds\r\n- **Measure:** Manager is able to tell a contact person from emergency services their current bed capacity\r\n\r\nIn the specification it is stated that the patients data should be available only for the specific hospital wing staff. However, given that the system is only running once, it can be assumed that there is some implicit filtering done by the user's allocation. If we accept that a director of the hospital should be able to oversee all allocations and patients and devices in the hospital, it can be possible to make a superuser or a superuser for a specific functionality, that would return records from *all* hospital wings, not just one. So we have PMC Data Storage which has available beds configuration, the Persistance Layer above with Patient Location Controller. \r\nEither the Patient Location Controller includes overview of available hospital beds, or a new Controller must be introduced that would be providing data of available beds, and the Controller should communicate with the Patient Location Controller to provide possible allocations for patients.\r\n\r\nIf the new Hospital Bed Controller is needed, the Component Diagram for PMC Server would look like this:\r\n\r\n![](embed:Level_3_central)\r\n\r\n### Availability\r\n\r\nThe system provides multiple functionalities and not all of them are equally important\r\nfor the department's operation. Here is a short assessment of functionalities and their importance:\r\n\r\n- **Assignment of new patients to beds** Patients typically come from a different department and thus a delay of up to 1 day due to software system availability problems is acceptable.\r\n- **Viewing patient's condition** This is a typical action, performed very often. Having this functionality unavailable would severely disturb the department's operation. However, having this functionality unavailable does not directly threaten patient's health.\r\n- **Drug usage** This system is of equal importance.\r\n- **Device management** Adding, modifying or configuring bed devices usually takes couple of hours and is performed by the technical staff. A temporary outage here is not very costly.\r\n\r\n\r\n#### Internal fault tolerance\r\n\r\nThe presentation layer is implement as two web applications. These applications run in the client's browser which can be considered a robust environment. Moreover this gives the user the ability to use a different device in case of a device failure. Since there are many devices available to the department, this transitioning process is quick and has only local effects.\r\n\r\nThe business layer (PMC Server, Drugs Usage Web API, Devices Web API) are all deployed to a kubernetes cluster, each in one replica. The cluster, however, consists of only one node (Ubuntu 18.04 LTS). This is a single point of failure for the entire system and if this node goes down, so does the kubernetes control plane (which is missing in the deployment diagram). Recovering such a failure wold take couple of hours because a technician needs to (re)start the physical machine manually. A solution would be to add a second machine and have the kubernetes control plane run on both of them.\r\n\r\nThe software system containers run only in one replica each, but since they run on kubernetes, liveness probes can be setup to automatically monitor their status. Kubernetes will then restart any service that becomes unavailable. This causes couple seconds of downtime, but that is acceptable given our requirements.\r\n\r\nThe database layer is designed very well, with replication in mind. The two database instances run on different machines and they both hold the latest data. The documentation doesn't state their relationship in regards to failure, but a reasonable option is to have the database cluster perform an automatic failover.\r\n\r\n\r\n#### External fault tolerance\r\n\r\nThere are many external software systems that may fail. The following is an assessment of the impact of such a failure:\r\n\r\n- **Medical Device** Although viewing patient's condition is a primary functionality, having a single device fail does not impact the functionality of the entire system. Moreover, given the number of connected devices, having one failed is a usual event and the PMC system even incorporates functionality for reporting such failures to the department staff.\r\n- **OAuth server** This external system is relied upon by many other software systems throughout the hospital. For this reason is this system designed to be highly available and thus very unlikely to fail.\r\n- **Patient registry** An old system, prone to failure (approx. once a month for an hour). While this system may fail, our system relies on it only when accepting new patients. Since this process is already time consuming, a temporary external system failure does not slow it down substantially. For this reason we do not need to take any measures here (e.g. adding a local cache). Our system remains in a degraded state during the downtime of the patient registry.\r\n- **Drug monitoring** While this system may go down occasionally, it is only used for requesting new drugs and reporting drug depletion. Our local drug usage system already stores information about lots of different drugs and their identification numbers are compatible with the external system. Therefore both drug requests and depletion reports may be queued locally during DM downtime. This will cause the local data (drug metadata, drug list, ...) to get stale over time, but they chage so rarely that it isn't a problem.\r\n\r\nThe architecture of the *Drug Usage Web API* container needs to be slightly modified. The *Drug Catalog Manager* needs to leverage the *Persistance layer* during DM outage. The *Drug Delivery Manager* needs to queue requests via the *Persistance layer* during DM downtime and also send these requests when DM becomes available.\r\n\r\n![](embed:Level_3_drugs)\r\n\r\n\r\n#### Availability requirement scenarios\r\n\r\nFrom the analysis above we extracted requirement scenarios:\r\n\r\n> External drug monitoring system is down and someone requests drugs.\r\n\r\n- **Source:** *Drugs Usage Web API* container\r\n- **Stimulus:** Unable to connect\r\n- **Artifact:** *Drug Monitoring (DM)* external software system\r\n- **Environment:** Normal operation\r\n- **Response:** Mask fault (queue the request)\r\n- **Measure:** No downtime\r\n\r\n> Business logic container crashes, is restarted by kubernetes.\r\n\r\n- **Source:** *PMC Server* container\r\n- **Stimulus:** Unable to connect (omission)\r\n- **Artifact:** *Devices Web API* container\r\n- **Environment:** Normal operation\r\n- **Response:** Mask fault (repeat after 10s)\r\n- **Measure:** 10s downtime\r\n\r\n> Patient registry is unavailable.\r\n\r\n- **Source:** *PMC Server* container\r\n- **Stimulus:** Unable to connect (omission)\r\n- **Artifact:** *Patient registry* external software system\r\n- **Environment:** Normal operation\r\n- **Response:** Describes the problem to the user\r\n- **Measure:** Degraded state\r\n"
     }, {
       "elementId" : "4",
       "title" : "Project Description",
@@ -1029,13 +1029,13 @@
       }, {
         "id" : "40"
       }, {
+        "id" : "42"
+      }, {
         "id" : "53",
         "vertices" : [ {
           "x" : 2033,
           "y" : 1382
         } ]
-      }, {
-        "id" : "42"
       }, {
         "id" : "44"
       }, {
@@ -1061,6 +1061,10 @@
       },
       "externalSoftwareSystemBoundariesVisible" : true,
       "elements" : [ {
+        "id" : "12",
+        "x" : 3225,
+        "y" : 864
+      }, {
         "id" : "34",
         "x" : 75,
         "y" : 1254
@@ -1069,17 +1073,13 @@
         "x" : 1706,
         "y" : 845
       }, {
-        "id" : "12",
+        "id" : "13",
         "x" : 3225,
-        "y" : 864
+        "y" : 2004
       }, {
         "id" : "35",
         "x" : 855,
         "y" : 259
-      }, {
-        "id" : "13",
-        "x" : 3225,
-        "y" : 2004
       }, {
         "id" : "24",
         "x" : 1710,
@@ -1136,13 +1136,15 @@
           "y" : 1549
         } ]
       }, {
-        "id" : "41"
-      }, {
         "id" : "52",
         "vertices" : [ {
           "x" : 715,
           "y" : 1289
         } ]
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "54"
       }, {
         "id" : "43",
         "vertices" : [ {
@@ -1150,21 +1152,19 @@
           "y" : 844
         } ]
       }, {
-        "id" : "54"
-      }, {
         "id" : "55"
+      }, {
+        "id" : "45"
       }, {
         "id" : "56"
       }, {
-        "id" : "45"
+        "id" : "57"
       }, {
         "id" : "46",
         "vertices" : [ {
           "x" : 2895,
           "y" : 1079
         } ]
-      }, {
-        "id" : "57"
       }, {
         "id" : "47"
       }, {
@@ -1203,13 +1203,13 @@
         "x" : 1145,
         "y" : 125
       }, {
-        "id" : "13",
-        "x" : 2130,
-        "y" : 2400
-      }, {
         "id" : "2",
         "x" : 2630,
         "y" : 75
+      }, {
+        "id" : "13",
+        "x" : 2130,
+        "y" : 2400
       }, {
         "id" : "3",
         "x" : 4140,
@@ -1265,6 +1265,147 @@
         "id" : "89"
       } ]
     }, {
+      "key" : "Level_3_central",
+      "paperSize" : "A3_Landscape",
+      "dimensions" : {
+        "width" : 4961,
+        "height" : 3508
+      },
+      "containerId" : "15",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "22",
+        "x" : 2080,
+        "y" : 1955
+      }, {
+        "id" : "23",
+        "x" : 1585,
+        "y" : 515
+      }, {
+        "id" : "24",
+        "x" : 2070,
+        "y" : 2515
+      }, {
+        "id" : "35",
+        "x" : 3045,
+        "y" : 820
+      }, {
+        "id" : "36",
+        "x" : 2185,
+        "y" : 320
+      }, {
+        "id" : "26",
+        "x" : 755,
+        "y" : 2030
+      }, {
+        "id" : "16",
+        "x" : 2325,
+        "y" : 1310
+      }, {
+        "id" : "17",
+        "x" : 2875,
+        "y" : 1955
+      }, {
+        "id" : "18",
+        "x" : 3065,
+        "y" : 1290
+      }, {
+        "id" : "19",
+        "x" : 1830,
+        "y" : 1295
+      }, {
+        "id" : "5",
+        "x" : 3755,
+        "y" : 2425
+      }, {
+        "id" : "20",
+        "x" : 1270,
+        "y" : 1310
+      }, {
+        "id" : "21",
+        "x" : 3710,
+        "y" : 1290
+      } ],
+      "relationships" : [ {
+        "id" : "70"
+      }, {
+        "id" : "82"
+      }, {
+        "id" : "83"
+      }, {
+        "id" : "72"
+      }, {
+        "id" : "80",
+        "vertices" : [ {
+          "x" : 2635,
+          "y" : 990
+        } ]
+      }, {
+        "id" : "81",
+        "vertices" : [ {
+          "x" : 2855,
+          "y" : 955
+        } ]
+      }, {
+        "id" : "74"
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "73",
+        "vertices" : [ {
+          "x" : 2125,
+          "y" : 1805
+        } ]
+      }, {
+        "id" : "62"
+      }, {
+        "id" : "84",
+        "vertices" : [ {
+          "x" : 1810,
+          "y" : 1875
+        } ]
+      }, {
+        "id" : "65"
+      }, {
+        "id" : "76"
+      }, {
+        "id" : "85"
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "67",
+        "vertices" : [ {
+          "x" : 2670,
+          "y" : 1745
+        } ]
+      }, {
+        "id" : "78",
+        "vertices" : [ {
+          "x" : 1110,
+          "y" : 460
+        } ]
+      }, {
+        "id" : "77",
+        "vertices" : [ {
+          "x" : 3635,
+          "y" : 665
+        } ]
+      }, {
+        "id" : "66",
+        "vertices" : [ {
+          "x" : 2795,
+          "y" : 1530
+        } ]
+      }, {
+        "id" : "79",
+        "vertices" : [ {
+          "x" : 3875,
+          "y" : 470
+        } ]
+      }, {
+        "id" : "68"
+      } ]
+    }, {
       "key" : "Level_3_drugs",
       "paperSize" : "A4_Landscape",
       "dimensions" : {
@@ -1315,159 +1456,18 @@
       }, {
         "id" : "100"
       }, {
-        "id" : "102"
-      }, {
         "id" : "99"
+      }, {
+        "id" : "102"
       }, {
         "id" : "101"
       }, {
         "id" : "103"
       } ]
-    }, {
-      "key" : "Level_3_central",
-      "paperSize" : "A3_Landscape",
-      "dimensions" : {
-        "width" : 4961,
-        "height" : 3508
-      },
-      "containerId" : "15",
-      "externalContainerBoundariesVisible" : true,
-      "elements" : [ {
-        "id" : "22",
-        "x" : 2055,
-        "y" : 1610
-      }, {
-        "id" : "23",
-        "x" : 1560,
-        "y" : 170
-      }, {
-        "id" : "35",
-        "x" : 3020,
-        "y" : 475
-      }, {
-        "id" : "24",
-        "x" : 2045,
-        "y" : 2170
-      }, {
-        "id" : "36",
-        "x" : 2160,
-        "y" : -25
-      }, {
-        "id" : "26",
-        "x" : 730,
-        "y" : 1685
-      }, {
-        "id" : "16",
-        "x" : 2300,
-        "y" : 965
-      }, {
-        "id" : "17",
-        "x" : 2850,
-        "y" : 1610
-      }, {
-        "id" : "18",
-        "x" : 3040,
-        "y" : 945
-      }, {
-        "id" : "19",
-        "x" : 1805,
-        "y" : 950
-      }, {
-        "id" : "5",
-        "x" : 3730,
-        "y" : 2080
-      }, {
-        "id" : "20",
-        "x" : 1245,
-        "y" : 965
-      }, {
-        "id" : "21",
-        "x" : 3685,
-        "y" : 945
-      } ],
-      "relationships" : [ {
-        "id" : "82"
-      }, {
-        "id" : "70"
-      }, {
-        "id" : "83"
-      }, {
-        "id" : "80",
-        "vertices" : [ {
-          "x" : 2610,
-          "y" : 645
-        } ]
-      }, {
-        "id" : "72"
-      }, {
-        "id" : "81",
-        "vertices" : [ {
-          "x" : 2830,
-          "y" : 610
-        } ]
-      }, {
-        "id" : "74"
-      }, {
-        "id" : "63"
-      }, {
-        "id" : "62"
-      }, {
-        "id" : "73",
-        "vertices" : [ {
-          "x" : 2100,
-          "y" : 1460
-        } ]
-      }, {
-        "id" : "65"
-      }, {
-        "id" : "76"
-      }, {
-        "id" : "84",
-        "vertices" : [ {
-          "x" : 1785,
-          "y" : 1530
-        } ]
-      }, {
-        "id" : "64"
-      }, {
-        "id" : "85"
-      }, {
-        "id" : "67",
-        "vertices" : [ {
-          "x" : 2645,
-          "y" : 1400
-        } ]
-      }, {
-        "id" : "78",
-        "vertices" : [ {
-          "x" : 1085,
-          "y" : 115
-        } ]
-      }, {
-        "id" : "77",
-        "vertices" : [ {
-          "x" : 3610,
-          "y" : 320
-        } ]
-      }, {
-        "id" : "66",
-        "vertices" : [ {
-          "x" : 2770,
-          "y" : 1185
-        } ]
-      }, {
-        "id" : "79",
-        "vertices" : [ {
-          "x" : 3850,
-          "y" : 125
-        } ]
-      }, {
-        "id" : "68"
-      } ]
     } ],
     "dynamicViews" : [ {
       "description" : "Summarises how technical staff is informed about device malfunction.",
-      "key" : "DeviceFailureWorkflow",
+      "key" : "SimpleDeviceFailureWorkflow",
       "automaticLayout" : {
         "implementation" : "Graphviz",
         "rankDirection" : "TopBottom",
@@ -1476,44 +1476,40 @@
         "edgeSeparation" : 0,
         "vertices" : false
       },
-      "elementId" : "5",
+      "elementId" : "4",
       "externalBoundariesVisible" : true,
       "relationships" : [ {
-        "id" : "89",
-        "description" : "Requests data from a device",
+        "id" : "50",
+        "description" : "Requests devices data for hospital bed",
         "order" : "1",
         "response" : false
       }, {
-        "id" : "89",
-        "description" : "Returns invalid data",
+        "id" : "41",
+        "description" : "Requests device data",
         "order" : "2",
-        "response" : true
-      }, {
-        "id" : "90",
-        "description" : "Requests to notify users of the failure",
-        "order" : "3",
         "response" : false
       }, {
-        "id" : "88",
-        "description" : "Stores failure details",
+        "id" : "41",
+        "description" : "Malfunction in device",
+        "order" : "3",
+        "response" : true
+      }, {
+        "id" : "49",
+        "description" : "Returns generic non-technical error message",
         "order" : "4",
         "response" : false
       }, {
-        "id" : "96",
-        "description" : "Notifies of the failure",
+        "id" : "43",
+        "description" : "Sends notification",
         "order" : "5",
         "response" : false
       }, {
         "id" : "45",
-        "description" : "Reviews failure details for diagnostics",
+        "description" : "Can review malfunction details",
         "order" : "6",
         "response" : false
       } ],
       "elements" : [ {
-        "id" : "11",
-        "x" : 0,
-        "y" : 0
-      }, {
         "id" : "12",
         "x" : 0,
         "y" : 0
@@ -1522,17 +1518,91 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "8",
+        "id" : "3",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "9",
+        "id" : "15",
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "10",
+        "id" : "5",
         "x" : 0,
         "y" : 0
+      } ]
+    }, {
+      "description" : "Summarises how the assigning of patients works.",
+      "key" : "AddPatientWorkflow",
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2504,
+        "height" : 1608
+      },
+      "elementId" : "15",
+      "externalBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "47",
+        "description" : "Assigns an unassigned patient to a bed",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "65",
+        "description" : "Requests the assignment of a patient to a bed",
+        "order" : "2",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1790,
+          "y" : 590
+        } ]
+      }, {
+        "id" : "62",
+        "description" : "Validates & writes data using",
+        "order" : "3",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1154,
+          "y" : 804
+        } ]
+      }, {
+        "id" : "62",
+        "description" : "Signals success / failure",
+        "order" : "4",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 1454,
+          "y" : 804
+        } ]
+      }, {
+        "id" : "140",
+        "description" : "If an old patient was overwritten, trigger patient history persistance for overwritten patient",
+        "order" : "5",
+        "response" : false
+      }, {
+        "id" : "65",
+        "description" : "Signals success / failure",
+        "order" : "6",
+        "response" : true
+      } ],
+      "elements" : [ {
+        "id" : "22",
+        "x" : 1079,
+        "y" : 979
+      }, {
+        "id" : "1",
+        "x" : 1825,
+        "y" : 55
+      }, {
+        "id" : "23",
+        "x" : 1829,
+        "y" : 979
+      }, {
+        "id" : "16",
+        "x" : 1079,
+        "y" : 329
+      }, {
+        "id" : "19",
+        "x" : 329,
+        "y" : 979
       } ]
     }, {
       "description" : "Summarises how new and unassigned patients are discovered.",
@@ -1803,99 +1873,7 @@
       } ]
     }, {
       "description" : "Summarises how medical staff allocates drugs to a patient.",
-      "key" : "DrugsManagementWorkflow",
-      "paperSize" : "A3_Portrait",
-      "dimensions" : {
-        "width" : 1858,
-        "height" : 4416
-      },
-      "elementId" : "26",
-      "externalBoundariesVisible" : true,
-      "relationships" : [ {
-        "id" : "47",
-        "description" : "Assigns a drug to a patient",
-        "order" : "1",
-        "response" : false
-      }, {
-        "id" : "74",
-        "description" : "Requests the assignment of the drug to the patient",
-        "order" : "2",
-        "response" : false
-      }, {
-        "id" : "75",
-        "description" : "Relays the request of the assignment of the drug to the patient",
-        "order" : "3",
-        "response" : false
-      }, {
-        "id" : "99",
-        "description" : "Requests prescription of the drug to the patient",
-        "order" : "4",
-        "response" : false
-      }, {
-        "id" : "100",
-        "description" : "Writes information about the prescription of the drug to the patient",
-        "order" : "5",
-        "response" : false,
-        "vertices" : [ {
-          "x" : 1149,
-          "y" : 1873
-        } ]
-      }, {
-        "id" : "100",
-        "description" : "Checks the availability of the drug",
-        "order" : "6",
-        "response" : false,
-        "vertices" : [ {
-          "x" : 1449,
-          "y" : 1873
-        } ]
-      }, {
-        "id" : "102",
-        "description" : "In case the drug is not available, requests delivery",
-        "order" : "7",
-        "response" : false
-      }, {
-        "id" : "103",
-        "description" : "Requests delivery of the drug",
-        "order" : "8",
-        "response" : false
-      } ],
-      "elements" : [ {
-        "id" : "1",
-        "x" : 1120,
-        "y" : 65
-      }, {
-        "id" : "23",
-        "x" : 1095,
-        "y" : 745
-      }, {
-        "id" : "34",
-        "x" : 324,
-        "y" : 2623
-      }, {
-        "id" : "27",
-        "x" : 324,
-        "y" : 2023
-      }, {
-        "id" : "29",
-        "x" : 340,
-        "y" : 1325
-      }, {
-        "id" : "30",
-        "x" : 1074,
-        "y" : 1423
-      }, {
-        "id" : "20",
-        "x" : 315,
-        "y" : 725
-      }, {
-        "id" : "31",
-        "x" : 1074,
-        "y" : 2023
-      } ]
-    }, {
-      "description" : "Summarises how new and unassigned patients are discovered.",
-      "key" : "SimplePatientDiscoveryWorkflow",
+      "key" : "SimpleDrugsManagementWorkflow",
       "automaticLayout" : {
         "implementation" : "Graphviz",
         "rankDirection" : "TopBottom",
@@ -1908,29 +1886,24 @@
       "externalBoundariesVisible" : true,
       "relationships" : [ {
         "id" : "47",
-        "description" : "Displays the unassigned-patient view / page",
+        "description" : "Assigns a drug to a patient",
         "order" : "1",
         "response" : false
       }, {
         "id" : "57",
-        "description" : "Requests incoming unassigned patient list",
+        "description" : "Requests the assignment of the drug to the patient",
         "order" : "2",
         "response" : false
       }, {
-        "id" : "60",
-        "description" : "Requests information to determine new patients",
+        "id" : "59",
+        "description" : "Relays the request of the assignment of the drug to the patient",
         "order" : "3",
         "response" : false
       }, {
-        "id" : "60",
-        "description" : "Responds with the required information",
+        "id" : "51",
+        "description" : "In case the drug is not available, requests delivery",
         "order" : "4",
-        "response" : true
-      }, {
-        "id" : "57",
-        "description" : "Returns list of incoming unassigned patients",
-        "order" : "5",
-        "response" : true
+        "response" : false
       } ],
       "elements" : [ {
         "id" : "1",
@@ -1941,87 +1914,86 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "35",
+        "id" : "34",
         "x" : 0,
         "y" : 0
       }, {
         "id" : "15",
         "x" : 0,
         "y" : 0
+      }, {
+        "id" : "26",
+        "x" : 0,
+        "y" : 0
       } ]
     }, {
-      "description" : "Summarises how the assigning of patients works.",
-      "key" : "AddPatientWorkflow",
-      "paperSize" : "A4_Landscape",
-      "dimensions" : {
-        "width" : 2504,
-        "height" : 1608
+      "description" : "Summarises how technical staff is informed about device malfunction.",
+      "key" : "DeviceFailureWorkflow",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
       },
-      "elementId" : "15",
+      "elementId" : "5",
       "externalBoundariesVisible" : true,
       "relationships" : [ {
-        "id" : "47",
-        "description" : "Assigns an unassigned patient to a bed",
+        "id" : "89",
+        "description" : "Requests data from a device",
         "order" : "1",
         "response" : false
       }, {
-        "id" : "65",
-        "description" : "Requests the assignment of a patient to a bed",
+        "id" : "89",
+        "description" : "Returns invalid data",
         "order" : "2",
-        "response" : false,
-        "vertices" : [ {
-          "x" : 1790,
-          "y" : 590
-        } ]
+        "response" : true
       }, {
-        "id" : "62",
-        "description" : "Validates & writes data using",
+        "id" : "90",
+        "description" : "Requests to notify users of the failure",
         "order" : "3",
-        "response" : false,
-        "vertices" : [ {
-          "x" : 1154,
-          "y" : 804
-        } ]
+        "response" : false
       }, {
-        "id" : "62",
-        "description" : "Signals success / failure",
+        "id" : "88",
+        "description" : "Stores failure details",
         "order" : "4",
-        "response" : true,
-        "vertices" : [ {
-          "x" : 1454,
-          "y" : 804
-        } ]
+        "response" : false
       }, {
-        "id" : "140",
-        "description" : "If an old patient was overwritten, trigger patient history persistance for overwritten patient",
+        "id" : "96",
+        "description" : "Notifies of the failure",
         "order" : "5",
         "response" : false
       }, {
-        "id" : "65",
-        "description" : "Signals success / failure",
+        "id" : "45",
+        "description" : "Reviews failure details for diagnostics",
         "order" : "6",
-        "response" : true
+        "response" : false
       } ],
       "elements" : [ {
-        "id" : "22",
-        "x" : 1079,
-        "y" : 979
+        "id" : "11",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "1",
-        "x" : 1825,
-        "y" : 55
+        "id" : "12",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "23",
-        "x" : 1829,
-        "y" : 979
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "16",
-        "x" : 1079,
-        "y" : 329
+        "id" : "8",
+        "x" : 0,
+        "y" : 0
       }, {
-        "id" : "19",
-        "x" : 329,
-        "y" : 979
+        "id" : "9",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "10",
+        "x" : 0,
+        "y" : 0
       } ]
     }, {
       "description" : "Summarises how the assigning of patients works.",
@@ -2078,171 +2050,6 @@
         "id" : "15",
         "x" : 286,
         "y" : 942
-      } ]
-    }, {
-      "description" : "Summarises how the medical staff can access patient's current condition",
-      "key" : "SimplePatientConditionCheckWorkflow",
-      "paperSize" : "A4_Portrait",
-      "dimensions" : {
-        "width" : 1704,
-        "height" : 2754
-      },
-      "elementId" : "4",
-      "externalBoundariesVisible" : true,
-      "relationships" : [ {
-        "id" : "47",
-        "description" : "Displays patient's condition view / page",
-        "order" : "1",
-        "response" : false
-      }, {
-        "id" : "57",
-        "description" : "Requests patient's condition",
-        "order" : "2",
-        "response" : false,
-        "vertices" : [ {
-          "x" : 404,
-          "y" : 804
-        } ]
-      }, {
-        "id" : "50",
-        "description" : "Requests sensor data related to patient's bed",
-        "order" : "3",
-        "response" : false,
-        "vertices" : [ {
-          "x" : 404,
-          "y" : 1454
-        } ]
-      }, {
-        "id" : "41",
-        "description" : "Requests device data",
-        "order" : "4",
-        "response" : false,
-        "vertices" : [ {
-          "x" : 404,
-          "y" : 2079
-        } ]
-      }, {
-        "id" : "41",
-        "description" : "Returns device data",
-        "order" : "5",
-        "response" : true,
-        "vertices" : [ {
-          "x" : 704,
-          "y" : 2079
-        } ]
-      }, {
-        "id" : "49",
-        "description" : "Returns device data",
-        "order" : "6",
-        "response" : false,
-        "vertices" : [ {
-          "x" : 704,
-          "y" : 1454
-        } ]
-      }, {
-        "id" : "57",
-        "description" : "Returns patient's condition",
-        "order" : "7",
-        "response" : true,
-        "vertices" : [ {
-          "x" : 704,
-          "y" : 804
-        } ]
-      }, {
-        "id" : "47",
-        "description" : "Displays patietn's condition",
-        "order" : "8",
-        "response" : true,
-        "vertices" : [ {
-          "x" : 1100,
-          "y" : 515
-        } ]
-      } ],
-      "elements" : [ {
-        "id" : "1",
-        "x" : 1195,
-        "y" : 700
-      }, {
-        "id" : "23",
-        "x" : 329,
-        "y" : 329
-      }, {
-        "id" : "3",
-        "x" : 329,
-        "y" : 2229
-      }, {
-        "id" : "15",
-        "x" : 329,
-        "y" : 979
-      }, {
-        "id" : "5",
-        "x" : 329,
-        "y" : 1629
-      } ]
-    }, {
-      "description" : "Summarises how technical staff is informed about device malfunction.",
-      "key" : "SimpleDeviceFailureWorkflow",
-      "automaticLayout" : {
-        "implementation" : "Graphviz",
-        "rankDirection" : "TopBottom",
-        "rankSeparation" : 300,
-        "nodeSeparation" : 300,
-        "edgeSeparation" : 0,
-        "vertices" : false
-      },
-      "elementId" : "4",
-      "externalBoundariesVisible" : true,
-      "relationships" : [ {
-        "id" : "50",
-        "description" : "Requests devices data for hospital bed",
-        "order" : "1",
-        "response" : false
-      }, {
-        "id" : "41",
-        "description" : "Requests device data",
-        "order" : "2",
-        "response" : false
-      }, {
-        "id" : "41",
-        "description" : "Malfunction in device",
-        "order" : "3",
-        "response" : true
-      }, {
-        "id" : "49",
-        "description" : "Returns generic non-technical error message",
-        "order" : "4",
-        "response" : false
-      }, {
-        "id" : "43",
-        "description" : "Sends notification",
-        "order" : "5",
-        "response" : false
-      }, {
-        "id" : "45",
-        "description" : "Can review malfunction details",
-        "order" : "6",
-        "response" : false
-      } ],
-      "elements" : [ {
-        "id" : "12",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "2",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "3",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "15",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "5",
-        "x" : 0,
-        "y" : 0
       } ]
     }, {
       "description" : "Summarises how devices app is utilized with pmc application.",
@@ -2368,8 +2175,8 @@
         "y" : 1657
       } ]
     }, {
-      "description" : "Summarises how medical staff allocates drugs to a patient.",
-      "key" : "SimpleDrugsManagementWorkflow",
+      "description" : "Summarises how new and unassigned patients are discovered.",
+      "key" : "SimplePatientDiscoveryWorkflow",
       "automaticLayout" : {
         "implementation" : "Graphviz",
         "rankDirection" : "TopBottom",
@@ -2382,24 +2189,29 @@
       "externalBoundariesVisible" : true,
       "relationships" : [ {
         "id" : "47",
-        "description" : "Assigns a drug to a patient",
+        "description" : "Displays the unassigned-patient view / page",
         "order" : "1",
         "response" : false
       }, {
         "id" : "57",
-        "description" : "Requests the assignment of the drug to the patient",
+        "description" : "Requests incoming unassigned patient list",
         "order" : "2",
         "response" : false
       }, {
-        "id" : "59",
-        "description" : "Relays the request of the assignment of the drug to the patient",
+        "id" : "60",
+        "description" : "Requests information to determine new patients",
         "order" : "3",
         "response" : false
       }, {
-        "id" : "51",
-        "description" : "In case the drug is not available, requests delivery",
+        "id" : "60",
+        "description" : "Responds with the required information",
         "order" : "4",
-        "response" : false
+        "response" : true
+      }, {
+        "id" : "57",
+        "description" : "Returns list of incoming unassigned patients",
+        "order" : "5",
+        "response" : true
       } ],
       "elements" : [ {
         "id" : "1",
@@ -2410,17 +2222,205 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "34",
+        "id" : "35",
         "x" : 0,
         "y" : 0
       }, {
         "id" : "15",
         "x" : 0,
         "y" : 0
+      } ]
+    }, {
+      "description" : "Summarises how medical staff allocates drugs to a patient.",
+      "key" : "DrugsManagementWorkflow",
+      "paperSize" : "A3_Portrait",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 4416
+      },
+      "elementId" : "26",
+      "externalBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "47",
+        "description" : "Assigns a drug to a patient",
+        "order" : "1",
+        "response" : false
       }, {
-        "id" : "26",
-        "x" : 0,
-        "y" : 0
+        "id" : "74",
+        "description" : "Requests the assignment of the drug to the patient",
+        "order" : "2",
+        "response" : false
+      }, {
+        "id" : "75",
+        "description" : "Relays the request of the assignment of the drug to the patient",
+        "order" : "3",
+        "response" : false
+      }, {
+        "id" : "99",
+        "description" : "Requests prescription of the drug to the patient",
+        "order" : "4",
+        "response" : false
+      }, {
+        "id" : "100",
+        "description" : "Writes information about the prescription of the drug to the patient",
+        "order" : "5",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1149,
+          "y" : 1873
+        } ]
+      }, {
+        "id" : "100",
+        "description" : "Checks the availability of the drug",
+        "order" : "6",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1449,
+          "y" : 1873
+        } ]
+      }, {
+        "id" : "102",
+        "description" : "In case the drug is not available, requests delivery",
+        "order" : "7",
+        "response" : false
+      }, {
+        "id" : "103",
+        "description" : "Requests delivery of the drug",
+        "order" : "8",
+        "response" : false
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1120,
+        "y" : 65
+      }, {
+        "id" : "23",
+        "x" : 1095,
+        "y" : 745
+      }, {
+        "id" : "34",
+        "x" : 324,
+        "y" : 2623
+      }, {
+        "id" : "27",
+        "x" : 324,
+        "y" : 2023
+      }, {
+        "id" : "29",
+        "x" : 340,
+        "y" : 1325
+      }, {
+        "id" : "30",
+        "x" : 1074,
+        "y" : 1423
+      }, {
+        "id" : "20",
+        "x" : 315,
+        "y" : 725
+      }, {
+        "id" : "31",
+        "x" : 1074,
+        "y" : 2023
+      } ]
+    }, {
+      "description" : "Summarises how the medical staff can access patient's current condition",
+      "key" : "SimplePatientConditionCheckWorkflow",
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1704,
+        "height" : 2754
+      },
+      "elementId" : "4",
+      "externalBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "47",
+        "description" : "Displays patient's condition view / page",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "57",
+        "description" : "Requests patient's condition",
+        "order" : "2",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 404,
+          "y" : 804
+        } ]
+      }, {
+        "id" : "50",
+        "description" : "Requests sensor data related to patient's bed",
+        "order" : "3",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 404,
+          "y" : 1454
+        } ]
+      }, {
+        "id" : "41",
+        "description" : "Requests device data",
+        "order" : "4",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 404,
+          "y" : 2079
+        } ]
+      }, {
+        "id" : "41",
+        "description" : "Returns device data",
+        "order" : "5",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 704,
+          "y" : 2079
+        } ]
+      }, {
+        "id" : "49",
+        "description" : "Returns device data",
+        "order" : "6",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 704,
+          "y" : 1454
+        } ]
+      }, {
+        "id" : "57",
+        "description" : "Returns patient's condition",
+        "order" : "7",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 704,
+          "y" : 804
+        } ]
+      }, {
+        "id" : "47",
+        "description" : "Displays patietn's condition",
+        "order" : "8",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 1100,
+          "y" : 515
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1195,
+        "y" : 700
+      }, {
+        "id" : "23",
+        "x" : 329,
+        "y" : 329
+      }, {
+        "id" : "3",
+        "x" : 329,
+        "y" : 2229
+      }, {
+        "id" : "15",
+        "x" : 329,
+        "y" : 979
+      }, {
+        "id" : "5",
+        "x" : 329,
+        "y" : 1629
       } ]
     } ],
     "deploymentViews" : [ {
@@ -2449,15 +2449,11 @@
         "x" : 175,
         "y" : 175
       }, {
-        "id" : "112",
-        "x" : 175,
-        "y" : 175
-      }, {
         "id" : "134",
         "x" : 175,
         "y" : 175
       }, {
-        "id" : "113",
+        "id" : "112",
         "x" : 175,
         "y" : 175
       }, {
@@ -2465,25 +2461,29 @@
         "x" : 175,
         "y" : 175
       }, {
-        "id" : "114",
-        "x" : 1555,
-        "y" : 1090
+        "id" : "113",
+        "x" : 175,
+        "y" : 175
       }, {
         "id" : "136",
         "x" : 3275,
         "y" : 2155
       }, {
+        "id" : "114",
+        "x" : 1555,
+        "y" : 1090
+      }, {
         "id" : "137",
         "x" : 2785,
         "y" : 2160
       }, {
-        "id" : "116",
-        "x" : 175,
-        "y" : 175
-      }, {
         "id" : "138",
         "x" : 2290,
         "y" : 2165
+      }, {
+        "id" : "116",
+        "x" : 175,
+        "y" : 175
       }, {
         "id" : "117",
         "x" : 175,

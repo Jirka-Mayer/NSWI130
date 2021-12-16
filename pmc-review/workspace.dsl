@@ -26,6 +26,9 @@ workspace {
             group "Patient Monitoring and Control" {
                 pmcBackend = container "PMC Server" "Manages allocation of patients, gathering monitoring data and drugs usage" "Java Spring Boot" {
                     locationCtrl = component "Patient Location Controller" "implements the logic related to getting and setting the location of a patient" ""
+
+                    hospitalBedCtrl = component "Hospital Bed Controller" "implements the logic related to getting and setting the hospital bed availability" ""
+
                     vec = component "New-patient detector" "implements the logic behind detecting new patients" ""
 
                     historyCtrl = component "Patient History Controller" "implements the logic related to getting and persisting patient's history" ""
@@ -97,6 +100,11 @@ workspace {
         vec -> patientsRegistryAPI "Queries"
         locationCtrl -> vec "Querries for new patients"
         pmcFrontend -> locationCtrl "Makes API calls to get/assign patients' locations" "JSON/HTTP"
+
+        hospitalBedCtrl -> locationCtrl "Provides data bout available hospital beds" "JSON/HTTP"
+        locationCtrl -> hospitalBedCtrl "Writes changes in hospital bed availiability" "JSON/HTTP"
+
+        hospitalBedCtrl -> persistanceLayer "Uses to access hospital bed availability data" "JSON/HTTP"
 
         historyCtrl -> drugUsageCtrl "Fetches data to persist from"
 
@@ -210,6 +218,7 @@ workspace {
         component pmcBackend "Level_3_central" {
             include *
             exclude devicesWebAPI -> oathUserAuthorization
+
         }
         
         component devicesWebAPI "Level_3_devices" {
@@ -219,6 +228,7 @@ workspace {
         component drugsUsageWebAPI "Level_3_drugs" {
             include *
         }
+
 
         dynamic pmc "SimplePatientDiscoveryWorkflow" "Summarises how new and unassigned patients are discovered." {
             medicalStaff -> pmcFrontend "Displays the unassigned-patient view / page"

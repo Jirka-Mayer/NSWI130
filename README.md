@@ -1,6 +1,6 @@
 # NSWI130 - Software system architectures
 
-Semmester project, describing the architecture of a drug monitoring software system in a hospital.
+Semester project, describing the architecture of a drug monitoring software system in a hospital.
 
 
 ## Our review of the `Patient Monitoring and Control` team

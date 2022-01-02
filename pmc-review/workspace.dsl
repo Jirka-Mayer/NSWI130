@@ -10,14 +10,14 @@ workspace {
             !docs docs
 
             group "Medical Devices Management" {
-                devicesWebAPI = container "Devices Web API" "Manages medical devices, resolves communication differences of devices as adapter" "Java Spring Boot" {
+                devicesWebAPI = container "Devices Web API" "Manages medical devices" "Java Spring Boot" {
                     devicesDataController = component "Devices Data Controller" "Endpoints to get device data"
                     devicesManagementController = component "Devices Registration Controller" "Endpoints to (de)register devices"
                     devicesManagement = component "Devices Management" "Implementation logic of devices application"
                     devicesPersistence = component "Devices Persistence" "DB operations ORMs"
                     devicesNotifications = component "Devices Notifications" "Sends e-mail / sms notification to users"
-                    devicesAdapter = component "Devices Adapter" "Adapters for different APIs of devices"
                 }
+                devicesAdapter = container "Devices Adapter" "Resolves communication differences of devices as adapter" "" "devicesAdapter"
                 devicesWebApp = container "Devices Web App" "Provides UI to manage and allocate medical devices" "React TS" "webApp"
                 devicesDB = container "Devices Data Storage" "Persists medical devices configurations" "Relational DB"
                 secondaryDevicesDB = container "Devices Data Secondary Storage" "Persists medical devices configurations" "Relational DB"
@@ -72,7 +72,6 @@ workspace {
         pmc -> dm "Uses DM to monitor drug usage"
         pmc -> oathUserAuthorization "Uses OAuth to authorize medical and technical staff"
 
-        devicesWebAPI -> medicalDevice "Pulls medical data"
         devicesWebAPI -> technicalSupportStaff "Reports device malfunctions"
 
         technicalSupportStaff -> devicesWebApp "Registers or replaces medical device"
@@ -94,6 +93,9 @@ workspace {
 
         pmcBackend -> drugsUsageWebAPI "Request allocation of drugs to patient"
         pmcBackend -> patientsRegistryAPI "Fetches patients data"
+
+        devicesManagement -> devicesAdapter "Retrieves devices data"
+        devicesAdapter -> medicalDevice "Makes call to unique API"
 
         // PMC BACKEND L3
         locationCtrl -> persistanceLayer "Uses to access patient location data"
@@ -130,9 +132,7 @@ workspace {
         pmcBackend -> devicesDataController "Makes API calls to" "JSON/HTTPS"
         devicesDataController -> devicesManagement "Gets devices data processed by application logic"
         devicesManagement -> devicesPersistence "Stores devices data and metadata"
-        devicesManagement -> devicesAdapter "Retrieves devices data using adapter"
         devicesManagement -> devicesNotifications "Reports device's fault/failure to external services"
-        devicesAdapter -> medicalDevice "Makes call to unique API" "Protocols depend on device spec"
         devicesManagementController -> devicesManagement "(De)registers devices"
 
         devicesWebApp -> devicesDataController "Makes call to"
@@ -173,6 +173,11 @@ workspace {
                     deploymentNode "Container #2" "" "Docker" {
                         deploymentNode "devices.pmc.[base-intranet-url]" "" "Apache Tomcat 8.x" {
                             devicesWebAPIInstance = containerInstance devicesWebAPI
+                        }     
+                    }
+                    deploymentNode "Container #4" "" "Docker" {
+                        deploymentNode "devices-adapter.pmc.[base-intranet-url]" "" "Apache Tomcat 8.x" {
+                            devicesAdapterInstance = containerInstance devicesAdapter
                         }     
                     }
                     deploymentNode "Container #3" "" "Docker" {
@@ -321,7 +326,7 @@ workspace {
 
         dynamic devicesWebAPI "DeviceFailureWorkflow" "Summarises how technical staff is informed about device malfunction." {
             devicesManagement -> devicesAdapter "Requests data from a device"
-            devicesAdapter -> devicesManagement "Returns invalid data"
+            devicesAdapter -> devicesManagement "Signifies invalid data"
             devicesManagement -> devicesNotifications "Requests to notify users of the failure"
             devicesManagement -> devicesPersistence "Stores failure details"
             devicesNotifications -> technicalSupportStaff "Notifies of the failure"
@@ -369,6 +374,9 @@ workspace {
             }
             element "Failover" {
                 opacity 25
+            }
+            element "devicesAdapter" {
+                background #FF0000
             }
         }
     }

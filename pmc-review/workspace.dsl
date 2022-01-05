@@ -144,11 +144,13 @@ workspace {
 
         drugUsageCtrl -> drugCatalogMan "Relays queries about drug information"
         drugCatalogMan -> dm "Makes API call to"
+        drugCatalogMan -> drugPersistanceLayer "Caches drug information" "" "newRelationship"
         drugUsageCtrl -> drugManagement "Relays info about drug prescriptions"
         drugManagement -> drugPersistanceLayer "Stores drug prescriptions and local storage"
         drugPersistanceLayer -> drugsUsageDB "Uses to persist data"
         drugManagement -> drugDeliveryMan "Requests drug delivery"
         drugDeliveryMan -> dm "Makes API call to"
+        drugDeliveryMan -> drugPersistanceLayer "Queues drug requests" "" "newRelationship"
 
         deploymentEnvironment "Production" {
             deploymentNode "Technical User's Workstation" "" "Microsoft Windows 10" {
@@ -377,6 +379,10 @@ workspace {
             }
             element "devicesAdapter" {
                 background #FF0000
+            }
+            relationship "newRelationship" {
+                color #FF0000
+                thickness 3
             }
         }
     }

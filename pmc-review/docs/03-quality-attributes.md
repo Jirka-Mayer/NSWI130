@@ -221,3 +221,27 @@ From the analysis above we extracted requirement scenarios:
 - **Environment:** Normal operation
 - **Response:** Describes the problem to the user
 - **Measure:** Degraded state
+
+
+#### Availability requirement presentation
+
+> Business logic container crashes, is restarted by kubernetes.
+
+- **Source:** *PMC Server* container
+- **Stimulus:** Unable to connect (omission)
+- **Artifact:** *Devices Web API* container
+- **Environment:** Normal operation
+- **Response:** Mask fault (repeat after 10s)
+- **Measure:** 10s downtime
+
+> External drug monitoring system is down and someone requests drugs.
+
+- **Source:** *Drugs Usage Web API* container
+- **Stimulus:** Unable to connect
+- **Artifact:** *Drug Monitoring (DM)* external software system
+- **Environment:** Normal operation
+- **Response:** Mask fault (queue the request)
+- **Measure:** No downtime
+
+![](embed:Level_3_drugs)
+

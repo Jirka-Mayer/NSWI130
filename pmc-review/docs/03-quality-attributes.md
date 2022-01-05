@@ -14,9 +14,9 @@
 - **Response:** All fetch request processed
 - **Measure:** With latency no larger than 30 seconds
 
-Since *medical devices* are independent of each other we can read in parallel from them with multiple *Device web API*. We would need a new controller to keep track of and manage registered devices, and keep the number of device handled by individual web APIs balanced
+Since *medical devices* are independent of each other we can read in parallel from them with multiple *Devices Adapter*s. We would promote *Devices Adpater* to a container while *Device web API* keeps track of and manages registered devices as well as *Devices Adapter*s
 
-Upon every request the new controller would hand of the request to a specific web API along with information on which device to read from. The list of registered devices is thus kept only with the new controller.
+Upon every request the *Device web API* would hand of the request to a specific *Devices Adapter* along with information on which device to read from. The list of registered devices is thus kept only with the *Device web API*.
 
 ![](embed:Level_3_devices)
 

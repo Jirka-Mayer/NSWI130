@@ -177,7 +177,7 @@ workspace {
                             devicesWebAPIInstance = containerInstance devicesWebAPI
                         }     
                     }
-                    deploymentNode "Container #4" "" "Docker" {
+                    deploymentNode "Container #4" "" "Docker" "" "20" {
                         deploymentNode "devices-adapter.pmc.[base-intranet-url]" "" "Apache Tomcat 8.x" {
                             devicesAdapterInstance = containerInstance devicesAdapter
                         }     
